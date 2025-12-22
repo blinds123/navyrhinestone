@@ -1,0 +1,22 @@
+{
+  "name": "Navy Rhinestone Dress",
+  "short_name": "NavyRhinestone",
+  "description": "Dazzling navy blue rhinestone bodycon mini dress - Be Unforgettable",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1B3A8C",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
