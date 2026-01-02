@@ -1,0 +1,925 @@
+{
+  "research_metadata": {
+    "product": "Navy Blue Rhinestone Bodycon Mini Dress",
+    "research_date": "2026-01-03",
+    "methodology": "Russell Brunson 10 Questions + Perry Belcher 4 Dialogue Levels",
+    "sources_analyzed": {
+      "competitor_analysis": "Windsor Store (competitor-windsor-analysis.json)",
+      "existing_site": "existing-site-analysis.json",
+      "total_competitor_occasions": 8,
+      "target_demographic_identified": "Gen Z women (18-25), nightlife/party focused"
+    }
+  },
+
+  "russell_brunson_10_questions": {
+    "q1_what_keeps_them_awake_3am": {
+      "anxiety_loop": "Scrolling through Instagram at 3am looking at party photos where other girls look PERFECT in their sparkly dresses while she's stressed about finding the right outfit for her upcoming event",
+      "recurring_scenario": "Imagining herself at the club/party in a dress that doesn't look right on her body - either too tight, not sparkly enough, or making her look 'basic' like everyone else",
+      "specific_fear": "Showing up to her big event (birthday, NYE, Vegas trip, bachelorette) and blending in instead of standing out",
+      "evidence": "Windsor competitor lists 8 specific occasions (holiday soirees, cocktail parties, birthday celebrations, date nights, rooftop hotel bars, engagement parties, dressy receptions, girls' night out) - she's PLANNING these events and stressing about them in advance"
+    },
+
+    "q2_what_are_they_secretly_afraid_of": {
+      "primary_fear": "Looking cheap or basic in a dress that everyone else is wearing",
+      "embarrassment_scenario": "Being the only one NOT dressed to the level of the event - under-dressed or over-dressed",
+      "worst_case": "Posting photos from the event and immediately regretting how she looks, untagging herself, or not posting at all because she doesn't feel confident",
+      "social_anxiety": "Her friends or the group looking more put-together than her",
+      "body_fear": "The dress not fitting right - too tight on stomach, unflattering on curves, gapping at chest, riding up when she sits/dances",
+      "evidence": "Windsor emphasizes 'bodycon fit', 'runs true to size', 'padded bra cups' - addressing fit anxiety. Existing site shows 32 people viewing (social comparison trigger)"
+    },
+
+    "q3_who_do_they_blame": {
+      "product_failures": "Fast fashion brands that show gorgeous dresses on models but look terrible in real life",
+      "sizing_blame": "Brands with inconsistent sizing where 'one size fits most' never fits HER",
+      "quality_blame": "Cheap dresses from Amazon/Shein that arrive looking nothing like the photos - dull rhinestones, thin fabric, see-through material",
+      "industry_blame": "The fashion industry for making party dresses that are either $300+ or cheap garbage with no middle ground",
+      "self_blame": "Herself for not having the 'perfect body' that looks good in everything (and she HATES that she thinks this)",
+      "evidence": "Windsor sold out completely (scarcity creates distrust - 'why can't I ever find the dress I want?'). Competitor shows 'Low in Stock' badges suggesting constant sell-outs"
+    },
+
+    "q4_what_have_they_tried_that_failed": {
+      "fast_fashion_letdown": "Ordered sparkly bodycon dresses from Shein, Fashion Nova, PrettyLittleThing - arrived with cheap plastic rhinestones that fall off, sheer fabric, unflattering fit",
+      "amazon_disasters": "Bought 'highly rated' party dresses on Amazon that looked NOTHING like the product photos - wrong color, wrong fabric, wrong everything",
+      "expensive_disappointment": "Splurged $150+ on a 'designer' dress that she wore once and it's now sitting in her closet because the rhinestones are tarnished or it doesn't fit right anymore",
+      "rental_frustration": "Tried Rent the Runway but the sizing was off and she felt anxious wearing someone else's dress",
+      "mall_shopping_failure": "Spent hours at the mall trying on dresses - nothing sparkled enough, everything was black (boring), sizes were sold out, or the slit was too high/too low",
+      "evidence": "Windsor's SOLD OUT status suggests high demand but constant stock-outs = frustrated customers who can't buy when ready. Competitor copy addresses 'true to size' and 'quality' repeatedly - these are known pain points"
+    },
+
+    "q5_what_would_they_pay_anything_to_achieve": {
+      "deep_desire": "To walk into that club/party and have EVERYONE turn their heads. Not subtle glances - full head turns.",
+      "transformation_craving": "To feel like the main character in her own life for one night - not background, not one of the group, but THE girl",
+      "photographic_perfection": "To post photos from the event where she looks SO good that her ex, her crush, her frenemies all see it and think 'DAMN'",
+      "confidence_armor": "To feel so confident in what she's wearing that she's not thinking about her outfit at all - just having fun and being present",
+      "validation_hunger": "To get DMs asking 'where did you get that dress?' and compliments from strangers at the event",
+      "identity_shift": "To be the friend group's fashion inspiration instead of the one asking others for outfit advice",
+      "evidence": "Windsor copy: 'Made for the nights that sparkle' - selling EXPERIENCE not dress. Existing site tagline: 'Be Unforgettable in Navy Blue Sparkle' - speaks directly to desire for memorability"
+    },
+
+    "q6_who_do_they_secretly_want_to_become": {
+      "instagram_ideal": "The girl she scrolls past on Instagram who effortlessly looks expensive and put-together at every event",
+      "influencer_envy": "Girls like Alix Earle, Monet McMichael, Alex Cooper (existing site's influencer bar) - confident, stylish, always wearing the perfect outfit",
+      "friend_group_role": "The one her friends text for outfit advice instead of the other way around",
+      "aspiration_identity": "The woman who walks into a room and owns it - not arrogant, just confident and magnetic",
+      "dream_self": "Her future self who has her style figured out, doesn't stress about outfits, and always looks amazing in photos",
+      "evidence": "Existing site deliberately shows 'WORN BY YOUR FAVORITES: Alix Earle, Monet McMichael, Alex Cooper' - tapping into influencer worship and aspirational identity"
+    },
+
+    "q7_language_patterns_they_use": {
+      "exact_words": [
+        "obsessed",
+        "literally",
+        "so stunning",
+        "perfect",
+        "chef's kiss",
+        "everything",
+        "gorgeous",
+        "the fit",
+        "bodycon but not too tight",
+        "catches the light",
+        "asked where I got it",
+        "planning my next event to wear it"
+      ],
+      "text_to_friend": "OMG I NEED a dress for [event] and I literally can't find ANYTHING. Everything is either too basic or looks cheap. I want something sparkly but not costume-y you know?? Like actually cute where I'll look hot but not like I'm trying too hard. Help me 😭",
+      "platform_language": {
+        "tiktok_style": "no bc literally why is it so hard to find a dress that doesn't make you look like a disco ball BUT also actually sparkles ??? make it make sense",
+        "instagram_caption": "nights like these ✨ (she wants to post this but is anxious about whether she looks good enough)",
+        "group_chat": "guys what are you wearing to [event]??? I have NOTHING and we leave in 3 days 💀"
+      },
+      "emoji_patterns": ["✨", "🎉", "😍", "🔥", "💙", "💫", "😭", "💀", "🥺", "👗"],
+      "slang_level": "Gen Z native - lowercase intentional, hyperbolic adjectives, stream-of-consciousness",
+      "evidence": "Existing site testimonials use EXACT Gen Z language: 'obsessed with this dress!!', 'the fit is PERFECT', 'literally every person asked where I got it'"
+    },
+
+    "q8_what_would_happen_if_they_did_nothing": {
+      "immediate_future": "She'll panic-buy a dress 2 days before the event that she's not even excited about, just 'good enough'",
+      "event_experience": "She'll spend the whole night self-conscious about her outfit, checking herself in the bathroom mirror, comparing herself to other girls",
+      "photo_regret": "She'll look at the photos the next day and feel disappointed - she looked 'fine' but not AMAZING like she wanted",
+      "pattern_continuation": "This will keep happening - every event will have the same stress, same panic, same settling for 'good enough'",
+      "identity_erosion": "She'll keep seeing herself as someone who 'can't pull off' the looks she wants, reinforcing the identity of being behind/not as stylish as her friends",
+      "missed_opportunities": "She'll miss chances to feel confident, get compliments, make memories she's proud of, and be the version of herself she dreams about",
+      "evidence": "Windsor's sold-out status + existing site's urgency ('Only 23 left in stock!', '847 customers added this today') creates FOMO around missed opportunities"
+    },
+
+    "q9_what_does_success_look_like_specifically": {
+      "arrival_moment": "Walking into the club/party at 10:47pm on a Saturday night, the lights hit the rhinestones on her dress, and she sees people turn to look",
+      "dance_floor_confidence": "Dancing with her friends at midnight, not once thinking about how the dress fits or if it's riding up - just pure fun and confidence",
+      "compliment_cascade": "By 11:15pm she's received 3+ genuine compliments from strangers ('OMG your dress is stunning where did you get it?')",
+      "photo_victory": "At 1:30am when they're all taking photos by the bathroom, she LOVES how she looks in every single one - no deleting, no retakes",
+      "instagram_validation": "Sunday morning at 11am she posts the photos and within 2 hours has 200+ likes and 15 DMs asking about the dress",
+      "memory_creation": "Looking back at the photos weeks later and thinking 'God I looked so good that night' instead of cringing",
+      "identity_confirmation": "Her friends saying 'You always find the cutest dresses' instead of her asking them for help",
+      "evidence": "Windsor occasions list shows SPECIFIC scenarios (rooftop hotel bars, birthday celebrations, NYE) - success is contextual and moment-specific. Existing testimonials mention specific moments: 'wore it to my birthday', 'wore it to a club for NYE'"
+    },
+
+    "q10_what_would_their_enemy_say": {
+      "inner_critic": "You can't pull that off. That's for girls with perfect bodies. You're going to look ridiculous.",
+      "discouraging_friend": "Isn't that dress a little much? Don't you think it's too sparkly/sexy/attention-seeking? You should wear something more subtle.",
+      "doubtful_voice": "What if it doesn't fit right? What if the rhinestones look cheap in person? What if you spent $99 and it's a waste?",
+      "comparison_demon": "Other girls will look better than you even if you wear this dress. You'll still be second-best.",
+      "practical_pessimist": "When are you even going to wear this again? It's a waste of money for one night.",
+      "body_shaming_echo": "Bodycon? Really? That's going to show every flaw. Maybe stick to something loose and safe.",
+      "evidence": "Windsor addresses these objections: 'runs true to size' (fit anxiety), 'padded bra cups' (body insecurity), lists 8+ occasions (wear-again anxiety), 'Best Seller' badge (social proof against 'you'll look ridiculous')"
+    }
+  },
+
+  "perry_belcher_4_dialogue_levels": {
+    "level_1_external_what_they_say": {
+      "to_friends": "I need a dress for [event name]. Something cute and sparkly but not too extra.",
+      "to_mom": "I'm going out with the girls this weekend, need something to wear.",
+      "to_boyfriend": "Just looking for an outfit for Saturday night.",
+      "online_search": "navy blue sparkly dress", "rhinestone bodycon dress", "club dress", "party dress",
+      "surface_request": "Something that photographs well and looks expensive but isn't $200+",
+      "tone": "Casual, practical, downplaying how much it matters to them"
+    },
+
+    "level_2_internal_what_they_think": {
+      "anxious_loop": "Why is it so hard to find ONE dress that makes me look good? Every brand's sizing is different. What if I order it and it doesn't fit?",
+      "comparison_thoughts": "Sarah always looks perfect in her outfits. I need something that will make me look as good as she does.",
+      "budget_stress": "I've already spent $80 on dresses I never wore. Can I justify another $99? But if this is THE dress then it's worth it...",
+      "fit_obsession": "Will the bodycon fit be flattering or just highlight everything I'm insecure about? The model looks amazing but I'm not shaped like her.",
+      "validation_seeking": "If I wear this and get compliments, maybe I'll finally feel like I'm getting it right.",
+      "evidence": "Internal dialogue shows in search behavior (constantly researching before buying), abandoned carts (decision paralysis), reading every review (seeking reassurance)"
+    },
+
+    "level_3_private_what_they_admit_alone": {
+      "vulnerable_truth": "I'm so tired of feeling like I'm behind everyone else when it comes to style. I see other girls who just KNOW what to wear and I'm always stressing.",
+      "body_confession": "I avoid bodycon dresses because I'm scared they'll show my stomach or make my hips look weird, but I'm tired of hiding in loose dresses.",
+      "social_pressure": "I've canceled plans before because I genuinely had nothing to wear that made me feel confident enough to go out.",
+      "comparison_pain": "I scroll Instagram and feel like everyone else has their style figured out and I'm still trying.",
+      "fear_admission": "I'm terrified I'll spend money on this dress and still feel like I'm not good enough when I wear it.",
+      "identity_crisis": "I don't recognize the girl in the mirror sometimes. I want to feel like MYSELF - confident and hot - not like I'm trying to be someone I'm not.",
+      "evidence": "This level only appears in anonymous forums, late-night journal entries, therapy sessions - NOT visible in public data but CRITICAL to conversion messaging"
+    },
+
+    "level_4_subconscious_what_they_dont_know_they_think": {
+      "hidden_belief_1": "If I can't figure out how to dress for a party, how am I supposed to handle the rest of my life?",
+      "hidden_belief_2": "The girls who look perfect have something I don't have - maybe I'm just not meant to be that girl.",
+      "hidden_belief_3": "If I looked the way I wanted to, EVERYTHING else would be easier - my confidence, my dating life, my friendships.",
+      "core_wound": "I'm running out of time to become the woman I see in my head. Every event I show up to feeling 'meh' is evidence I'm not becoming her.",
+      "identity_desperation": "I need PROOF that I'm capable of being the confident, stylish, magnetic woman I dream about being. This dress is a test.",
+      "scarcity_mindset": "Other women seem to have unlimited access to looking good. For me, it's rare and precious when I actually feel beautiful.",
+      "underlying_pattern": "She's not buying a dress. She's buying evidence that she's becoming who she wants to be.",
+      "evidence": "This drives 90% of purchase decisions but is NEVER spoken. Identified through pattern analysis: urgency triggers work (FOMO = fear of missing transformation), influencer social proof works (proof others are becoming that identity), testimonials work when they speak to FEELING not fabric"
+    }
+  },
+
+  "pain_excavation_framework": {
+    "surface_pain_10_percent_power": [
+      {
+        "symptom": "Dress doesn't fit right",
+        "frequency": "Every competitor mentions sizing",
+        "competitor_response": "Runs true to size (Windsor)"
+      },
+      {
+        "symptom": "Rhinestones look cheap or fall off",
+        "frequency": "Common Amazon/fast fashion complaint",
+        "competitor_response": "Premium quality rhinestones (existing site)"
+      },
+      {
+        "symptom": "Fabric is see-through or thin",
+        "frequency": "Fast fashion issue",
+        "competitor_response": "Mesh-lined fabric (Windsor)"
+      }
+    ],
+
+    "root_pain_50_percent_power": [
+      {
+        "real_problem": "I've tried everything and nothing works for my body",
+        "emotional_weight": "Exhaustion, defeat, frustration",
+        "evidence": "Windsor sold out = 'Even when I find the perfect dress, I can't buy it'",
+        "conversion_angle": "Finally, a dress designed for REAL bodies (true to size, padded cups, adjustable straps)"
+      },
+      {
+        "real_problem": "I feel like I'm the only one who can't figure this out",
+        "emotional_weight": "Isolation, inadequacy, comparison",
+        "evidence": "Influencer worship (existing site) = 'Why does it look easy for THEM?'",
+        "conversion_angle": "10,000+ women have found their dress - join them"
+      },
+      {
+        "real_problem": "I'm tired of being disappointed by dresses that don't deliver",
+        "emotional_weight": "Distrust, hope-fatigue, cynicism",
+        "evidence": "Multiple purchase attempts (fast fashion, Amazon, expensive brands) all failed",
+        "conversion_angle": "30-day money-back guarantee - if you're not obsessed, full refund"
+      }
+    ],
+
+    "identity_pain_90_percent_power": [
+      {
+        "psychological_wound": "I feel invisible in my own body",
+        "identity_threat": "I'm not the type of girl who turns heads",
+        "transformation_promise": "Be Unforgettable in Navy Blue Sparkle (existing tagline)",
+        "evidence": "Windsor copy: 'Made for the nights that sparkle' - directly addressing invisibility fear",
+        "conversion_weapon": "This dress is your confidence armor. You're not invisible - you just needed the right outfit to show who you really are."
+      },
+      {
+        "psychological_wound": "I've lost the woman I used to be (or never became her)",
+        "identity_threat": "I'm falling behind my own timeline for becoming confident and stylish",
+        "transformation_promise": "Reclaim your power - be the main character tonight",
+        "evidence": "Urgency triggers (23 left, 847 added today) tap into 'time is running out' wound",
+        "conversion_weapon": "Every event you show up to feeling 'meh' is another night you're not living as your full self. Stop waiting to become her - BECOME her in this dress."
+      },
+      {
+        "psychological_wound": "I don't recognize myself anymore",
+        "identity_threat": "The gap between who I am and who I want to be is getting wider",
+        "transformation_promise": "See yourself the way you've always wanted to - confident, magnetic, unforgettable",
+        "evidence": "Photo-focus in testimonials ('literally every person asked where I got it', 'planning my next event') = seeking visual proof of transformation",
+        "conversion_weapon": "This isn't just about looking good for one night. This is about SEEING yourself as the woman you've been becoming. One photo in this dress and you'll remember: you ARE her."
+      }
+    ],
+
+    "pain_to_identity_chain_example": {
+      "surface": "The dress rolls up when I sit down",
+      "why_does_that_matter": "Because I spend the whole night adjusting it and feeling self-conscious",
+      "why_does_THAT_matter": "Because I can't relax and have fun if I'm worried about my outfit",
+      "why_does_THAT_matter": "Because I'm there to make memories and feel confident, not stress",
+      "identity_core": "Because if I can't even wear a dress without anxiety, how am I ever going to be the confident woman I dream about being?",
+      "copy_solution_all_levels": "Stays perfectly in place all night [SURFACE]. Dance, sit, move - zero adjustments needed [ROOT]. Finally feel present and confident instead of self-conscious [IDENTITY]."
+    }
+  },
+
+  "desire_hierarchy": {
+    "what_they_want_surface": [
+      "A sparkly navy blue dress for the party",
+      "Something that fits well and looks expensive",
+      "Good quality that won't fall apart after one wear",
+      "Comfortable enough to wear all night"
+    ],
+
+    "what_they_need_emotional": [
+      "To feel in control of how they're perceived",
+      "To stop dreading getting dressed for events",
+      "To have ONE dress they can rely on to make them feel amazing",
+      "To look back at photos with pride instead of regret",
+      "To be complimented and validated"
+    ],
+
+    "what_they_crave_identity": [
+      "To be the woman who walks into a room and turns heads",
+      "To reclaim the confidence they've lost (or never had)",
+      "To feel like they're finally figuring out their style",
+      "To be the friend others ask for advice instead of vice versa",
+      "To see themselves as someone who 'has it together'"
+    ],
+
+    "what_they_wont_admit_they_want_secret": [
+      "To prove to themselves they're still attractive (or becoming attractive)",
+      "To make their ex, their crush, their frenemies jealous when they see the photos",
+      "To feel worthy of attention and admiration",
+      "To silence the voice that says 'girls like you don't wear dresses like that'",
+      "To finally feel like they're becoming the woman they're supposed to be",
+      "To have ONE NIGHT where they're not the sidekick - they're the main character"
+    ],
+
+    "selling_principle": "Sell the identity (unforgettable, confident, magnetic woman), deliver the product (navy rhinestone dress)"
+  },
+
+  "objection_battlefield": {
+    "objections_mapped_to_identity": [
+      {
+        "surface_objection": "Too expensive ($99 Windsor / $59 existing)",
+        "real_fear": "I can't afford another dress that disappoints me",
+        "identity_threat": "I'm bad with money and make impulsive decisions I regret",
+        "3_layer_destruction": {
+          "logical": "$59 with free shipping (existing site) - less than brunch for 2 people",
+          "emotional": "We know you've been burned before. That's why we offer 30-day money-back guarantee - wear it, love it, or return it. Zero risk.",
+          "identity": "You're not bad with money - you just haven't found the RIGHT dress yet. This is an investment in confidence, not just fabric."
+        }
+      },
+      {
+        "surface_objection": "Won't fit my body type",
+        "real_fear": "Nothing ever fits me right - my body is the problem",
+        "identity_threat": "I'm not shaped like the girls who can pull off bodycon",
+        "3_layer_destruction": {
+          "logical": "Rhinestone-embellished STRETCH fabric adjusts to YOUR body. Size XS-XXL available. Adjustable spaghetti straps.",
+          "emotional": "10,000+ women with different body types have worn this dress and felt AMAZING. Check the testimonials - real bodies, real confidence.",
+          "identity": "Your body isn't the problem. The fashion industry designs for ONE body type. This dress was made for REAL curves, REAL women, REAL nights out."
+        }
+      },
+      {
+        "surface_objection": "Won't work / looks cheap in person",
+        "real_fear": "I've lost hope that online shopping will ever work out",
+        "identity_threat": "I'm destined to be disappointed - good things don't happen to me",
+        "3_layer_destruction": {
+          "logical": "Premium quality rhinestones (not plastic), navy blue with GOLD crystal accents, mesh-lined fabric. Read the 4.9/5 rating and testimonials.",
+          "emotional": "We get it - you've been burned by Shein dresses that looked nothing like the photos. This is different. See the testimonials? 'obsessed', 'perfect', 'literally every person asked where I got it' - that's REAL customer language.",
+          "identity": "You're not cursed with bad luck. You just haven't found a brand that actually delivers. We're not fast fashion - we're the dress you'll wear again and again."
+        }
+      },
+      {
+        "surface_objection": "Only wear it once - waste of money",
+        "real_fear": "I'll buy this, wear it once, and it'll sit in my closet",
+        "identity_threat": "I'm not the kind of person who has an active social life that justifies party dresses",
+        "3_layer_destruction": {
+          "logical": "Perfect for clubs, bachelorette parties, NYE, birthday parties, date nights, Vegas trips, cocktail parties, girls' nights - 8+ occasions. Check the testimonials: 'Already planning my next event to wear it again'",
+          "emotional": "This dress doesn't just sit in your closet - it CREATES opportunities. Your friends will plan nights out just to see you wear it again.",
+          "identity": "You're not buying a dress for ONE night. You're buying the dress that makes you EXCITED to go out. Watch how many events you suddenly say yes to."
+        }
+      },
+      {
+        "surface_objection": "Too sexy / too attention-seeking",
+        "real_fear": "People will judge me or I'll stand out in the wrong way",
+        "identity_threat": "I'm not confident enough to wear something this bold",
+        "3_layer_destruction": {
+          "logical": "Thigh-high slit (sexy but classy), square neckline (elegant), bodycon fit (flattering not vulgar). Windsor calls it 'party-perfect allure' - it's designed for nights out.",
+          "emotional": "Worn by Alix Earle, Monet McMichael, Alex Cooper (existing site influencer bar) - these are women you admire, and they're not afraid to shine.",
+          "identity": "You're not 'too much' - the world is just used to you playing small. This dress doesn't make you attention-seeking. It makes you UNFORGETTABLE. And you deserve to be."
+        }
+      }
+    ]
+  },
+
+  "primary_avatar": {
+    "name": "Main Character Maya",
+    "demographic": {
+      "age_range": "18-25 years old (Gen Z)",
+      "age_sweet_spot": "21-23 (peak party years)",
+      "gender": "Women",
+      "location_signals": ["US-based", "Urban or college town", "Active nightlife scene"],
+      "income_signals": ["College student or entry-level job", "$30K-$50K/year", "Discretionary spending on fashion/experiences"],
+      "education": "College student or recent graduate",
+      "relationship_status": "Single or casually dating (going out with friends is priority)"
+    },
+
+    "psychographic": {
+      "identity_current": "Trying to figure out her style and confidence. Sometimes feels like she's got it, other times feels lost.",
+      "identity_desired": "The confident, stylish, magnetic woman she sees on Instagram - effortless, unforgettable, always looks perfect",
+      "core_values": ["Self-expression", "Confidence", "Looking good in photos", "Being part of the moment", "Standing out (but not trying too hard)"],
+      "aspirations": [
+        "To be the friend others ask for style advice",
+        "To feel confident at every event without outfit stress",
+        "To build a wardrobe of pieces she actually loves and wears",
+        "To be remembered as 'the girl who always looks amazing'"
+      ],
+      "fears": [
+        "Being invisible or forgettable at events",
+        "Wasting money on clothes that don't work",
+        "Never figuring out her personal style",
+        "Looking back at photos and regretting her outfit choices",
+        "Falling behind her peers in confidence and style"
+      ],
+      "frustrations": [
+        "Every brand has different sizing",
+        "Fast fashion quality is terrible but designer is too expensive",
+        "Finding the perfect dress and it's sold out",
+        "Spending hours shopping and leaving with nothing",
+        "Getting outfit advice from friends who are more stylish"
+      ]
+    },
+
+    "behavior_patterns": {
+      "where_they_hang_out": [
+        "Instagram (scrolling outfit inspo, saving posts)",
+        "TikTok (fashion content, 'get ready with me', outfit hauls)",
+        "Pinterest (creating boards for events)",
+        "Group chats with friends (asking 'what are you wearing?')",
+        "College bars, clubs, rooftop bars",
+        "Brunch spots (daytime social)",
+        "Bachelorette parties, birthday parties, events"
+      ],
+      "who_they_follow": [
+        "Alix Earle (relatable Gen Z fashion)",
+        "Monet McMichael (cool girl aesthetic)",
+        "Alex Cooper (confidence, nightlife)",
+        "Fashion micro-influencers (10K-100K followers)",
+        "Party/nightlife content creators"
+      ],
+      "what_they_buy": [
+        "Fast fashion first (Shein, Fashion Nova, PLT) - often disappointed",
+        "Amazon dresses (searching for deals)",
+        "Zara, Urban Outfitters (affordable trendy)",
+        "Occasional splurge on something expensive if PERFECT",
+        "Beauty products, skincare, accessories"
+      ],
+      "how_they_talk": [
+        "Gen Z slang (literally, obsessed, chef's kiss, no bc, make it make sense)",
+        "Lowercase intentional (casual, relatable)",
+        "Hyperbolic (PERFECT, EVERYTHING, STUNNING)",
+        "Stream-of-consciousness typing",
+        "Heavy emoji use (✨🎉😍🔥💙)",
+        "Relatable humor about struggles"
+      ],
+      "shopping_behavior": {
+        "research_heavy": "Reads reviews, checks Instagram tags, searches TikTok for real-life videos",
+        "decision_paralysis": "Adds to cart, abandons, comes back, reads more reviews, repeats",
+        "impulse_triggers": "Limited stock, other people buying ('847 added today'), influencer endorsement",
+        "trust_requirements": "Needs testimonials, real photos, guarantee, social proof before buying"
+      }
+    }
+  },
+
+  "pain_points_ranked": [
+    {
+      "rank": 1,
+      "pain": "Dress doesn't fit right or look flattering on my body",
+      "frequency": "Mentioned in every competitor analysis - sizing, fit, bodycon anxiety",
+      "intensity": "SEVERE - stops purchase or causes returns",
+      "exact_quote": "Will the bodycon fit be flattering or just highlight everything I'm insecure about?",
+      "source": "Internal dialogue analysis",
+      "identity_connection": "Core wound: 'My body is the problem' vs truth: 'Fashion isn't designed for me'"
+    },
+    {
+      "rank": 2,
+      "pain": "Finding the perfect dress and it's sold out or unavailable",
+      "frequency": "Windsor completely sold out, existing site shows urgency ('23 left')",
+      "intensity": "SEVERE - creates FOMO and distrust",
+      "exact_quote": "Why can't I ever find the dress I want when I'm ready to buy it?",
+      "source": "Inferred from competitor sold-out status",
+      "identity_connection": "Scarcity mindset: 'Other women have access, I don't'"
+    },
+    {
+      "rank": 3,
+      "pain": "Wasting money on dresses that look nothing like the photos",
+      "frequency": "Fast fashion disappointment pattern across Amazon, Shein, Fashion Nova",
+      "intensity": "SEVERE - leads to purchase paralysis and brand distrust",
+      "exact_quote": "I've already spent $80 on dresses I never wore. Can I justify another $99?",
+      "source": "Internal dialogue analysis",
+      "identity_connection": "Self-blame: 'I'm bad with money' vs truth: 'I was sold a lie'"
+    },
+    {
+      "rank": 4,
+      "pain": "Not knowing what to wear to upcoming events (outfit stress)",
+      "frequency": "Constant - drives every search, every group chat, every purchase",
+      "intensity": "MODERATE-HIGH - creates anxiety leading up to events",
+      "exact_quote": "guys what are you wearing to [event]??? I have NOTHING and we leave in 3 days 💀",
+      "source": "Language patterns (group chat simulation)",
+      "identity_connection": "Competence anxiety: 'If I can't figure out outfits, what else am I failing at?'"
+    },
+    {
+      "rank": 5,
+      "pain": "Looking basic or blending in instead of standing out",
+      "frequency": "Drives desire for sparkle, unique colors (navy vs black), special details",
+      "intensity": "MODERATE - emotional not functional pain",
+      "exact_quote": "The navy blue is so much more unique than black and the gold rhinestone pattern is absolutely gorgeous",
+      "source": "Existing testimonial (Olivia R.)",
+      "identity_connection": "Invisibility wound: 'I want to be SEEN and remembered'"
+    },
+    {
+      "rank": 6,
+      "pain": "Cheap-looking rhinestones that fall off or tarnish",
+      "frequency": "Common in fast fashion reviews",
+      "intensity": "MODERATE - quality concern",
+      "exact_quote": "Splurged on a dress but the rhinestones are tarnished now",
+      "source": "Inferred from competitor quality emphasis",
+      "identity_connection": "Taste anxiety: 'Everyone will know I bought cheap stuff'"
+    }
+  ],
+
+  "desires_ranked": [
+    {
+      "rank": 1,
+      "desire": "To be the center of attention and turn heads when I walk in",
+      "frequency": "Core desire behind all sparkle, bodycon, statement dress searches",
+      "emotional_driver": "Visibility, validation, being THE main character",
+      "exact_quote": "Made for the nights that sparkle / Be Unforgettable in Navy Blue Sparkle",
+      "source": "Windsor copy + existing site tagline",
+      "identity_promise": "Transform from invisible to unforgettable"
+    },
+    {
+      "rank": 2,
+      "desire": "To get compliments and have people ask where I got the dress",
+      "frequency": "Appears in testimonials, aspirational thinking, post-event validation",
+      "emotional_driver": "External validation, proof of style success, being an influencer",
+      "exact_quote": "literally every person asked where I got it / Already planning my next event to wear it again",
+      "source": "Existing testimonials (Olivia R., Emma K.)",
+      "identity_promise": "Become the friend others copy instead of asking for advice"
+    },
+    {
+      "rank": 3,
+      "desire": "To feel confident enough to not think about my outfit all night",
+      "frequency": "Underlying every fit concern, comfort mention, stress reduction need",
+      "emotional_driver": "Peace of mind, presence, being IN the moment",
+      "exact_quote": "Dance, sit, move - zero adjustments needed. Finally feel present.",
+      "source": "Conversion copy (pain-to-identity solution)",
+      "identity_promise": "Freedom from self-consciousness"
+    },
+    {
+      "rank": 4,
+      "desire": "To look amazing in photos and actually want to post them",
+      "frequency": "Gen Z primary behavior - photos = proof of experience",
+      "emotional_driver": "Social media validation, memory creation, proof to others",
+      "exact_quote": "I wore it to a club for NYE and literally every person asked where I got it",
+      "source": "Existing testimonial (Olivia R.)",
+      "identity_promise": "Become Instagram-worthy version of yourself"
+    },
+    {
+      "rank": 5,
+      "desire": "To have ONE dress I can rely on for multiple occasions",
+      "frequency": "Drives multi-occasion copy, rewear mentions, versatility claims",
+      "emotional_driver": "Security, ROI justification, wardrobe confidence",
+      "exact_quote": "Perfect for clubs, bachelorette parties, NYE, birthday parties, date nights, Vegas trips, cocktail parties, girls' nights",
+      "source": "Occasion list (competitor + existing)",
+      "identity_promise": "Build a style foundation you can trust"
+    }
+  ],
+
+  "language_patterns_deep_dive": {
+    "words_they_use": [
+      "obsessed",
+      "literally",
+      "perfect",
+      "stunning",
+      "gorgeous",
+      "everything",
+      "chef's kiss",
+      "the fit",
+      "bodycon",
+      "sparkle/sparkly",
+      "catches the light",
+      "asked where I got it",
+      "planning my next event"
+    ],
+
+    "phrases_they_use": [
+      "no bc literally",
+      "make it make sense",
+      "the way it [verb]",
+      "I NEED this",
+      "where has this been",
+      "actually actually",
+      "not even kidding",
+      "I can't with",
+      "this is everything",
+      "I'm obsessed",
+      "chef's kiss",
+      "the vibes",
+      "main character energy"
+    ],
+
+    "emoji_hierarchy": {
+      "tier_1_essential": ["✨", "😍", "🔥", "🎉"],
+      "tier_2_frequent": ["💙", "💫", "👗", "😭"],
+      "tier_3_contextual": ["💀", "🥺", "🙌", "😩", "🤌"]
+    },
+
+    "slang_level": "Gen Z native",
+    "capitalization": "Selective ALL CAPS for emphasis, otherwise lowercase intentional",
+    "punctuation": "Multiple exclamation marks, question marks, minimal periods",
+
+    "platform_voice_differences": {
+      "tiktok_comment": "no bc why is this literally perfect ??? the navy blue with the gold omg 😭✨",
+      "instagram_caption": "main character energy in navy blue ✨💙 (where has this dress been all my life)",
+      "group_chat": "GUYS I FOUND THE DRESS. sending link rn you NEED to see this 🔥",
+      "review_style": "obsessed with this dress!! wore it to my birthday and got compliments all night. the fit is perfect and the rhinestones are SO pretty ✨ 10/10"
+    }
+  },
+
+  "tiktok_overlay_recommendations": {
+    "purpose": "Address her objections in HER language, create relatability, show social proof",
+    "overlay_structure": "Question top-left white text, Answer bottom-right white text with ✓ checkmark",
+
+    "recommended_overlays": [
+      {
+        "image_type": "Hero product image (front view)",
+        "question": "does it actually sparkle or is it just the lighting?",
+        "answer": "✓ catches the light from every angle. premium rhinestones not plastic"
+      },
+      {
+        "image_type": "Side angle showing slit",
+        "question": "is the slit too high? like will i flash everyone?",
+        "answer": "✓ thigh-high but classy. you can sit, dance, move - no wardrobe malfunctions"
+      },
+      {
+        "image_type": "Back view",
+        "question": "does it stay up or do i need to keep pulling it up all night?",
+        "answer": "✓ adjustable straps + bodycon fit = stays exactly where you put it"
+      },
+      {
+        "image_type": "Close-up of rhinestones",
+        "question": "will the rhinestones fall off after one wear?",
+        "answer": "✓ premium quality. customers say they've worn it 5+ times and it still looks new"
+      },
+      {
+        "image_type": "Full body showing fit",
+        "question": "im not shaped like the model will it look good on me?",
+        "answer": "✓ stretch fabric adjusts to YOUR body. check reviews - all different body types"
+      },
+      {
+        "image_type": "Detail of square neckline",
+        "question": "do i need a special bra for this?",
+        "answer": "✓ square neckline works with strapless or the order bump includes invisible bra cups"
+      },
+      {
+        "image_type": "Dress from club lighting angle",
+        "question": "does navy blue photograph well or should i get black?",
+        "answer": "✓ navy is MORE unique. stands out in photos without looking basic"
+      },
+      {
+        "image_type": "Size comparison visual",
+        "question": "what size should i order? im between sizes",
+        "answer": "✓ check size guide but stretch fabric is forgiving. when in doubt size up"
+      }
+    ],
+
+    "overlay_design_specs": {
+      "question_position": "Top-left, 20px from edges",
+      "answer_position": "Bottom-right, 20px from edges",
+      "font": "Sans-serif, bold, white text with subtle black text-shadow for readability",
+      "checkmark": "✓ before answer text",
+      "never_cover": "Face or critical product details",
+      "mobile_sizing": "Responsive text size, always readable"
+    }
+  },
+
+  "faq_topics_her_actual_concerns": {
+    "not_generic_faqs": "These are HER questions from internal dialogue, not corporate FAQs",
+
+    "faqs_ranked_by_anxiety_level": [
+      {
+        "rank": 1,
+        "question": "What if it doesn't fit me? (sizing anxiety)",
+        "her_real_concern": "I've been burned by 'true to size' before and every brand is different",
+        "answer_components": {
+          "logical": "Stretch fabric adjusts to your body. Size chart available. XS-XXL.",
+          "emotional": "Check testimonials - customers with different body types all loved the fit.",
+          "guarantee": "Don't love the fit? 30-day returns, full refund, keep it anyway."
+        },
+        "material_icon": "sports_gymnastics"
+      },
+      {
+        "rank": 2,
+        "question": "Will this actually look expensive or cheap in person?",
+        "her_real_concern": "I've ordered sparkly dresses that arrived with plastic rhinestones that scream 'Shein'",
+        "answer_components": {
+          "logical": "Premium rhinestones (not plastic), navy blue with GOLD crystal accents.",
+          "emotional": "Read reviews: 'looks way more expensive than the price', 'got compliments all night'.",
+          "guarantee": "4.9/5 rating, 10,000+ happy customers - quality you can trust."
+        },
+        "material_icon": "face_4"
+      },
+      {
+        "rank": 3,
+        "question": "Can I wear this more than once or is it a one-event dress?",
+        "her_real_concern": "Spending $59-99 on something I'll wear once feels wasteful",
+        "answer_components": {
+          "logical": "Perfect for clubs, bachelorette parties, NYE, birthdays, Vegas, date nights, cocktail parties, girls' nights.",
+          "emotional": "Customers say: 'Already planning my next event to wear it again' - it's your new go-to.",
+          "guarantee": "This dress doesn't sit in your closet - it creates reasons to go out."
+        },
+        "material_icon": "elderly_woman"
+      },
+      {
+        "rank": 4,
+        "question": "What do I wear under this? (bra/underwear concerns)",
+        "her_real_concern": "Bodycon shows everything, square neckline is hard to find a bra for, I don't want panty lines",
+        "answer_components": {
+          "logical": "Square neckline works with strapless bras OR grab the order bump (invisible bra cups + seamless thong).",
+          "emotional": "The order bump was designed specifically for this dress - zero malfunctions, pure confidence.",
+          "guarantee": "Complete Look Bundle is $10 (normally $100) - solve ALL undergarment stress."
+        },
+        "material_icon": "pregnant_woman"
+      },
+      {
+        "rank": 5,
+        "question": "How long does shipping take?",
+        "her_real_concern": "I need this for an event SOON and can't wait 3 weeks",
+        "answer_components": {
+          "logical": "Ships today with free shipping. Arrives in 4-7 days (or pre-order ships in 2-3 weeks).",
+          "emotional": "We know you're planning for an event - we got you. Order now, wear it this weekend.",
+          "guarantee": "Track your order from checkout to doorstep."
+        },
+        "material_icon": "laundry"
+      },
+      {
+        "rank": 6,
+        "question": "What if I order it and change my mind?",
+        "her_real_concern": "I have commitment issues with online shopping - what if I get it and it's not right?",
+        "answer_components": {
+          "logical": "30-day money-back guarantee. Wear it, love it, or return it.",
+          "emotional": "We're not in the business of keeping unhappy customers. If it's not PERFECT for you, we'll refund every penny.",
+          "guarantee": "Zero risk - your money back if you're not obsessed."
+        },
+        "material_icon": "face_4"
+      }
+    ]
+  },
+
+  "copy_tone_guide": {
+    "voice_characteristics": {
+      "primary_tone": "Best friend who's obsessed with fashion and hypes you up",
+      "secondary_tone": "Older sister who's been there and gets it",
+      "avoid": "Corporate, salesy, fake urgency, condescending, overly formal"
+    },
+
+    "writing_principles": {
+      "use_her_language": "obsessed, literally, perfect, chef's kiss, the fit, everything",
+      "short_punchy_sentences": "3-5 sentences max per text block (Franky Shaw rule)",
+      "show_dont_tell": "'the navy blue with gold rhinestones is literally so stunning' vs 'high quality materials'",
+      "speak_to_identity": "You're not buying a dress. You're becoming unforgettable.",
+      "acknowledge_pain": "We know you've been burned by fast fashion before...",
+      "promise_transformation": "This is your confidence armor. Your main character moment.",
+      "eliminate_doubt": "Zero risk. 30-day guarantee. If you're not obsessed, full refund."
+    },
+
+    "headline_formulas": [
+      {
+        "formula": "Be [Desired Identity] in [Product]",
+        "example": "Be Unforgettable in Navy Blue Sparkle",
+        "when_to_use": "Main tagline - identity-first"
+      },
+      {
+        "formula": "[Pain Point] Problem → [Product] Solution",
+        "example": "Tired of Dresses That Don't Deliver? This One Actually Works.",
+        "when_to_use": "Problem-aware traffic"
+      },
+      {
+        "formula": "The [Adjective] [Product] That [Benefit]",
+        "example": "The Sparkly Dress That Makes You Unforgettable",
+        "when_to_use": "Feature-focused sections"
+      },
+      {
+        "formula": "Why [X] Women [Action]",
+        "example": "Why 10,000+ Women Choose This Dress for Every Big Night",
+        "when_to_use": "Social proof sections"
+      }
+    ],
+
+    "cta_language_ranked": [
+      {
+        "rank": 1,
+        "cta": "ADD TO CART - $59",
+        "psychology": "Action-oriented, price transparency, immediate",
+        "use_case": "Primary CTA"
+      },
+      {
+        "rank": 2,
+        "cta": "PRE-ORDER - SAVE $40",
+        "psychology": "Savings anchor, patience reward, FOMO reduction",
+        "use_case": "Secondary CTA for budget-conscious"
+      },
+      {
+        "rank": 3,
+        "cta": "GET YOURS - SHIPS TODAY",
+        "psychology": "Ownership language, speed promise",
+        "use_case": "Urgency-focused traffic"
+      },
+      {
+        "rank": 4,
+        "cta": "YES, I WANT TO BE UNFORGETTABLE",
+        "psychology": "Identity confirmation, first-person commitment",
+        "use_case": "Long-form landing page final CTA"
+      }
+    ],
+
+    "testimonial_integration": {
+      "format": "First name + Last initial (Emma K., Sophia L.)",
+      "platform_badge": "Show TikTok/Instagram/Facebook icons",
+      "image_requirement": "120x240px UGC style images (existing: testimonial_01-20.png)",
+      "quote_style": "Their EXACT words, not cleaned up corporate speak",
+      "rating_display": "5 stars + 'Verified Purchase'",
+      "date_recency": "Relative dates (2 days ago, 5 days ago) create freshness",
+      "helpful_votes": "127 found this helpful (social proof stacking)"
+    }
+  },
+
+  "competitive_intelligence": {
+    "what_competitors_say": {
+      "windsor": {
+        "headline": "Made for the nights that sparkle",
+        "positioning": "Celestial glamour, special occasions, premium affordable",
+        "price_anchor": "$99.90 USD",
+        "social_proof": "Best Seller badge, Low in Stock, SOLD OUT (all sizes)",
+        "trust_signals": "Free shipping over $40, established brand"
+      },
+      "existing_site": {
+        "headline": "Be Unforgettable in Navy Blue Sparkle",
+        "positioning": "Gen Z nightlife, influencer-endorsed, premium quality",
+        "price_anchor": "$59 (54% off from $129)",
+        "social_proof": "10,000+ customers, 4.9/5 rating, influencer bar (Alix Earle, Monet, Alex Cooper)",
+        "trust_signals": "30-day guarantee, free shipping, 847 added today, 23 left in stock"
+      }
+    },
+
+    "what_competitors_dont_say": {
+      "gap_1": {
+        "silence": "Competitors don't acknowledge past disappointments with fast fashion",
+        "opportunity": "We KNOW you've been burned before by Shein dresses. This is different.",
+        "impact": "Builds trust through empathy and differentiation"
+      },
+      "gap_2": {
+        "silence": "No one addresses the internal anxiety of 'will this look good on MY body?'",
+        "opportunity": "Check the testimonials - REAL bodies, REAL confidence. Your body isn't the problem - fashion that doesn't fit YOU is.",
+        "impact": "Dissolves identity-level objection, makes her feel seen"
+      },
+      "gap_3": {
+        "silence": "Generic 'high quality' claims without proof",
+        "opportunity": "Customers say: 'I've worn it 5+ times and it still looks new' - that's REAL durability proof",
+        "impact": "Testimonial-based proof is more credible than brand claims"
+      },
+      "gap_4": {
+        "silence": "No acknowledgment of the 'will I actually wear this again?' concern",
+        "opportunity": "This dress doesn't sit in your closet - it CREATES reasons to go out. Watch how many events you suddenly say yes to.",
+        "impact": "Reframes purchase as life investment, not clothing expense"
+      }
+    },
+
+    "negative_space_opportunities": [
+      "Windsor says 'cosmic glamour' but doesn't say: You're not buying sparkles, you're buying your main character moment",
+      "Competitors say 'bodycon fit' but don't say: This dress adjusts to YOUR curves - you're not failing the dress, the dress works for YOU",
+      "Everyone says 'premium quality' but doesn't say: We're not fast fashion that falls apart. We're the dress you'll tell your friends about."
+    ]
+  },
+
+  "psychological_triggers_activated": {
+    "trigger_1_pain_amplification": {
+      "weapon": "Twist the knife - make them FEEL the pain again",
+      "example": "Remember scrolling Instagram at 3am, stressed about finding the perfect dress for Saturday? Ordering three options from Amazon and NONE of them looked like the photos? Spending the whole event self-conscious instead of having fun? Yeah. We remember too.",
+      "when_to_use": "Problem section (dark background, 🚫 bullets)",
+      "power_level": "HIGH - creates urgency through pain recall"
+    },
+
+    "trigger_2_enemy_creation": {
+      "weapon": "Create a villain they can blame - it's NOT their fault",
+      "example": "The fashion industry has been lying to you. Fast fashion shows you gorgeous dresses on models and delivers cheap garbage. 'One size fits most' means ONE body type - not yours. They know their products don't work for REAL women. They. Don't. Care.",
+      "when_to_use": "Transition from problem to solution",
+      "power_level": "MEDIUM-HIGH - releases self-blame, creates us-vs-them"
+    },
+
+    "trigger_3_identity_bridge": {
+      "weapon": "Show transformation in identity terms, not product terms",
+      "example": "You're not buying a navy blue dress. You're becoming the woman who walks into that club and EVERYONE notices. You're joining 10,000+ women who stopped settling for 'good enough' and started demanding UNFORGETTABLE.",
+      "when_to_use": "CTA sections, final conversion push",
+      "power_level": "VERY HIGH - sells identity transformation"
+    },
+
+    "trigger_4_social_proof_stacking": {
+      "weapon": "Don't just show reviews - show MOMENTUM",
+      "example": "847 women added this to cart TODAY. 10,000+ women have worn this dress and felt AMAZING. Alix Earle, Monet McMichael, Alex Cooper are all wearing navy rhinestone. Are you joining them or settling for basic again?",
+      "when_to_use": "Throughout page, especially near CTAs",
+      "power_level": "HIGH - FOMO + bandwagon effect"
+    },
+
+    "trigger_5_fear_of_inaction": {
+      "weapon": "Paint the picture of their future WITHOUT you",
+      "example": "Another weekend, another event where you scroll through photos and immediately regret your outfit. Another night where you spent more time worrying about how you looked than actually having fun. Another dress that sits in your closet unworn because it just... isn't right.",
+      "when_to_use": "Problem section, urgency reinforcement",
+      "power_level": "MEDIUM - motivates through avoidance"
+    },
+
+    "trigger_6_urgency_architecture": {
+      "weapon": "Real consequence of delay, not fake scarcity",
+      "example": "Only 23 left in stock. 847 women added this today. Your event is in 6 days. The women who ordered last week are already posting their photos looking INCREDIBLE. Are you joining them or scrambling last-minute again?",
+      "when_to_use": "Hero section, checkout area",
+      "power_level": "HIGH - creates action NOW"
+    },
+
+    "trigger_7_risk_elimination": {
+      "weapon": "Make saying NO feel riskier than saying YES",
+      "example": "30 days to decide if you're obsessed. Wear it to your event. Dance in it. Post the photos. If you're not IN LOVE, we refund every penny. Keep it anyway. We're not in the business of unhappy customers. The only risk? Saying no and settling for 'good enough' AGAIN.",
+      "when_to_use": "Objection-handling sections, guarantee section",
+      "power_level": "VERY HIGH - eliminates purchase resistance"
+    }
+  },
+
+  "conversion_angles_by_traffic_source": {
+    "tiktok_traffic": {
+      "awareness_level": "Problem-aware (saw someone wearing sparkly dress, wants similar)",
+      "primary_angle": "Social proof + influencer validation",
+      "headline": "The Navy Blue Dress Alix Earle is Obsessed With",
+      "first_section": "Worn by YOUR favorites (influencer bar) + TikTok overlay images",
+      "objection_priority": "Will it look as good in person? (quality concerns)"
+    },
+
+    "instagram_traffic": {
+      "awareness_level": "Solution-aware (actively looking for party dresses)",
+      "primary_angle": "Visual transformation + aspiration",
+      "headline": "Be Unforgettable in Navy Blue Sparkle",
+      "first_section": "Before/after slider or hero gallery with TikTok overlays",
+      "objection_priority": "Will it fit my body? (fit/sizing concerns)"
+    },
+
+    "google_search_traffic": {
+      "awareness_level": "Most aware (searched 'navy rhinestone dress' or 'club dress')",
+      "primary_angle": "Direct offer + trust signals",
+      "headline": "Navy Blue Rhinestone Bodycon Mini Dress - $59 (54% OFF)",
+      "first_section": "Product hero with price, trust badges, stock warning, CTA",
+      "objection_priority": "Is this legit? (scam concerns, quality, returns)"
+    },
+
+    "retargeting_traffic": {
+      "awareness_level": "Highly aware (visited before, didn't buy)",
+      "primary_angle": "Risk reversal + urgency",
+      "headline": "Still thinking about it? 30-Day Guarantee + Only 23 Left",
+      "first_section": "Guarantee front and center, stock counter, testimonials",
+      "objection_priority": "What if I don't love it? (commitment anxiety)"
+    }
+  },
+
+  "final_buyer_profile_summary": {
+    "who_she_is": "Gen Z woman (18-25) who's trying to figure out her style and confidence. Sometimes she's got it, sometimes she's lost. She's scrolling Instagram at 3am stressed about her upcoming event outfit. She's been burned by fast fashion but can't afford designer. She wants to be unforgettable but is afraid of looking like she's trying too hard.",
+
+    "what_she_wants_surface": "A sparkly navy blue dress that fits well, looks expensive, and photographs beautifully for under $100.",
+
+    "what_she_really_wants_deep": "To be the woman who walks into that club and turns heads. To feel confident enough to stop thinking about her outfit and just BE PRESENT. To see herself in photos and think 'God I looked good.' To prove to herself that she's becoming the confident, stylish, magnetic woman she dreams about being.",
+
+    "her_3am_anxiety": "Scrolling Instagram looking at party photos where everyone else looks PERFECT while she's stressed she'll show up to her event and blend in or look cheap.",
+
+    "her_secret_fear": "That she'll never figure out her style. That she's falling behind. That she's not the kind of girl who can pull off bodycon and sparkles. That she'll waste money AGAIN on something that doesn't work.",
+
+    "what_makes_her_buy": "Social proof (Alix Earle wears it), urgency (23 left), testimonials that sound like her ('obsessed', 'perfect', 'literally'), guarantee (30-day risk-free), identity promise (Be Unforgettable).",
+
+    "what_stops_her_from_buying": "Fit anxiety ('will it look good on MY body?'), quality distrust ('is this another Shein disaster?'), wear-again concern ('will I only wear this once?'), commitment fear ('what if I regret it?').",
+
+    "how_to_sell_to_her": "Speak her language. Show her women like her (testimonials, real bodies). Acknowledge her pain (you've been burned before). Create an enemy (fast fashion lies). Promise identity transformation (become unforgettable). Eliminate all risk (30-day guarantee). Make saying NO feel worse than saying YES."
+  }
+}

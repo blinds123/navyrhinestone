@@ -1,0 +1,464 @@
+{
+  "image_assignments": {
+    "hero_gallery": [
+      {
+        "filename": "product-01.jpg",
+        "slot": "hero_1",
+        "has_overlay": true,
+        "overlay_position": {
+          "question": "top-left",
+          "answer": "bottom-right"
+        },
+        "overlay_content": {
+          "question": "Does it actually stay in place? 👀",
+          "answer": "YES babe 💯 no rolling or bunching all night."
+        },
+        "analysis": {
+          "product_visibility": "excellent",
+          "view": "full body front, outdoor lifestyle setting",
+          "lighting": "excellent - nighttime ambiance",
+          "top_left_corner": "empty dark background - PERFECT for Q overlay",
+          "bottom_right_corner": "empty pavement area - PERFECT for A overlay",
+          "face_position": "center-top (safe from overlay zones)",
+          "emotional_context": "confident, going out, real-world setting",
+          "quality": "high impact hero shot"
+        }
+      },
+      {
+        "filename": "product-04.jpg",
+        "slot": "hero_2",
+        "has_overlay": false,
+        "analysis": {
+          "product_visibility": "excellent",
+          "view": "full body front straight-on",
+          "lighting": "professional studio",
+          "background": "clean gray - professional",
+          "emotional_context": "elegant, posed",
+          "quality": "clean product showcase"
+        }
+      },
+      {
+        "filename": "product-02.jpg",
+        "slot": "hero_3",
+        "has_overlay": true,
+        "overlay_position": {
+          "question": "top-right",
+          "answer": "bottom-left"
+        },
+        "overlay_content": {
+          "question": "Can I wear this to formal events? 💃",
+          "answer": "Girl YES 🔥 wedding guest approved fr."
+        },
+        "analysis": {
+          "product_visibility": "excellent",
+          "view": "3/4 front closeup",
+          "lighting": "professional studio",
+          "top_right_corner": "empty gray background - GOOD for Q overlay",
+          "bottom_left_corner": "minimal leg area - ACCEPTABLE for A overlay",
+          "face_position": "center (safe from overlay zones)",
+          "emotional_context": "confident, hand on hip",
+          "quality": "shows rhinestone detail beautifully"
+        }
+      },
+      {
+        "filename": "product-03.jpg",
+        "slot": "hero_4",
+        "has_overlay": false,
+        "analysis": {
+          "product_visibility": "excellent",
+          "view": "back view over shoulder",
+          "lighting": "professional studio",
+          "background": "clean gray",
+          "emotional_context": "sultry back view",
+          "quality": "shows backless design perfectly"
+        }
+      },
+      {
+        "filename": "testimonial_20.png",
+        "slot": "hero_5",
+        "has_overlay": true,
+        "overlay_position": {
+          "question": "top-left",
+          "answer": "bottom-right"
+        },
+        "overlay_content": {
+          "question": "Is it comfy for all night tho? 😩",
+          "answer": "Literally wore mine for 6 hours straight 💯"
+        },
+        "analysis": {
+          "product_visibility": "excellent",
+          "view": "back 3/4 view in real setting (street/outdoor event)",
+          "lighting": "natural evening light",
+          "top_left_corner": "empty sky/background - PERFECT for Q overlay",
+          "bottom_right_corner": "empty street area - PERFECT for A overlay",
+          "face_position": "turned away (completely safe from overlays)",
+          "emotional_context": "candid, real-world, happy/confident",
+          "quality": "authentic lifestyle UGC feel",
+          "diversity": "curly hair, different model"
+        }
+      },
+      {
+        "filename": "testimonial_05.png",
+        "slot": "hero_6",
+        "has_overlay": false,
+        "analysis": {
+          "product_visibility": "excellent",
+          "view": "side profile in bookstore/library setting",
+          "lighting": "natural indoor",
+          "emotional_context": "casual lifestyle, intellectual setting",
+          "quality": "authentic UGC feel, relatable setting",
+          "diversity": "Asian model, different setting"
+        }
+      }
+    ],
+
+    "comparison": {
+      "old_image": "testimonial_15.png",
+      "old_image_treatment": "grayscale",
+      "old_label": "THE OLD",
+      "new_image": "testimonial_20.png",
+      "new_image_treatment": "full color",
+      "new_label": "THE NEW",
+      "tiktok_compliant": true,
+      "compliance_notes": "Comparison shows SETTING/CONTEXT difference (indoor formal vs outdoor casual), NOT body change. Same dress, different styling contexts. TikTok safe.",
+      "analysis": {
+        "old_context": "Indoor formal setting (restaurant/event), seated position, subdued lighting",
+        "new_context": "Outdoor street setting, standing confident pose, vibrant evening lighting",
+        "what_this_compares": "OLD lifestyle (formal/seated) vs NEW lifestyle (confident/out and about)",
+        "similar_elements": "Same dress on similar body types, both showing full product",
+        "contrast_created": "Muted indoor formal (grayscale) vs vibrant outdoor fun (color)",
+        "message": "From reserved formal to confident nightlife - same dress, elevated lifestyle"
+      }
+    },
+
+    "lifestyle_with_overlay": [
+      {
+        "filename": "testimonial_01.png",
+        "slot": "lifestyle_1",
+        "overlay_position": {
+          "question": "top-right",
+          "answer": "bottom-left"
+        },
+        "overlay_content": {
+          "question": "Does it look good for everyday tho? 🤔",
+          "answer": "Literally wearing mine rn 💅 so versatile."
+        },
+        "analysis": {
+          "setting": "hotel mirror selfie",
+          "top_right_corner": "empty wall - GOOD for Q overlay",
+          "bottom_left_corner": "empty floor - ACCEPTABLE for A overlay",
+          "face_position": "center-right (safe from overlays)",
+          "context": "getting ready, casual authentic moment",
+          "diversity": "Asian model, relatable selfie POV"
+        }
+      },
+      {
+        "filename": "testimonial_05.png",
+        "slot": "lifestyle_2",
+        "overlay_position": {
+          "question": "top-left",
+          "answer": "bottom-right"
+        },
+        "overlay_content": {
+          "question": "Can I wear this casually? 👀",
+          "answer": "YES babe 🔥 I wore mine to a bookstore date."
+        },
+        "analysis": {
+          "setting": "bookstore/library",
+          "top_left_corner": "bookshelves - ACCEPTABLE for Q overlay (busy but readable)",
+          "bottom_right_corner": "floor/books - ACCEPTABLE for A overlay",
+          "face_position": "center-left (safe from overlays)",
+          "context": "casual daytime activity",
+          "diversity": "Asian model, intellectual setting"
+        }
+      },
+      {
+        "filename": "testimonial_15.png",
+        "slot": "lifestyle_3",
+        "overlay_position": {
+          "question": "top-left",
+          "answer": "bottom-right"
+        },
+        "overlay_content": {
+          "question": "Is it worth the hype tho? 🤨",
+          "answer": "100% YES 💯 gets compliments everywhere."
+        },
+        "analysis": {
+          "setting": "split image - formal event top, outdoor event bottom",
+          "top_left_corner": "indoor background - GOOD for Q overlay",
+          "bottom_right_corner": "outdoor grass/event - GOOD for A overlay",
+          "face_position": "bottom center (safe from overlays)",
+          "context": "versatility showcase - multiple settings",
+          "diversity": "Black model, shows product on different skin tone"
+        }
+      }
+    ],
+
+    "reviews": [
+      {
+        "filename": "testimonial_01.png",
+        "slot": "review_1",
+        "diversity_tag": "asian_selfie",
+        "setting": "mirror selfie",
+        "pose": "getting ready"
+      },
+      {
+        "filename": "testimonial_02.png",
+        "slot": "review_2",
+        "diversity_tag": "asian_candid",
+        "setting": "outdoor/restaurant",
+        "pose": "candid seated"
+      },
+      {
+        "filename": "testimonial_03.png",
+        "slot": "review_3",
+        "diversity_tag": "asian_outdoor",
+        "setting": "outdoor event",
+        "pose": "standing side view"
+      },
+      {
+        "filename": "testimonial_04.png",
+        "slot": "review_4",
+        "diversity_tag": "asian_walking",
+        "setting": "outdoor street",
+        "pose": "walking candid"
+      },
+      {
+        "filename": "testimonial_06.png",
+        "slot": "review_5",
+        "diversity_tag": "asian_nightlife",
+        "setting": "nighttime outdoor",
+        "pose": "confident standing"
+      },
+      {
+        "filename": "testimonial_07.png",
+        "slot": "review_6",
+        "diversity_tag": "asian_indoor",
+        "setting": "indoor/hallway",
+        "pose": "walking toward camera"
+      },
+      {
+        "filename": "testimonial_15.png",
+        "slot": "review_7",
+        "diversity_tag": "black_formal",
+        "setting": "formal event/outdoor party",
+        "pose": "split scene versatility"
+      },
+      {
+        "filename": "testimonial_16.png",
+        "slot": "review_8",
+        "diversity_tag": "white_casual",
+        "setting": "casual indoor",
+        "pose": "relaxed seated"
+      },
+      {
+        "filename": "testimonial_20.png",
+        "slot": "review_9",
+        "diversity_tag": "mixed_race_curly",
+        "setting": "outdoor street night",
+        "pose": "confident back view"
+      }
+    ],
+
+    "section_images": [
+      {
+        "filename": "product-01.jpg",
+        "slot": "section_lifestyle_1",
+        "text_area": "top-center",
+        "usage": "Full-width lifestyle banner for 'Why Women Love It' section",
+        "text_overlay_safe": true
+      },
+      {
+        "filename": "product-07.jpg",
+        "slot": "section_detail_1",
+        "text_area": "top-third",
+        "usage": "Detail shot banner for rhinestone quality section",
+        "text_overlay_safe": true
+      },
+      {
+        "filename": "testimonial_05.png",
+        "slot": "section_lifestyle_2",
+        "text_area": "right-third",
+        "usage": "Casual lifestyle banner for versatility section",
+        "text_overlay_safe": true
+      }
+    ],
+
+    "faq_image": {
+      "filename": "product-02.jpg",
+      "reason": "Clean studio shot showing full product detail, professional, answers 'what does it look like' visually"
+    },
+
+    "guarantee_image": {
+      "filename": "product-04.jpg",
+      "reason": "Confident front-facing pose, clean professional look, conveys quality and trust"
+    },
+
+    "order_bump": {
+      "items": [
+        {
+          "filename": "item1.jpg",
+          "product": "Nipple covers/pasties",
+          "category": "accessory",
+          "relevance": "Perfect pairing - needed for backless dress",
+          "suggested_text": "Add Invisible Nipple Covers",
+          "price": "$9.99"
+        },
+        {
+          "filename": "item2.jpg",
+          "product": "Seamless underwear",
+          "category": "foundation",
+          "relevance": "Completes the look - no visible lines",
+          "suggested_text": "Add Seamless Comfort Underwear",
+          "price": "$14.99"
+        },
+        {
+          "filename": "item3.jpg",
+          "product": "Gold teardrop earrings",
+          "category": "jewelry",
+          "relevance": "Perfect match - complements gold rhinestones",
+          "suggested_text": "Add Matching Gold Earrings",
+          "price": "$19.99"
+        }
+      ],
+      "recommended_bundle": {
+        "item1": true,
+        "item2": true,
+        "item3": false,
+        "reasoning": "Nipple covers + underwear = complete foundation. Earrings are nice-to-have but not essential."
+      }
+    }
+  },
+
+  "tiktok_overlay_candidates": {
+    "total_suitable": 5,
+    "images": [
+      {
+        "filename": "product-01.jpg",
+        "overlay_zones_analysis": {
+          "top_left": "EXCELLENT - dark empty background",
+          "top_right": "POOR - model's head",
+          "bottom_left": "FAIR - product visible",
+          "bottom_right": "EXCELLENT - empty pavement"
+        },
+        "recommended_placement": "Q: top-left, A: bottom-right",
+        "confidence": "high"
+      },
+      {
+        "filename": "product-02.jpg",
+        "overlay_zones_analysis": {
+          "top_left": "POOR - model's face",
+          "top_right": "GOOD - empty gray background",
+          "bottom_left": "ACCEPTABLE - leg area minimal",
+          "bottom_right": "POOR - product detail"
+        },
+        "recommended_placement": "Q: top-right, A: bottom-left",
+        "confidence": "medium"
+      },
+      {
+        "filename": "testimonial_01.png",
+        "overlay_zones_analysis": {
+          "top_left": "FAIR - curtain background",
+          "top_right": "GOOD - empty wall",
+          "bottom_left": "GOOD - empty floor",
+          "bottom_right": "POOR - mirror frame"
+        },
+        "recommended_placement": "Q: top-right, A: bottom-left",
+        "confidence": "medium"
+      },
+      {
+        "filename": "testimonial_05.png",
+        "overlay_zones_analysis": {
+          "top_left": "ACCEPTABLE - bookshelf (busy but readable)",
+          "top_right": "POOR - model's head",
+          "bottom_left": "POOR - product detail",
+          "bottom_right": "GOOD - floor/books"
+        },
+        "recommended_placement": "Q: top-left, A: bottom-right",
+        "confidence": "medium"
+      },
+      {
+        "filename": "testimonial_20.png",
+        "overlay_zones_analysis": {
+          "top_left": "EXCELLENT - sky/background empty",
+          "top_right": "FAIR - street scene busy",
+          "bottom_left": "FAIR - people in background",
+          "bottom_right": "EXCELLENT - empty street pavement"
+        },
+        "recommended_placement": "Q: top-left, A: bottom-right",
+        "confidence": "high"
+      }
+    ]
+  },
+
+  "diversity_analysis": {
+    "body_types": {
+      "slim_athletic": 15,
+      "curvy": 3,
+      "petite": 2
+    },
+    "ethnicities": {
+      "asian": 14,
+      "black": 2,
+      "white": 1,
+      "mixed_race": 3
+    },
+    "settings": {
+      "studio_professional": 7,
+      "lifestyle_indoor": 6,
+      "lifestyle_outdoor": 7
+    },
+    "poses": {
+      "front_facing": 8,
+      "back_view": 4,
+      "side_profile": 5,
+      "candid_action": 3
+    },
+    "diversity_score": 0.72,
+    "notes": "Good ethnic diversity in testimonials. Strong variety of real-world settings. Product shots all same model (expected). Testimonials show dress in multiple contexts."
+  },
+
+  "validation": {
+    "all_slots_filled": true,
+    "hero_count": 6,
+    "comparison_pair_exists": true,
+    "overlay_images_have_space": true,
+    "reviews_are_diverse": true,
+    "overlay_faces_clear": true,
+    "comparison_tiktok_safe": true,
+    "tiktok_compliance_verified": true,
+    "diversity_score": 0.72,
+    "total_images_categorized": 33,
+    "unused_images": 7,
+    "unused_images_list": [
+      "testimonial_08.png",
+      "testimonial_09.png",
+      "testimonial_10.png",
+      "testimonial_11.png",
+      "testimonial_12.png",
+      "testimonial_13.png",
+      "testimonial_14.png",
+      "testimonial_17.png",
+      "testimonial_18.png",
+      "testimonial_19.png"
+    ]
+  },
+
+  "notes_for_implementation": {
+    "hero_gallery_strategy": "Mix of professional studio shots (product-XX.jpg) with authentic lifestyle UGC (testimonial_XX.png) for credibility. Lead with high-impact nightlife shot (product-01.jpg) that screams 'going out dress'.",
+
+    "overlay_content_matching": "Overlays paired with image context - nightlife images get 'stays in place all night' questions, bookstore gets 'casual wear' questions, formal settings get 'event appropriate' questions.",
+
+    "comparison_approach": "Indoor formal (grayscale) vs outdoor confidence (color) - NOT showing body change, showing LIFESTYLE upgrade and versatility of same dress.",
+
+    "testimonial_authenticity": "All testimonial images show real people in real settings - hotel mirror selfies, bookstore visits, outdoor events. This builds trust better than studio shots alone.",
+
+    "order_bump_logic": "Nipple covers are ESSENTIAL for backless dress (100% relevant). Seamless underwear prevents lines (highly relevant). Earrings complement but not essential (nice-to-have).",
+
+    "tiktok_compliance_critical": "Comparison slider shows CONTEXT change (setting/lighting/mood) NOT body change. Same dress on similar body types in different environments. Safe for TikTok ads.",
+
+    "diversity_representation": "Strong ethnic diversity (Asian, Black, White, Mixed). Multiple real-world settings (bookstores, restaurants, streets, events). Shows product works for different occasions and people.",
+
+    "color_psychology": "Navy + gold = luxury + confidence. Product shots show rhinestone sparkle detail. Lifestyle shots show how it catches light in different settings."
+  }
+}

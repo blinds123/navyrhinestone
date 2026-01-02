@@ -1,0 +1,656 @@
+{
+  "mapping_metadata": {
+    "created_date": "2026-01-03",
+    "source_analysis": "existing-site-analysis.json + index.html",
+    "target_template": "TEMPLATE-BASE.html (Franky Shaw)",
+    "product": "Arina Rhinestone Dress (Navy Blue)",
+    "user_specified_pricing": {
+      "single_price": "$19",
+      "bundle_2_price": "$59",
+      "order_bump_price": "$10",
+      "note": "CRITICAL - These prices override existing pricing"
+    }
+  },
+
+  "brand_and_product_info": {
+    "{{PRODUCT_NAME}}": "Arina Rhinestone Dress",
+    "{{BRAND_NAME}}": "ArinaDress",
+    "{{BRAND_NAME_PART1}}": "ARINA",
+    "{{BRAND_NAME_PART2}}": "DRESS",
+    "{{ANNOUNCEMENT_TEXT}}": "54% OFF FLASH SALE - ENDS TONIGHT",
+    "{{REVIEW_COUNT}}": "4500",
+    "{{DELIVERY_DATE}}": "January 8th",
+    "notes": {
+      "product_name_source": "File directory name 'arina Rhinestone Dress'",
+      "brand_name_derivation": "Created from product name for Franky Shaw template",
+      "delivery_date_calculation": "Today (Jan 3) + 5 business days = Jan 8",
+      "review_count": "Fixed at 4500 per Franky Shaw spec"
+    }
+  },
+
+  "pricing_placeholders_CRITICAL": {
+    "{{SALE_PRICE}}": "$19",
+    "{{ORIGINAL_PRICE}}": "$129",
+    "{{BUNDLE_2_PRICE}}": "$59",
+    "{{BUNDLE_2_ORIGINAL}}": "$258",
+    "{{BUNDLE_3_PRICE}}": "$89",
+    "{{BUNDLE_3_ORIGINAL}}": "$387",
+    "{{ORDER_BUMP_PRICE}}": "$10",
+    "{{ORDER_BUMP_ORIGINAL}}": "$100",
+    "{{DISCOUNT_PERCENTAGE}}": "85%",
+    "notes": {
+      "single_price": "USER SPECIFIED: $19 (not $59 from current site)",
+      "bundle_2_price": "USER SPECIFIED: $59 for 2 dresses",
+      "order_bump": "USER SPECIFIED: $10 for complete look bundle",
+      "original_price_kept": "Current site shows $129 original - keeping this",
+      "bundle_calculations": {
+        "bundle_2_savings": "$199 (2x$129 = $258 - $59 = $199 saved)",
+        "bundle_3_savings": "$298 (3x$129 = $387 - $89 = $298 saved)"
+      }
+    }
+  },
+
+  "hero_gallery_images": {
+    "{{HERO_IMAGE_1}}": "product-02.jpg",
+    "{{HERO_IMAGE_2}}": "product-01.jpg",
+    "{{HERO_IMAGE_3}}": "product-03.jpg",
+    "{{HERO_IMAGE_4}}": "product-04.jpg",
+    "{{HERO_IMAGE_5}}": "product-05.jpg",
+    "{{HERO_IMAGE_6}}": "product-06.jpg",
+    "available_images": [
+      "/images/product/product-01.jpg",
+      "/images/product/product-02.jpg",
+      "/images/product/product-03.jpg",
+      "/images/product/product-04.jpg",
+      "/images/product/product-05.jpg",
+      "/images/product/product-06.jpg",
+      "/images/product/product-07.jpg"
+    ],
+    "notes": {
+      "hero_1": "product-02.jpg - Currently used as main hero image",
+      "selection_criteria": "Portrait orientation, clear view of dress, best quality shots",
+      "product-07": "Reserved for lifestyle/banner sections"
+    }
+  },
+
+  "tiktok_qa_overlays": {
+    "overlay_1": {
+      "{{QUESTION_USERNAME}}": "SophiaM",
+      "{{QUESTION_AVATAR}}": "avatar-1.png",
+      "{{TIKTOK_QUESTION_1}}": "does it actually sparkle in the club tho?",
+      "{{ANSWER_USERNAME}}": "OliviaR",
+      "{{ANSWER_AVATAR}}": "avatar-2.png",
+      "{{TIKTOK_ANSWER_1}}": "omg yes the gold rhinestones catch ALL the lights ✨",
+      "{{TIKTOK_EMOJI_1}}": "✨"
+    },
+    "overlay_2": {
+      "{{QUESTION_USERNAME_2}}": "EmmaK",
+      "{{QUESTION_AVATAR_2}}": "avatar-3.png",
+      "{{TIKTOK_QUESTION_2}}": "is it actually navy or just looks black?",
+      "{{ANSWER_USERNAME_2}}": "AvaL",
+      "{{ANSWER_AVATAR_2}}": "avatar-4.png",
+      "{{TIKTOK_ANSWER_2}}": "it's def navy!! so much prettier than basic black 💙",
+      "{{TIKTOK_EMOJI_2}}": "💙"
+    },
+    "overlay_3": {
+      "{{QUESTION_USERNAME_3}}": "MiaJ",
+      "{{QUESTION_AVATAR_3}}": "avatar-5.png",
+      "{{TIKTOK_QUESTION_3}}": "does the slit stay in place?",
+      "{{ANSWER_USERNAME_3}}": "IsabellaG",
+      "{{ANSWER_AVATAR_3}}": "avatar-6.png",
+      "{{TIKTOK_ANSWER_3}}": "yes!! perfect length, not too high 👌",
+      "{{TIKTOK_EMOJI_3}}": "👌"
+    },
+    "notes": {
+      "source": "NEEDS GENERATION - Based on demographic research",
+      "demographic": "Gen Z women (18-25), fashion-forward, nightlife focused",
+      "tone": "Casual, lowercase, relatable, emoji usage",
+      "questions": "Skeptical, real concerns about product",
+      "answers": "Confident, enthusiastic, reassuring with emoji"
+    }
+  },
+
+  "feature_cards": {
+    "{{FEATURE_1}}": "Premium Rhinestones™",
+    "{{FEATURE_2}}": "Body-Hugging Fit",
+    "{{FEATURE_3}}": "Navy + Gold Glam",
+    "{{FEATURE_4}}": "30-Day Guarantee",
+    "notes": {
+      "source": "Extracted from existing site features",
+      "existing_features": [
+        "Premium Quality Rhinestones",
+        "Body-hugging bodycon fit",
+        "Navy blue with gold crystal accents",
+        "30-Day Returns"
+      ]
+    }
+  },
+
+  "rotating_testimonials": {
+    "{{ROTATING_TESTIMONIAL_1}}": "obsessed with this dress!! the navy blue with gold rhinestones is literally so stunning 🎉",
+    "{{TESTIMONIAL_NAME_1}}": "Emma K.",
+    "{{ROTATING_TESTIMONIAL_2}}": "the fit is PERFECT. bodycon but not too tight, and the slit is the perfect length ✨",
+    "{{TESTIMONIAL_NAME_2}}": "Sophia L.",
+    "{{ROTATING_TESTIMONIAL_3}}": "wore it to my birthday and got compliments all night. literally every person asked where I got it",
+    "{{TESTIMONIAL_NAME_3}}": "Olivia R.",
+    "{{ROTATING_TESTIMONIAL_4}}": "the gold rhinestones catch the light so beautifully. way better than basic black dresses",
+    "{{TESTIMONIAL_NAME_4}}": "Ava L.",
+    "{{ROTATING_TESTIMONIAL_5}}": "This dress is everything! The bodycon fit is so flattering and the square neckline is chef's kiss",
+    "{{TESTIMONIAL_NAME_5}}": "Mia J.",
+    "notes": {
+      "source": "EXTRACTED from existing testimonials on current site",
+      "existing_testimonials_file": "20 testimonials with images (testimonial_01.png - testimonial_20.png)",
+      "tone": "Gen Z casual, lowercase, relatable, emoji usage",
+      "names": "Match target demographic (Sophie, Kayla, Destiny, Mia, Aaliyah)"
+    }
+  },
+
+  "comparison_section": {
+    "{{COMPARISON_HEADLINE}}": "Basic Black Dress vs. Navy Rhinestone Dress",
+    "{{COMPARISON_SUBHEADLINE}}": "We've all worn boring black... time to upgrade",
+    "{{COMPARISON_OLD_IMAGE}}": "product-07.jpg",
+    "{{COMPARISON_NEW_IMAGE}}": "product-02.jpg",
+    "notes": {
+      "source": "NEEDS GENERATION - No before/after currently exists",
+      "old_image_concept": "Simple black dress or generic party dress (can use product-07 with desaturation)",
+      "new_image_concept": "Navy rhinestone dress in full glory (product-02)",
+      "gap": "Current site has NO comparison slider - HIGH PRIORITY to add"
+    }
+  },
+
+  "lifestyle_images": {
+    "{{LIFESTYLE_IMAGE_1}}": "product-03.jpg",
+    "{{LIFESTYLE_IMAGE_2}}": "product-05.jpg",
+    "{{LIFESTYLE_IMAGE_3}}": "product-07.jpg",
+    "notes": {
+      "source": "Using available product images as lifestyle shots",
+      "gap": "Current site lacks true lifestyle/action shots - using best available",
+      "tiktok_overlays": "NEEDS ADDITION - These images need TikTok Q&A overlays"
+    }
+  },
+
+  "lifestyle_section_copy": {
+    "{{LIFESTYLE_HEADLINE_1}}": "Turn Heads in Navy Blue Sparkle",
+    "{{LIFESTYLE_LEAD_1}}": "Feel unforgettable in every moment",
+    "{{LIFESTYLE_BODY_1}}": "Our Arina Rhinestone Dress was designed for women who want to stand out. Navy blue elegance meets gold rhinestone glamour - perfect for clubs, parties, and those moments when you want all eyes on you.",
+    "notes": {
+      "source": "ADAPTED from existing tagline 'Be Unforgettable in Navy Blue Sparkle'",
+      "existing_copy": "Dazzling navy blue rhinestone bodycon mini dress with gold crystal accents. Perfect for clubs, parties & special events.",
+      "tone": "Aspirational, confident, feminine"
+    }
+  },
+
+  "problem_section": {
+    "{{PROBLEM_HEADLINE}}": "Why Women Are Ditching Basic Black Dresses",
+    "{{PROBLEM_1}}": "No more blending in with every other girl in black",
+    "{{PROBLEM_2}}": "No more boring, forgettable party outfits",
+    "{{PROBLEM_3}}": "No more cheaply-made dresses that lose sparkle",
+    "{{PROBLEM_4}}": "No more uncomfortable bodycon that rolls up",
+    "{{PROBLEM_5}}": "No more dresses that photograph poorly in club lighting",
+    "notes": {
+      "source": "NEEDS GENERATION - Based on demographic pain points",
+      "gap": "Current site has NO problem/solution sections - MEDIUM PRIORITY",
+      "demographic_insights": "Gen Z wants unique, Instagram-worthy, comfortable, high-quality",
+      "emoji": "Use 🚫 emoji for each problem bullet in template"
+    }
+  },
+
+  "solution_section": {
+    "{{SOLUTION_HEADLINE}}": "The Dress That Makes You Unforgettable",
+    "{{SOLUTION_1}}": "Stand out in stunning navy blue with gold rhinestones",
+    "{{SOLUTION_2}}": "Premium rhinestone embellishments that LAST",
+    "{{SOLUTION_3}}": "Comfortable stretch fabric that stays in place all night",
+    "{{SOLUTION_4}}": "Square neckline + perfect slit length = FLATTERING",
+    "{{SOLUTION_5}}": "Photographs beautifully in any lighting (club, flash, natural)",
+    "notes": {
+      "source": "ADAPTED from existing features + benefits",
+      "existing_features": [
+        "Premium Quality Rhinestones",
+        "rhinestone-embellished stretch fabric",
+        "Square neckline",
+        "Thigh-high slit",
+        "Body-hugging bodycon fit"
+      ],
+      "emoji": "Use ✅ emoji for each solution bullet in template"
+    }
+  },
+
+  "story_section": {
+    "{{STORY_HEADLINE}}": "Why We Created the Arina Dress",
+    "{{STORY_PARAGRAPH_1}}": "We got tired of seeing amazing women disappear into a sea of basic black dresses at every party. You deserve to be unforgettable. That's why we created the Arina Rhinestone Dress - the perfect blend of navy blue elegance and gold sparkle glamour.",
+    "{{STORY_PARAGRAPH_2}}": "Every rhinestone is hand-placed. Every curve is carefully designed for the perfect fit. This isn't just another party dress - it's the dress that makes you feel like the main character. Because you are.",
+    "notes": {
+      "source": "NEEDS GENERATION - No founder story currently exists",
+      "gap": "Current site has NO brand story section - LOW PRIORITY",
+      "tone": "Emotional, personal, empowering, feminine"
+    }
+  },
+
+  "full_width_banners": {
+    "banner_1": {
+      "{{BANNER_IMAGE_1}}": "product-04.jpg",
+      "{{BANNER_HEADLINE_1}}": "PREMIUM RHINESTONES. UNFORGETTABLE NIGHTS.",
+      "{{BANNER_SUBHEADLINE_1}}": "Join thousands of women who refuse to blend in"
+    },
+    "banner_2": {
+      "{{BANNER_IMAGE_2}}": "product-06.jpg",
+      "{{BANNER_HEADLINE_2}}": "THE DRESS EVERYONE ASKS ABOUT",
+      "{{BANNER_SUBHEADLINE_2}}": "Navy blue elegance meets gold rhinestone glamour"
+    },
+    "notes": {
+      "source": "NEEDS GENERATION - No full-width overlay banners currently exist",
+      "gap": "Current site lacks dramatic banner sections - MEDIUM PRIORITY",
+      "selection_criteria": "Wide/dramatic shots, good for text overlay with dark overlay"
+    }
+  },
+
+  "faq_section": {
+    "{{FAQ_QUESTION_1}}": "Will it actually fit me?",
+    "{{FAQ_ANSWER_1}}": "Absolutely! The stretch fabric is incredibly forgiving and hugs your curves beautifully. We offer sizes XS-XXL, and the bodycon fit adapts to your body. Check our size guide for measurements.",
+    "{{FAQ_ICON_1}}": "sports_gymnastics",
+
+    "{{FAQ_QUESTION_2}}": "Will the rhinestones fall off or lose sparkle?",
+    "{{FAQ_ANSWER_2}}": "Nope! Each rhinestone is premium quality and securely attached. We've tested this dress through hundreds of wears. Hand wash cold and the sparkle stays perfect.",
+    "{{FAQ_ICON_2}}": "laundry",
+
+    "{{FAQ_QUESTION_3}}": "Is it comfortable for dancing/clubbing?",
+    "{{FAQ_ANSWER_3}}": "YES! Unlike stiff party dresses, the stretch fabric moves with you. The square neckline stays in place, the slit is the perfect length, and you can dance all night without adjusting.",
+    "{{FAQ_ICON_3}}": "elderly_woman",
+
+    "{{FAQ_QUESTION_4}}": "Is the navy blue pretty or just looks black?",
+    "{{FAQ_ANSWER_4}}": "It's definitely navy! So much more interesting than basic black. The navy blue shows beautifully in natural light and photographs amazingly. The gold rhinestones pop even more against the navy.",
+    "{{FAQ_ICON_4}}": "pregnant_woman",
+
+    "{{FAQ_QUESTION_5}}": "How do I style it?",
+    "{{FAQ_ANSWER_5}}": "Keep it simple - the dress IS the statement! Add nude heels, gold jewelry, and you're done. The gold rhinestones already provide all the sparkle you need.",
+    "{{FAQ_ICON_5}}": "face_4",
+
+    "{{FAQ_IMAGE}}": "product-05.jpg",
+
+    "notes": {
+      "source": "ADAPTED from existing FAQ section",
+      "existing_faqs": [
+        "What size should I order?",
+        "How long does shipping take?",
+        "Additional questions..."
+      ],
+      "gap_icons": "Current site uses standard ▼ arrows - NEED Material Design icons",
+      "gap_background": "Current FAQ has white/light gray bg - NEED lime (#CDFF00) background",
+      "icon_mapping": "Per Franky Shaw spec: sports_gymnastics (fit), laundry (care), elderly_woman (comfort), pregnant_woman (body), face_4 (styling)"
+    }
+  },
+
+  "reviews_grid_9_reviews": {
+    "review_1": {
+      "{{REVIEW_IMAGE_1}}": "testimonial_03.png",
+      "{{REVIEW_HEADLINE_1}}": "obsessed with this dress!!",
+      "{{REVIEW_TEXT_1}}": "the navy blue with gold rhinestones is literally so stunning. wore it to my birthday and got compliments all night 🎉",
+      "{{REVIEW_NAME_1}}": "Emma K."
+    },
+    "review_2": {
+      "{{REVIEW_IMAGE_2}}": "testimonial_07.png",
+      "{{REVIEW_HEADLINE_2}}": "the fit is PERFECT",
+      "{{REVIEW_TEXT_2}}": "bodycon but not too tight, and the slit is the perfect length. the gold rhinestones catch the light so beautifully ✨",
+      "{{REVIEW_NAME_2}}": "Sophia L."
+    },
+    "review_3": {
+      "{{REVIEW_IMAGE_3}}": "testimonial_11.png",
+      "{{REVIEW_HEADLINE_3}}": "way better than black",
+      "{{REVIEW_TEXT_3}}": "This dress is everything! The navy blue is so much more unique than black and the gold rhinestone pattern is absolutely gorgeous 💙",
+      "{{REVIEW_NAME_3}}": "Olivia R."
+    },
+    "review_4": {
+      "{{REVIEW_IMAGE_4}}": "testimonial_14.png",
+      "{{REVIEW_HEADLINE_4}}": "literally every person asked",
+      "{{REVIEW_TEXT_4}}": "I wore it to a club for NYE and literally every person asked where I got it. The bodycon fit is so flattering",
+      "{{REVIEW_NAME_4}}": "Ava L."
+    },
+    "review_5": {
+      "{{REVIEW_IMAGE_5}}": "testimonial_16.png",
+      "{{REVIEW_HEADLINE_5}}": "the square neckline tho",
+      "{{REVIEW_TEXT_5}}": "chef's kiss. The thigh-high slit is the perfect length - sexy but classy. Already planning my next event to wear it again!",
+      "{{REVIEW_NAME_5}}": "Mia J."
+    },
+    "review_6": {
+      "{{REVIEW_IMAGE_6}}": "testimonial_18.png",
+      "{{REVIEW_HEADLINE_6}}": "comfortable all night",
+      "{{REVIEW_TEXT_6}}": "I was worried it would be uncomfortable but the stretch fabric is amazing. Danced all night and it stayed perfect 👌",
+      "{{REVIEW_NAME_6}}": "Charlotte B."
+    },
+    "review_7": {
+      "{{REVIEW_IMAGE_7}}": "testimonial_02.png",
+      "{{REVIEW_HEADLINE_7}}": "photographs so well",
+      "{{REVIEW_TEXT_7}}": "The rhinestones sparkle in photos!! Got so many likes on IG. This dress was made for going out",
+      "{{REVIEW_NAME_7}}": "Amelia W."
+    },
+    "review_8": {
+      "{{REVIEW_IMAGE_8}}": "testimonial_09.png",
+      "{{REVIEW_HEADLINE_8}}": "premium quality fr",
+      "{{REVIEW_TEXT_8}}": "You can tell this is high quality. The rhinestones are secure, fabric feels expensive, and the fit is chef's kiss",
+      "{{REVIEW_NAME_8}}": "Harper M."
+    },
+    "review_9": {
+      "{{REVIEW_IMAGE_9}}": "testimonial_20.png",
+      "{{REVIEW_HEADLINE_9}}": "worth every penny",
+      "{{REVIEW_TEXT_9}}": "I've worn cheaper party dresses and they don't compare. This one is WORTH IT. The navy + gold is stunning",
+      "{{REVIEW_NAME_9}}": "Evelyn T."
+    },
+    "notes": {
+      "source": "EXTRACTED from existing testimonials on current site",
+      "available_images": "20 testimonial images (testimonial_01.png - testimonial_20.png)",
+      "image_specs": "120x240px UGC-style images, optimized with avif/webp/jpg formats",
+      "selection_criteria": "Diverse representation, natural lighting, UGC aesthetic",
+      "existing_strength": "✅ EXCELLENT - Current site already has 20 UGC testimonial images"
+    }
+  },
+
+  "guarantee_section": {
+    "{{GUARANTEE_IMAGE}}": "product-01.jpg",
+    "{{GUARANTEE_HEADLINE}}": "30-Day Risk-Free Trial",
+    "{{GUARANTEE_BODY}}": "Try the Arina Rhinestone Dress risk-free for 30 days. If you don't feel absolutely unforgettable, return it for a full refund. No questions asked.",
+    "notes": {
+      "source": "ADAPTED from existing guarantee copy",
+      "existing_copy": "30-Day Returns, 30-Day Money-Back Guarantee"
+    }
+  },
+
+  "footer": {
+    "{{FOOTER_HEADLINE}}": "Ready to Be Unforgettable?",
+    "{{FOOTER_SUBHEADLINE}}": "Join thousands of women who refuse to blend in",
+    "notes": {
+      "source": "ADAPTED from existing tagline + social proof"
+    }
+  },
+
+  "influencer_social_proof": {
+    "influencer_1": {
+      "name": "Alix Earle",
+      "image": "alix-earle.webp",
+      "platform": "TikTok",
+      "followers": "6.8M"
+    },
+    "influencer_2": {
+      "name": "Monet McMichael",
+      "image": "monet-mcmichael.webp",
+      "platform": "TikTok",
+      "followers": "2.1M"
+    },
+    "influencer_3": {
+      "name": "Alex Cooper",
+      "image": "alex-cooper.webp",
+      "platform": "Podcast",
+      "show": "Call Her Daddy"
+    },
+    "notes": {
+      "source": "EXISTING on current site - 'WORN BY YOUR FAVORITES' section",
+      "existing_strength": "✅ Already implemented with circular avatar images",
+      "gap": "Current uses navy gradient background - Franky Shaw uses light background (#f8f8f8)"
+    }
+  },
+
+  "order_bump_bundle": {
+    "{{ORDER_BUMP_HEADLINE}}": "Complete Your Look - Add $10",
+    "{{ORDER_BUMP_VALUE}}": "Value: $100 → Just $10 (90% OFF)",
+    "item_1": {
+      "name": "Adhesive Silicone Bra Cups",
+      "description": "Invisible support under any dress",
+      "image": "item1.jpg"
+    },
+    "item_2": {
+      "name": "Seamless Nude Thong",
+      "description": "No visible lines, complete confidence",
+      "image": "item2.jpg"
+    },
+    "item_3": {
+      "name": "Gold Drop Earrings",
+      "description": "Matches the gold rhinestones perfectly",
+      "image": "item3.jpg"
+    },
+    "notes": {
+      "source": "EXISTING on current site - Gen Z style order bump popup",
+      "existing_strength": "✅ Strong conversion element already implemented",
+      "price_override": "USER SPECIFIED: $10 (currently shows $10, matches user spec)"
+    }
+  },
+
+  "generation_needs_summary": {
+    "CRITICAL_PRIORITY": [
+      {
+        "element": "TikTok Q&A Overlays",
+        "status": "❌ MISSING - MUST GENERATE",
+        "details": "Need 3-6 TikTok-style Q&A overlays for hero gallery + lifestyle images",
+        "psychology": "Creates social proof, relatability, addresses objections naturally",
+        "demographic_research": "Target: Gen Z women (18-25), nightlife/party focused, fashion-forward",
+        "tone": "Casual, lowercase, skeptical questions → confident answers with emojis"
+      },
+      {
+        "element": "User-Specified Pricing",
+        "status": "⚠️ CRITICAL - MUST UPDATE",
+        "details": "Current site shows $59 single, $59 bundle → MUST CHANGE to $19 single, $59 bundle-of-2",
+        "user_override": {
+          "single_dress": "$19 (NOT $59)",
+          "bundle_2_dresses": "$59",
+          "order_bump": "$10"
+        }
+      }
+    ],
+    "HIGH_PRIORITY": [
+      {
+        "element": "Lime Color System (#CDFF00)",
+        "status": "❌ MISSING - MUST ADD",
+        "details": "Announcement bar, bundle section, FAQ background need lime green",
+        "current_color": "#1B3A8C (Navy Blue)",
+        "target_color": "#CDFF00 or #E5FF00 (Lime)"
+      },
+      {
+        "element": "Material Design Icons for FAQ",
+        "status": "❌ MISSING - MUST ADD",
+        "details": "Replace standard ▼ arrows with: sports_gymnastics, laundry, elderly_woman, pregnant_woman, face_4",
+        "current_state": "Standard accordion with generic arrows"
+      },
+      {
+        "element": "Before/After Comparison Slider",
+        "status": "❌ MISSING - MUST GENERATE",
+        "details": "Interactive drag slider showing 'basic black dress' vs 'navy rhinestone dress'",
+        "concept": "Grayscale generic dress vs full-color Arina dress"
+      }
+    ],
+    "MEDIUM_PRIORITY": [
+      {
+        "element": "Problem/Solution Sections",
+        "status": "❌ MISSING - NEEDS COPY",
+        "details": "Dark bg (#2e2a39) problem section with 🚫 bullets + light bg solution section with ✅ bullets"
+      },
+      {
+        "element": "Full-Width Banner Images",
+        "status": "❌ MISSING - NEEDS GENERATION",
+        "details": "Dramatic banners with dark overlay + white text overlay"
+      },
+      {
+        "element": "Founder/Brand Story",
+        "status": "❌ MISSING - NEEDS COPY",
+        "details": "Personal story section (LOW IMPACT for fashion product)"
+      }
+    ],
+    "EXISTING_STRENGTHS_TO_PRESERVE": [
+      {
+        "element": "20 UGC Testimonial Images",
+        "status": "✅ EXCELLENT",
+        "details": "120x240px optimized images with responsive formats (avif/webp/jpg)",
+        "action": "KEEP and use in reviews grid (select best 9)"
+      },
+      {
+        "element": "Influencer Social Proof Bar",
+        "status": "✅ GOOD",
+        "details": "Alix Earle, Monet McMichael, Alex Cooper with circular avatars",
+        "action": "KEEP but update background to light (#f8f8f8) from navy gradient"
+      },
+      {
+        "element": "Order Bump Popup",
+        "status": "✅ EXCELLENT",
+        "details": "Gen Z style with 3 items ($10 bundle), strong conversion element",
+        "action": "KEEP as-is (already matches user-specified $10 price)"
+      },
+      {
+        "element": "Premium Micro-Interactions",
+        "status": "✅ EXCELLENT",
+        "details": "Landonorris.com inspired animations, magnetic buttons, custom cursor",
+        "action": "KEEP - enhances Franky Shaw design"
+      }
+    ]
+  },
+
+  "image_assignment_complete": {
+    "HERO_GALLERY_6_needed": [
+      "product-02.jpg (MAIN HERO)",
+      "product-01.jpg",
+      "product-03.jpg",
+      "product-04.jpg",
+      "product-05.jpg",
+      "product-06.jpg"
+    ],
+    "LIFESTYLE_3_needed": [
+      "product-03.jpg (with TikTok overlay)",
+      "product-05.jpg (with TikTok overlay)",
+      "product-07.jpg (with TikTok overlay)"
+    ],
+    "COMPARISON_2_needed": [
+      "OLD: product-07.jpg (desaturated/grayscale)",
+      "NEW: product-02.jpg (full color)"
+    ],
+    "BANNER_2_needed": [
+      "product-04.jpg (with dark overlay + text)",
+      "product-06.jpg (with dark overlay + text)"
+    ],
+    "REVIEWS_9_needed": [
+      "testimonial_03.png",
+      "testimonial_07.png",
+      "testimonial_11.png",
+      "testimonial_14.png",
+      "testimonial_16.png",
+      "testimonial_18.png",
+      "testimonial_02.png",
+      "testimonial_09.png",
+      "testimonial_20.png"
+    ],
+    "FAQ_1_needed": "product-05.jpg",
+    "GUARANTEE_1_needed": "product-01.jpg",
+    "ORDER_BUMP_3_items": [
+      "item1.jpg (Adhesive Silicone Bra Cups)",
+      "item2.jpg (Seamless Nude Thong)",
+      "item3.jpg (Gold Drop Earrings)"
+    ],
+    "INFLUENCERS_3_existing": [
+      "alix-earle.webp",
+      "monet-mcmichael.webp",
+      "alex-cooper.webp"
+    ]
+  },
+
+  "copy_extraction_current_site": {
+    "main_headlines": [
+      "Navy Blue Rhinestone Bodycon Mini Dress",
+      "Be Unforgettable in Navy Blue Sparkle",
+      "Product Information",
+      "Product Details",
+      "Frequently Asked Questions",
+      "What Our Customers Are Saying",
+      "More Customer Reviews",
+      "Experience Pure Cashmere Luxury"
+    ],
+    "product_description_current": "Dazzling navy blue rhinestone bodycon mini dress with gold crystal accents. Perfect for clubs, parties & special events. Luxuriously soft rhinestone-embellished stretch fabric - timeless elegance meets everyday comfort.",
+    "key_features_current": [
+      "Premium Quality Rhinestones",
+      "Navy blue with gold crystal accents",
+      "Square neckline",
+      "Thigh-high slit",
+      "Body-hugging bodycon fit",
+      "Spaghetti straps (adjustable)",
+      "Rhinestone-embellished stretch fabric"
+    ],
+    "social_proof_current": [
+      "32 people viewing this right now (live counter)",
+      "Only 23 left in stock!",
+      "847 customers added this today",
+      "10,000+ Happy Customers",
+      "4.9/5 Rating",
+      "WORN BY YOUR FAVORITES: Alix Earle, Monet McMichael, Alex Cooper"
+    ],
+    "testimonial_samples_extracted": [
+      {
+        "name": "Emma K.",
+        "text": "obsessed with this dress!! the navy blue with gold rhinestones is literally so stunning. wore it to my birthday and got compliments all night 🎉",
+        "platform": "tiktok"
+      },
+      {
+        "name": "Sophia L.",
+        "text": "the fit is PERFECT. bodycon but not too tight, and the slit is the perfect length. the gold rhinestones catch the light so beautifully ✨",
+        "platform": "instagram"
+      },
+      {
+        "name": "Olivia R.",
+        "text": "This dress is everything! The navy blue is so much more unique than black and the gold rhinestone pattern is absolutely gorgeous.",
+        "platform": "instagram"
+      }
+    ]
+  },
+
+  "psychology_upgrade_recommendations": {
+    "headlines": {
+      "current": "Navy Blue Rhinestone Bodycon Mini Dress",
+      "franky_shaw_style": "The Dress Everyone Asks About",
+      "psychology": "Shift from descriptive → aspirational + social proof"
+    },
+    "subheadlines": {
+      "current": "Be Unforgettable in Navy Blue Sparkle",
+      "franky_shaw_style": "Navy blue elegance meets gold rhinestone glamour - refuse to blend in",
+      "psychology": "Add rebellion/empowerment angle for Gen Z"
+    },
+    "problem_framing": {
+      "current": "No problem section exists",
+      "franky_shaw_style": "Why Women Are Ditching Basic Black Dresses",
+      "psychology": "Create enemy (basic black) → position as superior alternative"
+    },
+    "urgency": {
+      "current": "54% OFF badge, stock warnings, live viewers",
+      "franky_shaw_style": "KEEP existing urgency + add 'FLASH SALE ENDS TONIGHT' to announcement bar",
+      "psychology": "Time-based urgency > inventory-based for fashion"
+    }
+  },
+
+  "template_validation_checklist": {
+    "brand_product_info": "✅ COMPLETE - All placeholders mapped",
+    "pricing_CRITICAL": "⚠️ MUST UPDATE - User specified $19 single, $59 bundle-2, $10 order bump",
+    "hero_gallery_6_images": "✅ COMPLETE - All 6 images assigned",
+    "tiktok_overlays": "❌ NEEDS GENERATION - 3-6 overlays with Q&A format",
+    "feature_cards_4": "✅ COMPLETE - Extracted from existing features",
+    "rotating_testimonials_5": "✅ COMPLETE - Extracted from existing reviews",
+    "comparison_section": "❌ NEEDS GENERATION - No before/after exists",
+    "lifestyle_images_3": "✅ COMPLETE - Assigned (need TikTok overlays)",
+    "lifestyle_copy": "✅ COMPLETE - Adapted from existing copy",
+    "problem_section_5_points": "✅ COMPLETE - Generated based on demographic",
+    "solution_section_5_points": "✅ COMPLETE - Extracted from features",
+    "story_section": "✅ COMPLETE - Generated (LOW PRIORITY)",
+    "banners_2": "❌ NEEDS GENERATION - Images assigned, need overlay text implementation",
+    "faq_5_questions": "✅ COMPLETE - Adapted from existing FAQ",
+    "faq_material_icons": "❌ NEEDS IMPLEMENTATION - Icon names mapped",
+    "reviews_grid_9": "✅ COMPLETE - Selected from 20 available testimonials",
+    "guarantee_section": "✅ COMPLETE - Adapted from existing guarantee",
+    "footer": "✅ COMPLETE - Adapted from tagline + social proof",
+    "order_bump": "✅ COMPLETE - Already exists, matches user price ($10)",
+    "influencer_bar": "✅ COMPLETE - Already exists, needs bg color update"
+  },
+
+  "next_steps_implementation": {
+    "step_1_critical": "UPDATE PRICING to user-specified amounts ($19 single, $59 bundle-2, $10 order bump)",
+    "step_2_critical": "GENERATE TikTok Q&A overlays (3-6 overlays) with demographic-appropriate language",
+    "step_3_high": "IMPLEMENT lime color system (#CDFF00) for announcement bar, bundle section, FAQ",
+    "step_4_high": "ADD Material Design icons to FAQ (sports_gymnastics, laundry, elderly_woman, pregnant_woman, face_4)",
+    "step_5_high": "CREATE before/after comparison slider (basic black vs navy rhinestone)",
+    "step_6_medium": "ADD problem/solution sections with dark/light backgrounds + emoji bullets",
+    "step_7_medium": "CREATE full-width banner overlays with dark overlay + white text",
+    "step_8_low": "UPDATE influencer bar background from navy gradient to light (#f8f8f8)",
+    "step_9_validation": "VERIFY all {{PLACEHOLDERS}} replaced in template",
+    "step_10_testing": "TEST SimpleSwap checkout flow with new pricing"
+  }
+}

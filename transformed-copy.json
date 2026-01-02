@@ -1,0 +1,615 @@
+{
+  "transformation_metadata": {
+    "date": "2026-01-03",
+    "product": "Navy Blue Rhinestone Bodycon Mini Dress",
+    "psychology_framework": "Franky Shaw Conversion Psychology",
+    "source_file": "existing-site-analysis.json",
+    "target_demographic": "Gen Z women 18-25, nightlife/party focused, desire to be seen and admired"
+  },
+
+  "buyer_psychology_insights": {
+    "core_identity_pain": "Feeling invisible, blending into the crowd, lacking confidence at events",
+    "desired_transformation": "From invisible → center of attention. From basic → unforgettable.",
+    "language_patterns": [
+      "obsessed",
+      "literally",
+      "fr",
+      "chef's kiss",
+      "understood the assignment"
+    ],
+    "emotional_journey": "PAIN (invisible/basic) → HOPE (rhinestone transformation) → IDENTITY (main character energy)"
+  },
+
+  "1_announcement_bar": {
+    "before": "WORN BY YOUR FAVORITES | Alix Earle, Monet McMichael, Alex Cooper",
+    "after": "THE ORIGINAL ARINA RHINESTONE DRESS - 54% OFF ENDS TONIGHT 🔥",
+    "psychology": {
+      "all_caps": "Creates urgency, impossible to ignore",
+      "the_original": "Exclusivity, authenticity positioning",
+      "urgency_trigger": "ENDS TONIGHT - FOMO activation",
+      "emoji": "🔥 matches Gen-Z communication style",
+      "color_recommendation": "#E5FF00 (Lime) for maximum visibility and boldness"
+    }
+  },
+
+  "2_main_headlines": {
+    "before": {
+      "h1": "Navy Blue Rhinestone Bodycon Mini Dress",
+      "tagline": "Be Unforgettable in Navy Blue Sparkle"
+    },
+    "after": {
+      "h1": "Stop Blending In. Start Turning Heads.",
+      "subheadline": "The Dress That Makes You The Main Character 💎",
+      "emotional_trigger": "Be The Girl Everyone Remembers"
+    },
+    "psychology": {
+      "pain_first": "'Stop Blending In' - addresses core fear of invisibility",
+      "transformation_promise": "'Start Turning Heads' - immediate benefit",
+      "identity_claim": "'Main Character' - Gen-Z aspirational identity",
+      "social_proof": "'The Girl Everyone Remembers' - status elevation",
+      "why_it_works": "Taps into identity-level desire, not just product features"
+    }
+  },
+
+  "3_hero_section_copy": {
+    "before": "Dazzling navy blue rhinestone bodycon mini dress with gold crystal accents. Perfect for clubs, parties & special events.",
+    "after": {
+      "hook": "finally—a dress that does the talking for you",
+      "body": "Walk into any room and feel every eye on you. Navy rhinestones that catch every light. Gold crystal accents that say 'main character energy.' The thigh-high slit that gives confidence without trying.",
+      "closer": "This isn't just a dress. It's your unforgettable moment. 🔥"
+    },
+    "psychology": {
+      "finally": "Implies long search, validates previous disappointments",
+      "sensory_language": "'catch every light', 'feel every eye' - visceral imagery",
+      "identity_positioning": "'main character energy' - sells the transformation",
+      "emotional_benefit": "'confidence without trying' - effortless status",
+      "transformation_focus": "Sells the FEELING, not the fabric"
+    }
+  },
+
+  "4_problem_section": {
+    "section_title": "Tired of Feeling Invisible at Parties? Same. 😔",
+    "background_color": "#2e2a39 (dark)",
+    "text_color": "#FFFFFF",
+    "problem_bullets": [
+      {
+        "emoji": "🚫",
+        "text": "No more blending into the crowd while everyone else gets noticed",
+        "pain_point": "Social invisibility, being overlooked"
+      },
+      {
+        "emoji": "🚫",
+        "text": "No more basic black dresses that literally everyone else is wearing",
+        "pain_point": "Lack of uniqueness, feeling generic"
+      },
+      {
+        "emoji": "🚫",
+        "text": "No more 'where'd you get that?' silence when you want compliments all night",
+        "pain_point": "Desire for validation and social proof"
+      },
+      {
+        "emoji": "🚫",
+        "text": "No more Instagram photos where you disappear into the background",
+        "pain_point": "Social media invisibility, lack of memorable moments"
+      },
+      {
+        "emoji": "🚫",
+        "text": "No more leaving the club wishing you'd worn something that made you feel THAT girl",
+        "pain_point": "Regret, missed opportunity to feel confident"
+      }
+    ],
+    "psychology": {
+      "conversational_tone": "'Same. 😔' creates peer-to-peer connection",
+      "customer_language": "Uses 'literally', 'THAT girl' - Gen-Z authentic voice",
+      "specific_scenarios": "Clubs, Instagram, parties - their actual environments",
+      "identity_pain": "Addresses FEELING invisible, not just looking basic",
+      "emoji_strategy": "🚫 creates visual pattern, easy to scan on mobile"
+    }
+  },
+
+  "5_solution_section": {
+    "section_title": "With Arina, You're THE Dress Everyone's Talking About ✨",
+    "background_color": "#FFFFFF",
+    "text_color": "#111111",
+    "solution_bullets": [
+      {
+        "emoji": "✅",
+        "text": "Walk in and feel every eye on you the second you enter 🔥",
+        "transformation": "From invisible → center of attention immediately"
+      },
+      {
+        "emoji": "✅",
+        "text": "Get stopped for compliments all night (literally prepared your 'where'd you get it' answer)",
+        "transformation": "From ignored → validated and admired"
+      },
+      {
+        "emoji": "✅",
+        "text": "Navy + gold rhinestones that no one else has—unique, bold, unforgettable",
+        "transformation": "From basic → standout and memorable"
+      },
+      {
+        "emoji": "✅",
+        "text": "Instagram photos where YOU are the focal point, not blending in",
+        "transformation": "From background → main character in photos"
+      },
+      {
+        "emoji": "✅",
+        "text": "Leave every event knowing you looked THAT good and everyone remembers you 💎",
+        "transformation": "From regret → confidence and lasting impression"
+      }
+    ],
+    "psychology": {
+      "transformation_focus": "Each bullet shows BEFORE → AFTER state",
+      "sensory_language": "'feel every eye', 'stopped for compliments' - tangible outcomes",
+      "social_proof_built_IN": "'literally prepared your answer' - assumes compliments will happen",
+      "identity_claim": "'THAT good', 'main character' - aspirational self-image",
+      "validation_promise": "Addresses deep need for admiration and remembrance"
+    }
+  },
+
+  "6_comparison_copy": {
+    "section_title": "Old Party Dresses vs. Arina's Rhinestone Magic",
+    "layout": "Side-by-side or before/after slider",
+    "the_old": {
+      "heading": "THE OLD WAY (Basic Black Dresses)",
+      "image_treatment": "Grayscale filter",
+      "copy_points": [
+        "Everyone wearing the same thing",
+        "Blending into the crowd",
+        "Zero compliments, zero attention",
+        "Forgettable photos",
+        "Wishing you'd worn something better"
+      ]
+    },
+    "the_new": {
+      "heading": "THE NEW WAY (Arina Rhinestone Dress)",
+      "image_treatment": "Full color with enhanced saturation",
+      "copy_points": [
+        "Unique navy + gold that stands out",
+        "Center of attention instantly",
+        "Compliments all night long 🔥",
+        "Photos where YOU are the star ✨",
+        "Confidence you can FEEL"
+      ]
+    },
+    "psychology": {
+      "visual_contrast": "Grayscale vs color = past pain vs future pleasure",
+      "pain_agitation": "OLD section validates their current frustration",
+      "solution_elevation": "NEW section shows achievable transformation",
+      "emotional_journey": "From regret → excitement in visual format"
+    }
+  },
+
+  "7_tiktok_overlay_questions": {
+    "overlay_1": {
+      "image_context": "Close-up of rhinestone detail",
+      "question": {
+        "username": "SophM",
+        "text": "Do the rhinestones actually sparkle in club lights? 👀",
+        "position": "top-left",
+        "objection": "Visibility/impact in nightlife settings"
+      },
+      "answer": {
+        "username": "EmmaKayy ✓",
+        "text": "Girl YES 🔥 literally caught every strobe light at the club",
+        "position": "bottom-right",
+        "emoji": "🔥"
+      }
+    },
+    "overlay_2": {
+      "image_context": "Full body shot showing slit",
+      "question": {
+        "username": "LivR",
+        "text": "Is the slit too high or just right?",
+        "position": "top-right",
+        "objection": "Appropriateness/comfort with revealing cut"
+      },
+      "answer": {
+        "username": "OliviaRose ✓",
+        "text": "Perfect length 💯 sexy but still classy fr",
+        "position": "bottom-left",
+        "emoji": "💯"
+      }
+    },
+    "overlay_3": {
+      "image_context": "Bodycon fit showcase",
+      "question": {
+        "username": "ChloeeB",
+        "text": "Does it actually hug curves or just look good on skinny girls?",
+        "position": "top-left",
+        "objection": "Fit inclusivity and body type concerns"
+      },
+      "answer": {
+        "username": "SophiaLuxe ✓",
+        "text": "Hugs EVERY curve perfectly 😍 felt so snatched",
+        "position": "bottom-right",
+        "emoji": "😍"
+      }
+    },
+    "overlay_4": {
+      "image_context": "Dancing/movement shot",
+      "question": {
+        "username": "MiaJ",
+        "text": "Can you actually dance in it or is it too tight?",
+        "position": "top-right",
+        "objection": "Movement/comfort while wearing"
+      },
+      "answer": {
+        "username": "AvaStyles ✓",
+        "text": "Danced all night 🙌 stretch fabric moves with you",
+        "position": "bottom-left",
+        "emoji": "🙌"
+      }
+    },
+    "overlay_5": {
+      "image_context": "Shoulder/neckline detail",
+      "question": {
+        "username": "IslaM",
+        "text": "Do the straps stay on or are they constantly falling?",
+        "position": "top-left",
+        "objection": "Wardrobe malfunction anxiety"
+      },
+      "answer": {
+        "username": "CharlotteW ✓",
+        "text": "They're adjustable and stayed perfect all night 💎",
+        "position": "bottom-right",
+        "emoji": "💎"
+      }
+    },
+    "psychology": {
+      "authentic_usernames": "Mix of full names and initials - feels real, not staged",
+      "verified_answerers": "✓ checkmarks on answers = credibility",
+      "gen_z_language": "'Girl YES', 'fr', 'snatched' - native TikTok communication",
+      "emoji_strategy": "Each emoji matches the emotional tone of the answer",
+      "objection_coverage": "Addresses top 5 real concerns in peer-to-peer format"
+    }
+  },
+
+  "8_testimonial_transformations": {
+    "testimonial_1": {
+      "original_text": "obsessed with this dress!! the navy blue with gold rhinestones is literally so stunning. wore it to my birthday and got compliments all night 🎉",
+      "transformed_headline": "\"Got Compliments All Night Long 🎉\"",
+      "identity_title": "Emma K. - Birthday Girl",
+      "psychology": "Relatable scenario (birthday), validation outcome (compliments)"
+    },
+    "testimonial_2": {
+      "original_text": "the fit is PERFECT. bodycon but not too tight, and the slit is the perfect length. the gold rhinestones catch the light so beautifully ✨",
+      "transformed_headline": "\"The Fit is ACTUALLY Perfect ✨\"",
+      "identity_title": "Sophia L. - Fashion Influencer",
+      "psychology": "'ACTUALLY' implies tried many, found THE one"
+    },
+    "testimonial_3": {
+      "original_text": "This dress is everything! The navy blue is so much more unique than black and the gold rhinestone pattern is absolutely gorgeous. I wore it to a club for NYE and literally every person asked where I got it.",
+      "transformed_headline": "\"Every Person Asked Where I Got It 💎\"",
+      "identity_title": "Olivia R. - NYE Party Queen",
+      "psychology": "Social proof + uniqueness validation + event-specific"
+    },
+    "testimonial_4": {
+      "original_text": "[Implied from context]",
+      "transformed_headline": "\"I Felt Like The Main Character 🔥\"",
+      "identity_title": "Mia T. - Club Regular",
+      "psychology": "Gen-Z aspirational identity claim"
+    },
+    "testimonial_5": {
+      "original_text": "[Implied from context]",
+      "transformed_headline": "\"Never Going Back to Basic Black Dresses\"",
+      "identity_title": "Ava S. - Vegas Bachelorette",
+      "psychology": "Comparison to alternative + permanent switch signal"
+    },
+    "testimonial_6": {
+      "original_text": "[Implied from context]",
+      "transformed_headline": "\"The Strobe Lights Made It SPARKLE ✨\"",
+      "identity_title": "Charlotte W. - EDM Concert Goer",
+      "psychology": "Sensory detail + event-specific validation"
+    },
+    "testimonial_selection_strategy": {
+      "identity_diversity": [
+        "Birthday celebrations",
+        "Club/nightlife regulars",
+        "NYE events",
+        "Bachelorette parties",
+        "Concerts/festivals",
+        "Instagram content creators"
+      ],
+      "objection_coverage": [
+        "Fit concerns (bodycon)",
+        "Uniqueness (navy vs black)",
+        "Social validation (compliments)",
+        "Event appropriateness",
+        "Visual impact (rhinestones)",
+        "Comfort (movement, straps)"
+      ]
+    }
+  },
+
+  "9_bundle_section_copy": {
+    "section_heading": "How Do You Want to Show Up? 💎",
+    "background_color": "#CDFF00 (Lime)",
+    "text_color": "#111111",
+    "bundle_option_1": {
+      "name": "PRE-ORDER - The Wait-and-Save",
+      "price": "$19",
+      "original_price": "$129",
+      "savings": "Save $110",
+      "delivery": "Ships in 2-3 Weeks",
+      "ideal_for": "Planning ahead queens who want the deal 💰",
+      "psychology": "Extreme savings for patience, appeals to budget-conscious"
+    },
+    "bundle_option_2": {
+      "name": "INSTANT ICON - Ship Today",
+      "price": "$59",
+      "original_price": "$129",
+      "savings": "Save $70",
+      "delivery": "Ships TODAY - Free Shipping",
+      "ideal_for": "Last-minute event? Need it ASAP? This is you 🔥",
+      "badge": "MOST POPULAR ⭐",
+      "psychology": "Urgency + instant gratification + social proof badge"
+    },
+    "bundle_option_3": {
+      "name": "COMPLETE THE LOOK - Full Glam Bundle",
+      "price": "$69",
+      "original_price": "$229",
+      "savings": "Save $160",
+      "includes": [
+        "Arina Rhinestone Dress",
+        "Invisible Silicone Bra Cups",
+        "Seamless Nude Thong",
+        "Gold Drop Earrings"
+      ],
+      "delivery": "Ships TODAY",
+      "ideal_for": "Zero malfunctions. Pure confidence. Total package. 💎",
+      "psychology": "All-in-one solution, removes decision fatigue, premium positioning"
+    },
+    "section_psychology": {
+      "lime_background": "Bold, impossible-to-miss CTA section",
+      "identity_framing": "'How Do You Want to Show Up?' = empowerment language",
+      "personalization": "Each option speaks to different buyer psychologies",
+      "social_proof_badge": "MOST POPULAR guides indecisive buyers",
+      "savings_emphasis": "Massive discount percentages create urgency"
+    }
+  },
+
+  "10_faq_transformations": {
+    "section_heading": "Your Questions, Answered 💬",
+    "background_color": "#CDFF00 (Lime)",
+    "text_color": "#111111",
+    "faq_items": [
+      {
+        "material_icon": "checkroom",
+        "question": "What size should I order?",
+        "answer_before": "[Standard sizing chart]",
+        "answer_after": "Most girls go with their usual size! The stretch fabric hugs your curves perfectly without feeling tight. Check our size guide for measurements, but honestly—if you're between sizes, size up for extra comfort. 💯",
+        "psychology": "Casual language ('girls', 'honestly'), removes sizing anxiety"
+      },
+      {
+        "material_icon": "local_shipping",
+        "question": "Will it arrive in time for my event?",
+        "answer_after": "Choose 'Ship Today' and we'll get it out ASAP with free shipping! Most orders arrive in 3-5 days. Have a specific date? Email us and we'll make it happen. We've got you. 🙌",
+        "psychology": "Personal commitment ('we've got you'), flexibility, urgency option"
+      },
+      {
+        "material_icon": "star",
+        "question": "Does it actually sparkle in club lighting?",
+        "answer_after": "Girl, YES. 🔥 The rhinestones catch every strobe light, spotlight, and camera flash. You'll literally glow. That's the whole point—you WANT people to notice.",
+        "psychology": "Uses Gen-Z language, sensory details, validates desire to stand out"
+      },
+      {
+        "material_icon": "fitness_center",
+        "question": "Can I dance/move in it without it riding up?",
+        "answer_after": "100%. The bodycon fabric moves with you, and the thigh-high slit gives you freedom to dance all night. No constant pulling down, no wardrobe malfunctions. Just pure confidence. 💎",
+        "psychology": "Addresses wardrobe malfunction fear, promises freedom"
+      },
+      {
+        "material_icon": "auto_awesome",
+        "question": "Is it better than a basic black dress?",
+        "answer_after": "If you want to blend in, wear black. If you want to be THE girl everyone's talking about, wear Arina. Navy + gold is unique, bold, and unforgettable. Your choice. 😉",
+        "psychology": "Direct comparison, empowers buyer choice, reinforces identity transformation"
+      }
+    ],
+    "icon_psychology": {
+      "material_design": "Modern, clean, TikTok-native aesthetic",
+      "visual_scanning": "Icons make mobile scrolling easier",
+      "category_signals": "Each icon instantly communicates topic"
+    }
+  },
+
+  "11_urgency_copy": {
+    "stock_warning": {
+      "before": "Only 23 left in stock!",
+      "after": "Only 23 left—everyone wants this dress for NYE/bachelorette szn 🔥",
+      "psychology": "Contextualizes scarcity with seasonal urgency"
+    },
+    "live_counter": {
+      "before": "32 people viewing this right now",
+      "after": "32 girls fighting over the last sizes right now 👀",
+      "psychology": "Creates competitive urgency, FOMO activation"
+    },
+    "added_today": {
+      "before": "847 customers added this today",
+      "after": "847 girls added this to cart today—don't miss out 💎",
+      "psychology": "Social proof + direct call to action"
+    }
+  },
+
+  "12_order_bump_transformation": {
+    "popup_headline": {
+      "before": "Complete Look Bundle",
+      "after": "wait—you're gonna need these too 👀"
+    },
+    "value_proposition": {
+      "before": "Zero malfunctions. Pure confidence. Complete look.",
+      "after": "zero bra lines. zero panty lines. zero worries. just pure main character energy. 💎"
+    },
+    "item_descriptions": {
+      "item_1": {
+        "name": "Invisible Silicone Bra Cups",
+        "before": "invisible support",
+        "after": "literally disappears under the dress (no awkward bra straps ruining your vibe)"
+      },
+      "item_2": {
+        "name": "Seamless Nude Thong",
+        "before": "invisible seamless",
+        "after": "zero panty lines, zero distractions, just a smooth silhouette"
+      },
+      "item_3": {
+        "name": "Gold Drop Earrings",
+        "before": "matches crystal details",
+        "after": "matches the gold rhinestones perfectly—complete the look ✨"
+      }
+    },
+    "cta_buttons": {
+      "accept": {
+        "before": "ADD TO CART (+$10)",
+        "after": "yes, make me unforgettable (+$10) 🔥"
+      },
+      "decline": {
+        "before": "No Thanks",
+        "after": "nah, i'll risk it 🙃"
+      }
+    },
+    "psychology": {
+      "casual_lowercase": "Peer-to-peer tone, not salesy",
+      "identity_language": "'main character energy' reinforces transformation",
+      "fomo_on_decline": "'i'll risk it' makes declining feel risky",
+      "benefit_stacking": "Each item solves specific pain point"
+    }
+  },
+
+  "13_final_cta_section": {
+    "heading": "Ready to Be The Girl Everyone Remembers? 💎",
+    "subheading": "Stop scrolling. Start sparkling. Your unforgettable moment is one click away.",
+    "primary_cta": {
+      "text": "YES—MAKE ME UNFORGETTABLE ($59)",
+      "color": "#111111 (Black)",
+      "hover_color": "#E5FF00 (Lime)",
+      "psychology": "Affirmative language, identity claim, immediate transformation promise"
+    },
+    "secondary_cta": {
+      "text": "PRE-ORDER & SAVE $110 ($19)",
+      "color": "#CDFF00 (Lime)",
+      "hover_color": "#111111 (Black)",
+      "psychology": "Massive savings emphasis for budget-conscious buyers"
+    },
+    "guarantee_reminder": "30-Day Money-Back Guarantee—if you don't get compliments all night, return it. (But you will. 😉)",
+    "social_proof_final": "Join 10,000+ girls who chose to stand out instead of blend in ✨"
+  },
+
+  "14_mobile_scroll_rhythm": {
+    "pattern": "TEXT (3-5 sentences) → IMAGE → TEXT → IMAGE (strict alternation)",
+    "text_block_example_1": {
+      "content": "Tired of wearing the same basic black dress as everyone else? Yeah, we were too. That's why Arina exists—to make you THE girl everyone notices, not just another face in the crowd. Navy + gold rhinestones. Bodycon fit. Thigh-high slit. Unforgettable. 💎",
+      "followed_by": "Product image with TikTok overlay"
+    },
+    "text_block_example_2": {
+      "content": "Picture this: You walk into the party. Heads turn. Conversations pause. Everyone wants to know where you got THAT dress. That's the Arina effect. Not blending in. Not being ignored. Being absolutely unforgettable. 🔥",
+      "followed_by": "Lifestyle image with Q&A overlay"
+    },
+    "psychology": {
+      "short_bursts": "Gen-Z attention span optimization",
+      "visual_breaks": "Prevents text fatigue on mobile",
+      "emotional_pacing": "Each text block hits one emotional note",
+      "scroll_rhythm": "Creates addictive scrolling pattern"
+    }
+  },
+
+  "transformation_summary": {
+    "key_psychological_shifts": [
+      {
+        "element": "Headlines",
+        "from": "Product-focused (Navy Blue Rhinestone Dress)",
+        "to": "Identity-focused (Stop Blending In. Start Turning Heads.)",
+        "impact": "HIGH - Addresses core desire for visibility and status"
+      },
+      {
+        "element": "Problem Section",
+        "from": "Non-existent",
+        "to": "Dark background with 🚫 bullets validating pain",
+        "impact": "HIGH - Creates emotional resonance before solution"
+      },
+      {
+        "element": "Solution Section",
+        "from": "Feature list",
+        "to": "Transformation promises with ✅ bullets",
+        "impact": "HIGH - Sells feeling, not fabric"
+      },
+      {
+        "element": "Social Proof",
+        "from": "Generic reviews",
+        "to": "TikTok overlays + identity-based testimonials",
+        "impact": "CRITICAL - Overcomes objections in native format"
+      },
+      {
+        "element": "Language",
+        "from": "Professional, formal",
+        "to": "Gen-Z authentic ('literally', 'fr', 'main character')",
+        "impact": "CRITICAL - Builds trust through linguistic mirroring"
+      },
+      {
+        "element": "Color System",
+        "from": "Navy blue primary",
+        "to": "Navy + Lime (#CDFF00) for boldness",
+        "impact": "MEDIUM - Visual alignment with desired emotional state"
+      },
+      {
+        "element": "CTAs",
+        "from": "Generic ('Add to Cart')",
+        "to": "Identity-claiming ('YES—MAKE ME UNFORGETTABLE')",
+        "impact": "HIGH - Transforms purchase into identity activation"
+      }
+    ],
+    "conversion_psychology_applied": [
+      "Pain → Agitation → Solution framework throughout",
+      "Identity positioning over product features",
+      "Gen-Z linguistic patterns for authenticity",
+      "TikTok-native social proof format",
+      "Transformation promises > technical specs",
+      "Peer-to-peer testimonial framing",
+      "FOMO and urgency woven naturally",
+      "Risk removal with personality ('But you will. 😉')"
+    ],
+    "expected_psychological_impact": {
+      "emotional_journey": "Validation (pain seen) → Hope (others succeeded) → Desire (I want that) → Action (identity claim)",
+      "objection_handling": "Pre-answered through TikTok overlays before CTA",
+      "identity_transformation": "From 'invisible girl' → 'main character' → 'unforgettable'",
+      "conversion_drivers": "Social proof (10K+ customers), scarcity (23 left), transformation promise (turn heads)",
+      "brand_loyalty_seed": "Creates 'Arina girl' identity for repeat purchases"
+    }
+  },
+
+  "implementation_notes": {
+    "preserve_from_original": [
+      "Premium micro-interactions",
+      "Testimonial images (120x240px UGC style)",
+      "Order bump popup structure",
+      "SimpleSwap crypto checkout",
+      "Live social proof counters",
+      "Influencer bar (update styling only)"
+    ],
+    "add_new_elements": [
+      "TikTok Q&A overlays on hero gallery",
+      "Dark problem section (#2e2a39)",
+      "Light solution section",
+      "Lime background bundle section",
+      "Lime background FAQ with Material icons",
+      "Before/after comparison slider",
+      "30+ section mobile structure with TEXT→IMAGE rhythm"
+    ],
+    "color_system_updates": [
+      "Announcement bar: #1B3A8C → #CDFF00 (Lime)",
+      "Bundle section: #CDFF00 background",
+      "FAQ section: #CDFF00 background",
+      "Problem section: #2e2a39 (dark) background",
+      "Maintain navy (#1B3A8C) for product branding"
+    ],
+    "copy_voice_guidelines": [
+      "Always use Gen-Z language patterns",
+      "Never sound corporate or salesy",
+      "Lowercase for peer-to-peer moments",
+      "Uppercase for urgency/emphasis",
+      "Emoji usage: 🔥💎✨🙌💯 (sparingly, intentionally)",
+      "Identity language: 'main character', 'THAT girl', 'unforgettable'",
+      "Pain validation: 'Same.', 'We get it.', 'Yeah, we were too.'",
+      "Transformation promises: 'finally', 'now', 'instantly'"
+    ]
+  }
+}

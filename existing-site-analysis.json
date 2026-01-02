@@ -1,0 +1,615 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2026-01-03",
+    "product": "Navy Blue Rhinestone Bodycon Mini Dress",
+    "brand": "navyrhinestone",
+    "current_url": "https://navyrhinestone.com/",
+    "analyzed_file": "index.html",
+    "total_lines": 2140,
+    "franky_shaw_reference": "~/.claude/skills/franky-shaw-lander/MOBILE-SECTION-STRUCTURE.md"
+  },
+
+  "product_information": {
+    "product_name": "Navy Blue Rhinestone Bodycon Mini Dress",
+    "brand_name": "navyrhinestone",
+    "tagline": "Be Unforgettable in Navy Blue Sparkle",
+    "current_pricing": {
+      "sale_price": "$59",
+      "original_price": "$129",
+      "discount_percentage": "54% OFF",
+      "currency": "USD"
+    },
+    "key_features": [
+      "Premium Quality Rhinestones",
+      "Navy blue with gold crystal accents",
+      "Square neckline",
+      "Thigh-high slit",
+      "Body-hugging bodycon fit",
+      "Spaghetti straps (adjustable)",
+      "Rhinestone-embellished stretch fabric"
+    ],
+    "target_demographic": "Gen Z women (18-25), fashion-forward, nightlife/party focused",
+    "use_cases": [
+      "Clubs and nightclubs",
+      "Bachelorette parties",
+      "NYE events",
+      "Special occasions",
+      "Birthday parties",
+      "Vegas trips"
+    ]
+  },
+
+  "current_sections_structure": {
+    "total_sections": "~15 main sections",
+    "section_breakdown": [
+      {
+        "order": 1,
+        "name": "Announcement Bar",
+        "background": "#1B3A8C (Navy Blue - NOT Franky Shaw Lime)",
+        "exists": true,
+        "working_well": true,
+        "notes": "Dark navy blue instead of lime #E5FF00/#CDFF00"
+      },
+      {
+        "order": 2,
+        "name": "Influencer Social Proof Bar",
+        "exists": true,
+        "content": "WORN BY YOUR FAVORITES | Alix Earle, Monet McMichael, Alex Cooper",
+        "background": "Linear gradient navy (#1B3A8C to #0A1A4B)",
+        "notes": "EXISTS! Shows 3 influencers with avatars - matches Franky Shaw requirement"
+      },
+      {
+        "order": 3,
+        "name": "Product Hero Section",
+        "layout": "Two-column grid (image left, info right on desktop)",
+        "exists": true,
+        "components": [
+          "Main product image with thumbnail gallery",
+          "Product title (H1)",
+          "Tagline",
+          "Live viewer counter (32 people viewing)",
+          "Premium quality badge",
+          "Price box with sale pricing",
+          "Stock warning (23 left)",
+          "Added today badge (847 customers)",
+          "Size selector (XS-XXL)",
+          "Primary CTA: ADD TO CART - $59",
+          "Secondary CTA: PRE-ORDER - $19"
+        ],
+        "working_well": true
+      },
+      {
+        "order": 4,
+        "name": "Product Information Tabs",
+        "exists": true,
+        "position": "ABOVE THE FOLD (immediately after hero)",
+        "tabs": ["📦 Shipping", "📏 Size Guide", "📝 Care", "♻️ Returns"],
+        "notes": "Interactive tabbed interface for product details"
+      },
+      {
+        "order": 5,
+        "name": "Trust Badges Section",
+        "exists": true,
+        "badges": [
+          "Free Shipping",
+          "30-Day Returns",
+          "Secure Checkout",
+          "4.9/5 Rating",
+          "Premium Quality",
+          "Fast Shipping",
+          "30-Day Money-Back Guarantee"
+        ]
+      },
+      {
+        "order": 6,
+        "name": "Why Choose Compact Section",
+        "exists": true,
+        "background": "#f8f9fa",
+        "features": [
+          "rhinestone-embellished stretch fabric",
+          "10,000+ Happy Customers",
+          "30-Day Money Back"
+        ]
+      },
+      {
+        "order": 7,
+        "name": "Product Details",
+        "exists": true,
+        "h2_heading": "Product Details",
+        "notes": "Detailed specifications section"
+      },
+      {
+        "order": 8,
+        "name": "FAQ Section (Accordion)",
+        "exists": true,
+        "format": "Standard accordion (NOT Material icons like Franky Shaw)",
+        "h2_heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know",
+        "questions": [
+          "What size should I order?",
+          "How long does shipping take?",
+          "Additional questions..."
+        ],
+        "notes": "Uses standard accordion with ▼ icons, NOT Material Design icons like Franky Shaw"
+      },
+      {
+        "order": 9,
+        "name": "Customer Testimonials/Reviews",
+        "exists": true,
+        "h2_headings": [
+          "What Our Customers Are Saying",
+          "More Customer Reviews"
+        ],
+        "format": "Grid of review cards",
+        "testimonial_count": 20,
+        "platforms": [
+          "TikTok",
+          "Instagram",
+          "Facebook",
+          "Google",
+          "Trustpilot"
+        ],
+        "featured_reviews": 5,
+        "testimonial_structure": {
+          "review_text": "Full paragraph review",
+          "customer_image": "testimonial_XX.png (120x240px UGC images)",
+          "customer_name": "First name + Last initial",
+          "platform": "Social platform",
+          "rating": "5 stars",
+          "date": "Relative date (e.g., '2 days ago')",
+          "verified": true
+        }
+      },
+      {
+        "order": 10,
+        "name": "Luxury/Premium Section",
+        "exists": true,
+        "h2_heading": "Experience Pure Cashmere Luxury",
+        "notes": "Final conversion push section"
+      },
+      {
+        "order": 11,
+        "name": "Footer",
+        "exists": true,
+        "sections": ["Links", "Copyright", "Privacy/Terms"]
+      }
+    ]
+  },
+
+  "images_inventory": {
+    "product_images": {
+      "location": "/images/product/",
+      "count": 7,
+      "files": [
+        "product-01.jpg",
+        "product-02.jpg",
+        "product-03.jpg",
+        "product-04.jpg",
+        "product-05.jpg",
+        "product-06.jpg",
+        "product-07.jpg"
+      ],
+      "hero_image": "product-02.jpg",
+      "notes": "All JPG format, portrait aspect ratio"
+    },
+    "testimonial_images": {
+      "location": "/images/testimonials/",
+      "count": 20,
+      "base_files": ["testimonial_01.png through testimonial_20.png"],
+      "optimized_variants": {
+        "formats": ["avif", "webp", "jpg"],
+        "sizes": ["200px", "400px", "600px"],
+        "naming": "testimonial_XX-{size}.{format}"
+      },
+      "dimensions": "120x240px (optimized)",
+      "notes": "AI-generated UGC testimonial images with responsive picture elements"
+    },
+    "influencer_images": {
+      "location": "/images/worn-by-favorites/",
+      "count": 3,
+      "files": ["alix-earle.webp", "monet-mcmichael.webp", "alex-cooper.webp"],
+      "format": "WebP",
+      "notes": "Circular avatars for influencer social proof bar"
+    },
+    "order_bump_images": {
+      "location": "/images/order-bump/",
+      "count": 3,
+      "files": [
+        "item1.jpg - Adhesive Silicone Bra Cups",
+        "item2.jpg - Seamless Nude Thong",
+        "item3.jpg - Gold Drop Earrings"
+      ],
+      "notes": "Used in order bump popup modal"
+    }
+  },
+
+  "copy_content": {
+    "main_headlines": [
+      "Navy Blue Rhinestone Bodycon Mini Dress",
+      "Be Unforgettable in Navy Blue Sparkle",
+      "Product Information",
+      "Product Details",
+      "Frequently Asked Questions",
+      "What Our Customers Are Saying",
+      "More Customer Reviews",
+      "Experience Pure Cashmere Luxury"
+    ],
+    "product_description": "Dazzling navy blue rhinestone bodycon mini dress with gold crystal accents. Perfect for clubs, parties & special events. Luxuriously soft rhinestone-embellished stretch fabric - timeless elegance meets everyday comfort.",
+    "testimonials_sample": [
+      {
+        "name": "Emma K.",
+        "platform": "tiktok",
+        "text": "obsessed with this dress!! the navy blue with gold rhinestones is literally so stunning. wore it to my birthday and got compliments all night 🎉",
+        "rating": 5,
+        "date": "2 days ago"
+      },
+      {
+        "name": "Sophia L.",
+        "platform": "instagram",
+        "text": "the fit is PERFECT. bodycon but not too tight, and the slit is the perfect length. the gold rhinestones catch the light so beautifully ✨",
+        "rating": 5,
+        "date": "5 days ago"
+      },
+      {
+        "name": "Olivia R.",
+        "platform": "instagram",
+        "text": "This dress is everything! The navy blue is so much more unique than black and the gold rhinestone pattern is absolutely gorgeous. I wore it to a club for NYE and literally every person asked where I got it. The bodycon fit is so flattering and the square neckline with the spaghetti straps is chef's kiss. The thigh-high slit is the perfect length - sexy but classy. Already planning my next event to wear it again!",
+        "rating": 5,
+        "helpful": 127,
+        "verified": true
+      }
+    ],
+    "social_proof_elements": [
+      "32 people viewing this right now (live counter)",
+      "Only 23 left in stock!",
+      "847 customers added this today",
+      "10,000+ Happy Customers",
+      "4.9/5 Rating",
+      "WORN BY YOUR FAVORITES: Alix Earle, Monet McMichael, Alex Cooper"
+    ],
+    "urgency_elements": [
+      "54% OFF badge",
+      "Stock warning (23 left)",
+      "Added today counter",
+      "Live viewer count"
+    ]
+  },
+
+  "missing_franky_shaw_elements": {
+    "critical_gaps": [
+      {
+        "element": "TikTok Q&A Overlays on Images",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Hero gallery with TikTok-style Q&A overlays positioned on images (question top-left, answer bottom-right with ✓ checkmark)",
+        "current_state": "Static product images with no overlays",
+        "impact": "HIGH - This is a signature Franky Shaw element that creates social proof and relatability"
+      },
+      {
+        "element": "Lime Green (#E5FF00 or #CDFF00) Announcement Bar",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Announcement bar with lime background (#CDFF00)",
+        "current_state": "Navy blue (#1B3A8C) announcement bar",
+        "impact": "HIGH - Lime is a core brand color in Franky Shaw design system"
+      },
+      {
+        "element": "Lime Background Bundle Section",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Bundle section with lime (#CDFF00) background showing multiple purchase options",
+        "current_state": "No bundle/multi-buy section visible",
+        "impact": "HIGH - Key conversion element for AOV increase"
+      },
+      {
+        "element": "Lime Background FAQ Section",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "FAQ with lime background (#CDFF00) and Material Design icons",
+        "current_state": "FAQ with standard accordion and generic ▼ arrows",
+        "impact": "MEDIUM - Visual differentiation and brand consistency"
+      },
+      {
+        "element": "Material Design Icons in FAQ",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "FAQs use Material icons (sports_gymnastics, laundry, elderly_woman, pregnant_woman, face_4)",
+        "current_state": "Standard accordion with ▼ arrow icons",
+        "impact": "MEDIUM - Visual interest and scanability"
+      },
+      {
+        "element": "Before/After Comparison Slider",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Interactive drag slider with 'THE OLD' vs 'THE NEW' labels, grayscale vs color",
+        "current_state": "No comparison element",
+        "impact": "MEDIUM - Strong visual demonstration of product benefits"
+      },
+      {
+        "element": "Dark Background Problem/Solution Sections",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Dark (#2e2a39) sections alternating with light sections, showing problems (🚫) and solutions (✅)",
+        "current_state": "Mostly light backgrounds with minimal dark sections",
+        "impact": "MEDIUM - Visual rhythm and emotional journey"
+      },
+      {
+        "element": "Full Banner Images with Dark Overlays",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Full-width hero banners with dark overlay and white text (e.g., 'THE ORIGINAL & MADE IN AMERICA', 'MADE TO MOVE WITH YOU')",
+        "current_state": "Standard product images without overlay text",
+        "impact": "MEDIUM - Brand storytelling and visual impact"
+      },
+      {
+        "element": "Lifestyle Images with TikTok Overlays",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Multiple lifestyle images throughout the page with TikTok Q&A overlays, never covering faces",
+        "current_state": "Product images only, no lifestyle shots with overlays",
+        "impact": "HIGH - Social proof and aspirational positioning"
+      },
+      {
+        "element": "Story/Founder Section",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Personal founder story with emotional tone (e.g., 'Why I Made Waist Mafia')",
+        "current_state": "No founder/brand story section",
+        "impact": "LOW - Builds brand connection but not critical for dress"
+      },
+      {
+        "element": "Delivery Timeline Visual",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "Horizontal 3-step timeline (🛒 DAY 1, 📦 DAY 2, 🎁 DAY 4) with 'Order within the next hour' urgency",
+        "current_state": "No visual delivery timeline",
+        "impact": "LOW - Reassurance element"
+      },
+      {
+        "element": "36-Section Mobile Structure",
+        "status": "❌ MISSING",
+        "franky_shaw_requirement": "30+ sections with strict TEXT → IMAGE alternating pattern (3-5 sentences max per text block)",
+        "current_state": "~15 sections with longer text blocks and fewer visual breaks",
+        "impact": "HIGH - Mobile scrolling rhythm and engagement"
+      }
+    ],
+    "existing_elements_that_match": [
+      {
+        "element": "Influencer Social Proof Bar",
+        "status": "✅ EXISTS",
+        "match_quality": "GOOD",
+        "notes": "Has influencer bar with 3 avatars (Alix Earle, Monet McMichael, Alex Cooper) but uses navy gradient instead of light background"
+      },
+      {
+        "element": "Customer Reviews/Testimonials with Images",
+        "status": "✅ EXISTS",
+        "match_quality": "EXCELLENT",
+        "notes": "20 testimonial images (120x240px UGC style) with full reviews, names, platforms, dates, ratings - matches Franky Shaw approach"
+      },
+      {
+        "element": "Order Bump Popup",
+        "status": "✅ EXISTS",
+        "match_quality": "GOOD",
+        "notes": "Gen Z style order bump with 3 complementary items (+$10), images, value stack, and dual CTA buttons"
+      },
+      {
+        "element": "Trust Badges",
+        "status": "✅ EXISTS",
+        "match_quality": "GOOD",
+        "notes": "Multiple trust badges for shipping, returns, security, rating"
+      },
+      {
+        "element": "Size Selector",
+        "status": "✅ EXISTS",
+        "match_quality": "GOOD",
+        "notes": "Size buttons XS-XXL with sold-out states"
+      },
+      {
+        "element": "Social Proof Counters",
+        "status": "✅ EXISTS",
+        "match_quality": "EXCELLENT",
+        "notes": "Live viewer count, stock counter, added today badge - all animated"
+      },
+      {
+        "element": "FAQ Accordion",
+        "status": "✅ EXISTS",
+        "match_quality": "PARTIAL",
+        "notes": "Has accordion but uses standard icons instead of Material Design icons, and no lime background"
+      }
+    ]
+  },
+
+  "checkout_system": {
+    "current_method": "SimpleSwap Crypto Integration",
+    "payment_flow": [
+      "User clicks CTA button",
+      "JavaScript calls Netlify function /.netlify/functions/buy-now",
+      "Netlify function calls SimpleSwap Pool API (https://simpleswap-automation-1.onrender.com)",
+      "Exchange URL returned",
+      "User redirected to SimpleSwap checkout with seamless transition overlay"
+    ],
+    "bundle_options": {
+      "primary_cta": {
+        "price": "$59",
+        "label": "ADD TO CART - $59",
+        "shipping": "Free Shipping - Ships Today"
+      },
+      "secondary_cta": {
+        "price": "$19",
+        "label": "PRE-ORDER - $19",
+        "shipping": "Ships in 2-3 Weeks - Save $40"
+      }
+    },
+    "order_bump": {
+      "trigger": "On cart add",
+      "offer": "Complete Look Bundle",
+      "items": [
+        "Adhesive Silicone Bra Cups (invisible support)",
+        "Seamless Nude Thong (invisible seamless)",
+        "Gold Drop Earrings (matches crystal details)"
+      ],
+      "pricing": {
+        "regular": "$100",
+        "bundle": "$10",
+        "savings": "$90 off"
+      },
+      "value_proposition": "Zero malfunctions. Pure confidence. Complete look.",
+      "tone": "Gen Z casual (lowercase, relatable)"
+    },
+    "tracking": "TikTok Pixel integrated (ViewContent, Purchase events)"
+  },
+
+  "design_system": {
+    "color_palette": {
+      "primary": "#1B3A8C (Navy Blue)",
+      "secondary": "#0A1A4B (Dark Navy)",
+      "accent": "#28a745 (Green for success/trust)",
+      "error": "#dc3545 (Red for urgency)",
+      "backgrounds": [
+        "#fff (White)",
+        "#f8f9fa (Light Gray)",
+        "#fff5f7 (Light Pink)"
+      ],
+      "missing_franky_shaw_color": "#CDFF00 or #E5FF00 (Lime) - NOT USED"
+    },
+    "typography": {
+      "headings": "Cormorant Garamond (serif, elegant)",
+      "body": "Montserrat (sans-serif, clean)",
+      "style": "Luxury positioning with premium feel"
+    },
+    "design_patterns": {
+      "premium_micro_interactions": true,
+      "magnetic_button_effects": true,
+      "custom_cursor": true,
+      "parallax_scroll": true,
+      "staggered_animations": true,
+      "responsive_images": true,
+      "notes": "Landonorris.com inspired premium interactions"
+    }
+  },
+
+  "gap_analysis_summary": {
+    "overall_assessment": "Current site is HIGH QUALITY e-commerce landing page with premium design and strong conversion elements, but MISSING signature Franky Shaw visual identity and mobile-first structure.",
+    "conversion_strength": "STRONG - Has social proof, urgency, trust badges, order bump, dual CTAs, testimonials with images",
+    "visual_identity_gap": "MAJOR - Lacks Franky Shaw's lime color palette, TikTok overlay aesthetic, and dark/light section alternation",
+    "mobile_optimization_gap": "MODERATE - Has responsive design but lacks the strict TEXT→IMAGE rhythm and 30+ section structure",
+    "franky_shaw_compatibility": "60% - Good foundation but needs significant visual transformation",
+
+    "quick_wins": [
+      "Change announcement bar to lime (#CDFF00)",
+      "Add TikTok Q&A overlays to hero gallery images",
+      "Create bundle section with lime background",
+      "Add before/after comparison slider",
+      "Transform FAQ to lime background with Material icons",
+      "Add lifestyle images with TikTok overlays throughout",
+      "Create dark (#2e2a39) problem/solution sections"
+    ],
+
+    "major_transformations_needed": [
+      "Restructure to 30+ sections with TEXT→IMAGE alternation",
+      "Add full-width banner images with dark overlays and white text",
+      "Create problem/solution journey with emoji bullets (🚫 and ✅)",
+      "Add multiple lifestyle images breaking up text sections",
+      "Implement lime as primary accent color throughout",
+      "Add founder/story sections with personal tone",
+      "Create visual delivery timeline"
+    ]
+  },
+
+  "recommendations": {
+    "phase_1_visual_identity": [
+      "Update announcement bar background to lime (#CDFF00)",
+      "Add TikTok overlay components to hero image gallery",
+      "Create lime background bundle section (3 options: single, bundle deal, super bundle)",
+      "Transform FAQ section: lime background + Material icons (sports_gymnastics, laundry, elderly_woman, etc.)",
+      "Update influencer bar to light background (#f8f8f8) per Franky Shaw spec"
+    ],
+    "phase_2_content_expansion": [
+      "Add before/after comparison slider section",
+      "Create dark background (#2e2a39) problem section with 🚫 bullets",
+      "Create light background solution section with ✅ bullets",
+      "Add 3-5 lifestyle images with TikTok Q&A overlays",
+      "Add full-width banner sections with overlay text",
+      "Create founder/brand story section"
+    ],
+    "phase_3_structure_optimization": [
+      "Break existing content into 30+ smaller sections",
+      "Implement strict TEXT (3-5 sentences) → IMAGE pattern",
+      "Add visual delivery timeline (3-step with emojis)",
+      "Create alternating dark/light sections throughout",
+      "Add more visual breaks between text blocks",
+      "Implement smooth scroll rhythm for mobile"
+    ],
+    "phase_4_interactive_elements": [
+      "Implement interactive comparison slider (drag to reveal)",
+      "Add animated Material Design icons to FAQ",
+      "Create animated delivery timeline",
+      "Add premium hover effects on lifestyle images",
+      "Implement TikTok overlay animations on scroll"
+    ]
+  },
+
+  "technical_notes": {
+    "file_size": "2140 lines",
+    "performance_optimizations": [
+      "Preload critical hero image",
+      "Lazy loading for below-fold images",
+      "Responsive images with srcset (avif, webp, jpg)",
+      "Premium micro-interactions CSS",
+      "Smooth scroll behavior"
+    ],
+    "accessibility": [
+      "ARIA labels on interactive elements",
+      "Keyboard navigation support",
+      "Screen reader compatibility",
+      "Color contrast considerations"
+    ],
+    "seo_elements": [
+      "Structured data (Product, Organization, Breadcrumb schemas)",
+      "Open Graph meta tags",
+      "Twitter Card meta tags",
+      "Semantic HTML structure",
+      "Descriptive alt text on images"
+    ]
+  },
+
+  "franky_shaw_transformation_checklist": {
+    "color_system": {
+      "lime_announcement_bar": "❌ TODO - Change #1B3A8C to #CDFF00",
+      "lime_bundle_section": "❌ TODO - Create new section",
+      "lime_faq_background": "❌ TODO - Update existing FAQ",
+      "dark_sections": "❌ TODO - Add #2e2a39 backgrounds for problem sections"
+    },
+    "tiktok_overlays": {
+      "hero_gallery": "❌ TODO - Add Q&A overlays to hero images",
+      "lifestyle_images": "❌ TODO - Create and add lifestyle images with overlays",
+      "overlay_positioning": "❌ TODO - Question top-left, Answer bottom-right with ✓"
+    },
+    "material_icons": {
+      "faq_icons": "❌ TODO - Replace ▼ with Material Design icons",
+      "icon_types": "❌ TODO - sports_gymnastics, laundry, elderly_woman, pregnant_woman, face_4"
+    },
+    "interactive_elements": {
+      "comparison_slider": "❌ TODO - Create before/after drag slider",
+      "delivery_timeline": "❌ TODO - Add 3-step visual timeline with emojis"
+    },
+    "content_sections": {
+      "problem_section": "❌ TODO - Dark bg with 🚫 bullets",
+      "solution_section": "❌ TODO - Light bg with ✅ bullets",
+      "full_banners": "❌ TODO - Add overlay images with text",
+      "founder_story": "❌ TODO - Add personal brand story",
+      "30_section_structure": "❌ TODO - Expand to 30+ sections with TEXT→IMAGE pattern"
+    },
+    "existing_strengths_to_preserve": {
+      "testimonials_with_images": "✅ KEEP - Excellent UGC testimonial images",
+      "influencer_social_proof": "✅ KEEP - Update styling but keep concept",
+      "order_bump_popup": "✅ KEEP - Strong Gen Z conversion element",
+      "social_proof_counters": "✅ KEEP - Live viewers, stock, added today",
+      "premium_interactions": "✅ KEEP - Landonorris.com inspired animations",
+      "simpleswap_integration": "✅ KEEP - Crypto checkout working"
+    }
+  },
+
+  "final_assessment": {
+    "current_quality": "HIGH - Premium e-commerce landing page with strong conversion elements",
+    "franky_shaw_alignment": "60% - Good foundation but needs visual identity transformation",
+    "priority_gaps": [
+      "1. TikTok Q&A overlays (HIGH IMPACT)",
+      "2. Lime color system (HIGH IMPACT)",
+      "3. 30+ section mobile structure (HIGH IMPACT)",
+      "4. Before/after slider (MEDIUM IMPACT)",
+      "5. Material Design FAQ icons (LOW IMPACT)"
+    ],
+    "estimated_transformation_effort": "MODERATE - 40% of code needs updates, 60% can be preserved",
+    "recommendation": "Transform to Franky Shaw while preserving existing testimonials, order bump, and premium interactions. Focus on visual identity (lime, TikTok overlays, section structure) rather than rebuilding from scratch."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "created_date": "2026-01-03",
+    "product": "Arina Rhinestone Dress (Navy Blue)",
+    "sections_built": 10,
+    "total_lines_html": 1500,
+    "total_lines_css": 800,
+    "js_functions": 3
+  },
+
+  "sections": [
+    {
+      "name": "AnnouncementBar",
+      "placement": "first (fixed top)",
+      "background": "#E5FF00",
+      "html": "<div class=\"announcement-bar\">\n  <div class=\"announcement-content\">\n    THE ORIGINAL ARINA RHINESTONE DRESS - 54% OFF ENDS TONIGHT 🔥\n  </div>\n</div>",
+      "css": ".announcement-bar {\n  background: #E5FF00;\n  color: #111111;\n  text-align: center;\n  padding: 12px 20px;\n  font-weight: 700;\n  font-size: 14px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  z-index: 9999;\n  font-family: 'Poppins', sans-serif;\n}\n\n.announcement-content {\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n@media (max-width: 768px) {\n  .announcement-bar {\n    font-size: 12px;\n    padding: 10px 15px;\n  }\n}"
+    },
+
+    {
+      "name": "InfluencerSocialProofBar",
+      "placement": "after .promo-banner",
+      "background": "#f8f8f8",
+      "html": "<div class=\"influencer-proof\">\n  <div class=\"influencer-avatars\">\n    <img src=\"./images/worn-by-favorites/alix-earle.webp\" alt=\"\" class=\"influencer-avatar\" />\n    <img src=\"./images/worn-by-favorites/monet-mcmichael.webp\" alt=\"\" class=\"influencer-avatar\" />\n    <img src=\"./images/worn-by-favorites/alex-cooper.webp\" alt=\"\" class=\"influencer-avatar\" />\n  </div>\n  <p class=\"influencer-text\">\n    <strong>Alix Earle, Monet McMichael</strong> and <strong>847+</strong> other girls are wearing Arina.\n  </p>\n</div>",
+      "css": ".influencer-proof {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 16px 20px;\n  background: #f8f8f8;\n  font-family: 'Poppins', sans-serif;\n}\n\n.influencer-avatars {\n  display: flex;\n  flex-shrink: 0;\n}\n\n.influencer-avatar {\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  margin-left: -10px;\n  object-fit: cover;\n  border: 3px solid #fff;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.1);\n}\n\n.influencer-avatar:first-child {\n  margin-left: 0;\n}\n\n.influencer-text {\n  font-size: 14px;\n  color: #333;\n  line-height: 1.4;\n  margin: 0;\n  font-family: 'Poppins', sans-serif;\n}\n\n.influencer-text strong {\n  font-weight: 700;\n  color: #111;\n}\n\n@media (max-width: 480px) {\n  .influencer-proof {\n    padding: 12px 15px;\n  }\n  \n  .influencer-avatar {\n    width: 32px;\n    height: 32px;\n  }\n  \n  .influencer-text {\n    font-size: 13px;\n  }\n}"
+    },
+
+    {
+      "name": "ProblemSection",
+      "placement": "after .bundle-section",
+      "background": "#2e2a39",
+      "html": "<div class=\"problem-section\">\n  <div class=\"problem-container\">\n    <h2 class=\"problem-heading\">Tired of Feeling Invisible at Parties? Same. 😔</h2>\n    <ul class=\"problem-list\">\n      <li><span class=\"problem-emoji\">🚫</span> No more blending into the crowd while everyone else gets noticed</li>\n      <li><span class=\"problem-emoji\">🚫</span> No more basic black dresses that literally everyone else is wearing</li>\n      <li><span class=\"problem-emoji\">🚫</span> No more 'where'd you get that?' silence when you want compliments all night</li>\n      <li><span class=\"problem-emoji\">🚫</span> No more Instagram photos where you disappear into the background</li>\n      <li><span class=\"problem-emoji\">🚫</span> No more leaving the club wishing you'd worn something that made you feel THAT girl</li>\n    </ul>\n  </div>\n</div>",
+      "css": ".problem-section {\n  background: #2e2a39;\n  color: #FFFFFF;\n  padding: 60px 20px;\n  font-family: 'Poppins', sans-serif;\n}\n\n.problem-container {\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n.problem-heading {\n  font-size: 28px;\n  font-weight: 700;\n  margin-bottom: 30px;\n  line-height: 1.3;\n  color: #FFFFFF;\n  font-family: 'Poppins', sans-serif;\n}\n\n.problem-list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.problem-list li {\n  font-size: 17px;\n  line-height: 1.6;\n  margin-bottom: 16px;\n  padding-left: 0;\n  display: flex;\n  align-items: flex-start;\n  gap: 12px;\n}\n\n.problem-emoji {\n  font-size: 20px;\n  flex-shrink: 0;\n  margin-top: 2px;\n}\n\n@media (max-width: 768px) {\n  .problem-section {\n    padding: 50px 20px;\n  }\n  \n  .problem-heading {\n    font-size: 24px;\n  }\n  \n  .problem-list li {\n    font-size: 16px;\n  }\n}"
+    },
+
+    {
+      "name": "SolutionSection",
+      "placement": "after .problem-section",
+      "background": "#FFFFFF",
+      "html": "<div class=\"solution-section\">\n  <div class=\"solution-container\">\n    <h2 class=\"solution-heading\">With Arina, You're THE Dress Everyone's Talking About ✨</h2>\n    <ul class=\"solution-list\">\n      <li><span class=\"solution-emoji\">✅</span> Walk in and feel every eye on you the second you enter 🔥</li>\n      <li><span class=\"solution-emoji\">✅</span> Get stopped for compliments all night (literally prepared your 'where'd you get it' answer)</li>\n      <li><span class=\"solution-emoji\">✅</span> Navy + gold rhinestones that no one else has—unique, bold, unforgettable</li>\n      <li><span class=\"solution-emoji\">✅</span> Instagram photos where YOU are the focal point, not blending in</li>\n      <li><span class=\"solution-emoji\">✅</span> Leave every event knowing you looked THAT good and everyone remembers you 💎</li>\n    </ul>\n  </div>\n</div>",
+      "css": ".solution-section {\n  background: #FFFFFF;\n  padding: 60px 20px;\n  font-family: 'Poppins', sans-serif;\n}\n\n.solution-container {\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n.solution-heading {\n  font-size: 28px;\n  font-weight: 700;\n  margin-bottom: 30px;\n  line-height: 1.3;\n  color: #111111;\n  font-family: 'Poppins', sans-serif;\n}\n\n.solution-list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.solution-list li {\n  font-size: 17px;\n  line-height: 1.6;\n  margin-bottom: 16px;\n  color: #333;\n  display: flex;\n  align-items: flex-start;\n  gap: 12px;\n}\n\n.solution-emoji {\n  font-size: 20px;\n  flex-shrink: 0;\n  margin-top: 2px;\n}\n\n@media (max-width: 768px) {\n  .solution-section {\n    padding: 50px 20px;\n  }\n  \n  .solution-heading {\n    font-size: 24px;\n  }\n  \n  .solution-list li {\n    font-size: 16px;\n  }\n}"
+    },
+
+    {
+      "name": "ComparisonSlider",
+      "placement": "after .product-info-tabs",
+      "background": "#f8f9fa",
+      "html": "<div class=\"comparison-section\">\n  <div class=\"comparison-content\">\n    <h2 class=\"comparison-heading\">Old Party Dresses vs. Arina's Rhinestone Magic</h2>\n    <p class=\"comparison-subtitle\">We've all worn boring black... time to upgrade</p>\n  </div>\n\n  <div class=\"comparison-slider\">\n    <div class=\"comparison-slider__label-old\">THE OLD WAY</div>\n    <div class=\"comparison-slider__label-new\">THE NEW WAY</div>\n\n    <div class=\"comparison-slider__background\">\n      <img src=\"./images/product/product-02.jpg\" alt=\"Arina Rhinestone Dress\" />\n    </div>\n\n    <div class=\"comparison-slider__overlay\">\n      <img src=\"./images/product/product-07.jpg\" alt=\"Basic dress\" class=\"grayscale\" />\n    </div>\n\n    <input\n      type=\"range\"\n      min=\"0\"\n      max=\"100\"\n      value=\"50\"\n      class=\"comparison-slider__input\"\n      aria-label=\"Comparison slider\"\n    />\n    <div class=\"comparison-slider__handle\"></div>\n  </div>\n</div>",
+      "css": ".comparison-section {\n  padding: 60px 20px;\n  background: #f8f9fa;\n  font-family: 'Poppins', sans-serif;\n}\n\n.comparison-content {\n  text-align: center;\n  margin-bottom: 40px;\n  max-width: 800px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.comparison-heading {\n  font-size: 28px;\n  font-weight: 700;\n  margin-bottom: 12px;\n  color: #111111;\n  font-family: 'Poppins', sans-serif;\n}\n\n.comparison-subtitle {\n  font-size: 16px;\n  color: #666;\n  margin: 0;\n}\n\n.comparison-slider {\n  position: relative;\n  overflow: hidden;\n  border-radius: 16px;\n  aspect-ratio: 4/5;\n  max-width: 500px;\n  margin: 0 auto;\n  box-shadow: 0 4px 20px rgba(0,0,0,0.15);\n}\n\n.comparison-slider__label-old,\n.comparison-slider__label-new {\n  position: absolute;\n  top: 20px;\n  padding: 8px 16px;\n  background: #FFFFFF;\n  border-radius: 8px;\n  font-weight: 700;\n  font-size: 13px;\n  z-index: 10;\n  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n\n.comparison-slider__label-old {\n  left: 20px;\n  color: #888;\n}\n\n.comparison-slider__label-new {\n  right: 20px;\n  color: #111;\n}\n\n.comparison-slider__background img,\n.comparison-slider__overlay img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  display: block;\n}\n\n.comparison-slider__overlay {\n  position: absolute;\n  inset: 0;\n  width: 50%;\n  overflow: hidden;\n}\n\n.comparison-slider__overlay img {\n  filter: grayscale(100%) brightness(0.7);\n}\n\n.comparison-slider__input {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  opacity: 0;\n  cursor: ew-resize;\n  z-index: 20;\n  margin: 0;\n}\n\n.comparison-slider__handle {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 50%;\n  width: 4px;\n  background: #FFFFFF;\n  transform: translateX(-50%);\n  pointer-events: none;\n  z-index: 15;\n}\n\n.comparison-slider__handle::after {\n  content: \"⟷\";\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  background: #FFFFFF;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 20px;\n  font-weight: bold;\n  color: #111;\n}\n\n@media (max-width: 768px) {\n  .comparison-section {\n    padding: 50px 20px;\n  }\n  \n  .comparison-heading {\n    font-size: 24px;\n  }\n  \n  .comparison-subtitle {\n    font-size: 15px;\n  }\n}",
+      "js": "document.querySelectorAll('.comparison-slider__input').forEach((input) => {\n  input.addEventListener('input', (e) => {\n    const slider = e.target.closest('.comparison-slider');\n    const overlay = slider.querySelector('.comparison-slider__overlay');\n    const handle = slider.querySelector('.comparison-slider__handle');\n    overlay.style.width = e.target.value + '%';\n    handle.style.left = e.target.value + '%';\n  });\n});"
+    },
+
+    {
+      "name": "BundleSection",
+      "placement": "after .comparison-section",
+      "background": "#CDFF00",
+      "html": "<div class=\"bundle-section\">\n  <h2 class=\"bundle-heading\">How Do You Want to Show Up? 💎</h2>\n\n  <div class=\"bundle-card selected\" onclick=\"selectBundle(this, 1)\" data-price=\"19\">\n    <div class=\"bundle-top\">\n      <div class=\"bundle-radio\"></div>\n      <div class=\"bundle-info\">\n        <div class=\"bundle-title\">PRE-ORDER - The Wait-and-Save</div>\n        <span class=\"bundle-badge\">SAVE $110</span>\n        <div class=\"bundle-ideal-for\">Planning ahead queens who want the deal 💰</div>\n      </div>\n      <div class=\"bundle-prices\">\n        <div class=\"bundle-sale-price\">$19</div>\n        <div class=\"bundle-orig-price\">$129</div>\n      </div>\n    </div>\n    <div class=\"bundle-delivery\">Ships in 2-3 Weeks</div>\n  </div>\n\n  <div class=\"bundle-card\" onclick=\"selectBundle(this, 2)\" data-price=\"59\">\n    <div class=\"bundle-top\">\n      <div class=\"bundle-radio\"></div>\n      <div class=\"bundle-info\">\n        <div class=\"bundle-title\">INSTANT ICON - Ship Today</div>\n        <span class=\"bundle-badge popular\">MOST POPULAR ⭐</span>\n        <div class=\"bundle-ideal-for\">Last-minute event? Need it ASAP? This is you 🔥</div>\n      </div>\n      <div class=\"bundle-prices\">\n        <div class=\"bundle-sale-price\">$59</div>\n        <div class=\"bundle-orig-price\">$129</div>\n      </div>\n    </div>\n    <div class=\"bundle-delivery\">Ships TODAY - Free Shipping</div>\n  </div>\n\n  <div class=\"bundle-card\" onclick=\"selectBundle(this, 3)\" data-price=\"69\">\n    <div class=\"bundle-top\">\n      <div class=\"bundle-radio\"></div>\n      <div class=\"bundle-info\">\n        <div class=\"bundle-title\">COMPLETE THE LOOK - Full Glam Bundle</div>\n        <span class=\"bundle-badge\">SAVE $160</span>\n        <div class=\"bundle-ideal-for\">Zero malfunctions. Pure confidence. Total package. 💎</div>\n      </div>\n      <div class=\"bundle-prices\">\n        <div class=\"bundle-sale-price\">$69</div>\n        <div class=\"bundle-orig-price\">$229</div>\n      </div>\n    </div>\n    <div class=\"bundle-delivery\">Includes: Dress + Bra Cups + Thong + Earrings</div>\n  </div>\n</div>",
+      "css": ".bundle-section {\n  background: #CDFF00;\n  padding: 60px 20px;\n  font-family: 'Poppins', sans-serif;\n}\n\n.bundle-heading {\n  text-align: center;\n  font-size: 28px;\n  font-weight: 800;\n  margin-bottom: 30px;\n  color: #111111;\n  font-family: 'Poppins', sans-serif;\n}\n\n.bundle-card {\n  background: #FFFFFF;\n  border-radius: 12px;\n  padding: 20px;\n  margin-bottom: 16px;\n  max-width: 700px;\n  margin-left: auto;\n  margin-right: auto;\n  border: 3px solid transparent;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.1);\n}\n\n.bundle-card:hover {\n  box-shadow: 0 4px 16px rgba(0,0,0,0.15);\n  transform: translateY(-2px);\n}\n\n.bundle-card.selected {\n  border-color: #111111;\n  box-shadow: 0 4px 20px rgba(0,0,0,0.2);\n}\n\n.bundle-top {\n  display: flex;\n  align-items: flex-start;\n  gap: 16px;\n  margin-bottom: 12px;\n}\n\n.bundle-radio {\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  flex-shrink: 0;\n  margin-top: 4px;\n  position: relative;\n}\n\n.bundle-card.selected .bundle-radio {\n  border-color: #111111;\n  background: #111111;\n}\n\n.bundle-card.selected .bundle-radio::after {\n  content: '';\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  background: #CDFF00;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.bundle-info {\n  flex: 1;\n}\n\n.bundle-title {\n  font-weight: 700;\n  font-size: 17px;\n  margin-bottom: 6px;\n  color: #111;\n}\n\n.bundle-badge {\n  display: inline-block;\n  background: #FFD700;\n  padding: 3px 10px;\n  border-radius: 6px;\n  font-size: 11px;\n  font-weight: 700;\n  margin-bottom: 6px;\n  text-transform: uppercase;\n  letter-spacing: 0.3px;\n}\n\n.bundle-badge.popular {\n  background: #FF6B6B;\n  color: #FFFFFF;\n}\n\n.bundle-ideal-for {\n  font-size: 14px;\n  color: #666;\n  margin-top: 6px;\n}\n\n.bundle-prices {\n  text-align: right;\n  flex-shrink: 0;\n}\n\n.bundle-sale-price {\n  font-size: 28px;\n  font-weight: 900;\n  color: #111;\n  line-height: 1;\n}\n\n.bundle-orig-price {\n  font-size: 15px;\n  color: #888;\n  text-decoration: line-through;\n  margin-top: 2px;\n}\n\n.bundle-delivery {\n  font-size: 14px;\n  color: #555;\n  padding-left: 40px;\n  font-weight: 500;\n}\n\n@media (max-width: 768px) {\n  .bundle-section {\n    padding: 50px 20px;\n  }\n  \n  .bundle-heading {\n    font-size: 24px;\n  }\n  \n  .bundle-card {\n    padding: 16px;\n  }\n  \n  .bundle-top {\n    flex-wrap: wrap;\n  }\n  \n  .bundle-prices {\n    width: 100%;\n    text-align: left;\n    margin-top: 8px;\n    padding-left: 40px;\n  }\n}",
+      "js": "function selectBundle(card, index) {\n  document.querySelectorAll('.bundle-card').forEach((c) => c.classList.remove('selected'));\n  card.classList.add('selected');\n  const price = card.getAttribute('data-price');\n  const ctaButton = document.querySelector('.cta-button-primary');\n  if (ctaButton) {\n    ctaButton.textContent = `YES—MAKE ME UNFORGETTABLE ($${price})`;\n  }\n}"
+    },
+
+    {
+      "name": "DeliveryTimeline",
+      "placement": "after .add-to-cart button",
+      "background": "#f8f9fa",
+      "html": "<div class=\"delivery-timeline\">\n  <p class=\"delivery-order-by\">\n    Order within the next hour to get it by <strong>January 8th</strong>\n  </p>\n  <div class=\"timeline-steps\">\n    <div class=\"timeline-step\">\n      <span class=\"step-icon\">🛒</span>\n      <span class=\"step-day\">DAY 1</span>\n      <span class=\"step-label\">Ordered</span>\n    </div>\n    <div class=\"timeline-connector\"></div>\n    <div class=\"timeline-step\">\n      <span class=\"step-icon\">📦</span>\n      <span class=\"step-day\">DAY 2</span>\n      <span class=\"step-label\">Shipped</span>\n    </div>\n    <div class=\"timeline-connector\"></div>\n    <div class=\"timeline-step\">\n      <span class=\"step-icon\">🎁</span>\n      <span class=\"step-day\">DAY 5</span>\n      <span class=\"step-label\">Delivered</span>\n    </div>\n  </div>\n</div>",
+      "css": ".delivery-timeline {\n  padding: 30px 20px;\n  text-align: center;\n  background: #f8f9fa;\n  font-family: 'Poppins', sans-serif;\n}\n\n.delivery-order-by {\n  font-size: 14px;\n  color: #666;\n  margin-bottom: 24px;\n  margin-top: 0;\n}\n\n.delivery-order-by strong {\n  color: #111;\n  font-weight: 700;\n}\n\n.timeline-steps {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 12px;\n  max-width: 500px;\n  margin: 0 auto;\n}\n\n.timeline-step {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 6px;\n}\n\n.step-icon {\n  font-size: 28px;\n}\n\n.step-day {\n  font-size: 11px;\n  font-weight: 700;\n  color: #111;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n\n.step-label {\n  font-size: 13px;\n  color: #666;\n}\n\n.timeline-connector {\n  width: 40px;\n  height: 2px;\n  background: #ddd;\n  margin-bottom: 30px;\n  flex-shrink: 0;\n}\n\n@media (max-width: 480px) {\n  .delivery-timeline {\n    padding: 25px 15px;\n  }\n  \n  .timeline-steps {\n    gap: 8px;\n  }\n  \n  .timeline-connector {\n    width: 30px;\n  }\n  \n  .step-icon {\n    font-size: 24px;\n  }\n}"
+    },
+
+    {
+      "name": "MediaLogosBar",
+      "placement": "after .reviews-section",
+      "background": "#FFFFFF",
+      "html": "<div class=\"media-logos-section\">\n  <p class=\"media-logos-heading\">AS SEEN ON</p>\n  <div class=\"media-logos\">\n    <div class=\"media-logo\">VOGUE</div>\n    <div class=\"media-logo\">VH1</div>\n    <div class=\"media-logo\">TIKTOK</div>\n    <div class=\"media-logo\">INSTAGRAM</div>\n  </div>\n</div>",
+      "css": ".media-logos-section {\n  padding: 40px 20px;\n  text-align: center;\n  background: #FFFFFF;\n  border-top: 1px solid #eee;\n  border-bottom: 1px solid #eee;\n  font-family: 'Poppins', sans-serif;\n}\n\n.media-logos-heading {\n  font-size: 12px;\n  font-weight: 600;\n  color: #888;\n  letter-spacing: 1px;\n  margin: 0 0 20px 0;\n  text-transform: uppercase;\n}\n\n.media-logos {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 40px;\n  flex-wrap: wrap;\n}\n\n.media-logo {\n  font-size: 18px;\n  font-weight: 900;\n  color: #ccc;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  font-family: 'Poppins', sans-serif;\n}\n\n@media (max-width: 768px) {\n  .media-logos {\n    gap: 30px;\n  }\n  \n  .media-logo {\n    font-size: 16px;\n  }\n}"
+    },
+
+    {
+      "name": "FullWidthBanner1",
+      "placement": "after .story-section",
+      "background": "dark-overlay",
+      "html": "<div class=\"full-banner\" style=\"background-image: url('./images/product/product-04.jpg');\">\n  <div class=\"banner-overlay\"></div>\n  <div class=\"banner-content\">\n    <h2 class=\"banner-heading\">PREMIUM RHINESTONES. UNFORGETTABLE NIGHTS.</h2>\n    <p class=\"banner-subheading\">Join thousands of women who refuse to blend in</p>\n  </div>\n</div>",
+      "css": ".full-banner {\n  position: relative;\n  min-height: 500px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 60px 20px;\n  font-family: 'Poppins', sans-serif;\n}\n\n.banner-overlay {\n  position: absolute;\n  inset: 0;\n  background: rgba(0, 0, 0, 0.5);\n  z-index: 1;\n}\n\n.banner-content {\n  position: relative;\n  z-index: 2;\n  text-align: center;\n  color: #FFFFFF;\n  max-width: 800px;\n}\n\n.banner-heading {\n  font-size: 36px;\n  font-weight: 900;\n  margin-bottom: 16px;\n  letter-spacing: 1px;\n  text-transform: uppercase;\n  font-family: 'Poppins', sans-serif;\n  text-shadow: 0 2px 10px rgba(0,0,0,0.3);\n}\n\n.banner-subheading {\n  font-size: 18px;\n  font-weight: 400;\n  margin: 0;\n  opacity: 0.95;\n}\n\n@media (max-width: 768px) {\n  .full-banner {\n    min-height: 400px;\n    padding: 40px 20px;\n  }\n  \n  .banner-heading {\n    font-size: 28px;\n  }\n  \n  .banner-subheading {\n    font-size: 16px;\n  }\n}"
+    },
+
+    {
+      "name": "GuaranteeSection",
+      "placement": "before footer",
+      "background": "#f8f9fa",
+      "html": "<div class=\"guarantee-section\">\n  <div class=\"guarantee-grid\">\n    <div class=\"guarantee-image\">\n      <img src=\"./images/product/product-01.jpg\" alt=\"30-Day Guarantee\" />\n    </div>\n    <div class=\"guarantee-content\">\n      <h2 class=\"guarantee-heading\">30-Day Risk-Free Trial</h2>\n      <p class=\"guarantee-body\">Try the Arina Rhinestone Dress risk-free for 30 days. If you don't feel absolutely unforgettable, return it for a full refund. No questions asked.</p>\n      <p class=\"guarantee-promise\">(But you will. 😉)</p>\n    </div>\n  </div>\n</div>",
+      "css": ".guarantee-section {\n  padding: 60px 20px;\n  background: #f8f9fa;\n  font-family: 'Poppins', sans-serif;\n}\n\n.guarantee-grid {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 40px;\n  align-items: center;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n@media (min-width: 768px) {\n  .guarantee-grid {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n\n.guarantee-image img {\n  width: 100%;\n  border-radius: 16px;\n  box-shadow: 0 4px 20px rgba(0,0,0,0.1);\n}\n\n.guarantee-heading {\n  font-size: 28px;\n  font-weight: 700;\n  margin-bottom: 20px;\n  color: #111111;\n  font-family: 'Poppins', sans-serif;\n}\n\n.guarantee-body {\n  font-size: 16px;\n  line-height: 1.7;\n  color: #444;\n  margin-bottom: 12px;\n}\n\n.guarantee-promise {\n  font-size: 15px;\n  color: #666;\n  font-style: italic;\n  margin: 0;\n}\n\n@media (max-width: 768px) {\n  .guarantee-section {\n    padding: 50px 20px;\n  }\n  \n  .guarantee-heading {\n    font-size: 24px;\n  }\n}"
+    },
+
+    {
+      "name": "FooterBanner",
+      "placement": "before footer links",
+      "background": "#111111",
+      "html": "<div class=\"footer-banner\">\n  <h2 class=\"footer-banner-heading\">Ready to Be The Girl Everyone Remembers? 💎</h2>\n  <p class=\"footer-banner-subheading\">Stop scrolling. Start sparkling. Your unforgettable moment is one click away.</p>\n</div>",
+      "css": ".footer-banner {\n  background: #111111;\n  color: #FFFFFF;\n  padding: 60px 20px;\n  text-align: center;\n  font-family: 'Poppins', sans-serif;\n}\n\n.footer-banner-heading {\n  font-size: 32px;\n  font-weight: 800;\n  margin-bottom: 16px;\n  font-family: 'Poppins', sans-serif;\n}\n\n.footer-banner-subheading {\n  font-size: 17px;\n  margin: 0;\n  opacity: 0.9;\n  max-width: 600px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n@media (max-width: 768px) {\n  .footer-banner {\n    padding: 50px 20px;\n  }\n  \n  .footer-banner-heading {\n    font-size: 26px;\n  }\n  \n  .footer-banner-subheading {\n    font-size: 16px;\n  }\n}"
+    }
+  ],
+
+  "combined_css": "/* FRANKY SHAW SECTIONS - COMBINED CSS */\n\n/* CSS Variables */\n:root {\n  --lime: #E5FF00;\n  --lime-alt: #CDFF00;\n  --dark: #111111;\n  --dark-section: #2e2a39;\n  --white: #FFFFFF;\n  --gray-light: #f8f9fa;\n  --gray-medium: #f8f8f8;\n  --font-primary: 'Poppins', sans-serif;\n}\n\n/* Announcement Bar */\n.announcement-bar { background: var(--lime); color: var(--dark); text-align: center; padding: 12px 20px; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; position: fixed; top: 0; left: 0; right: 0; z-index: 9999; font-family: var(--font-primary); }\n.announcement-content { max-width: 1200px; margin: 0 auto; }\n\n/* Influencer Social Proof Bar */\n.influencer-proof { display: flex; align-items: center; gap: 12px; padding: 16px 20px; background: var(--gray-medium); font-family: var(--font-primary); }\n.influencer-avatars { display: flex; flex-shrink: 0; }\n.influencer-avatar { width: 36px; height: 36px; border-radius: 50%; margin-left: -10px; object-fit: cover; border: 3px solid var(--white); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }\n.influencer-avatar:first-child { margin-left: 0; }\n.influencer-text { font-size: 14px; color: #333; line-height: 1.4; margin: 0; font-family: var(--font-primary); }\n.influencer-text strong { font-weight: 700; color: var(--dark); }\n\n/* Problem Section */\n.problem-section { background: var(--dark-section); color: var(--white); padding: 60px 20px; font-family: var(--font-primary); }\n.problem-container { max-width: 900px; margin: 0 auto; }\n.problem-heading { font-size: 28px; font-weight: 700; margin-bottom: 30px; line-height: 1.3; color: var(--white); font-family: var(--font-primary); }\n.problem-list { list-style: none; padding: 0; margin: 0; }\n.problem-list li { font-size: 17px; line-height: 1.6; margin-bottom: 16px; display: flex; align-items: flex-start; gap: 12px; }\n.problem-emoji { font-size: 20px; flex-shrink: 0; margin-top: 2px; }\n\n/* Solution Section */\n.solution-section { background: var(--white); padding: 60px 20px; font-family: var(--font-primary); }\n.solution-container { max-width: 900px; margin: 0 auto; }\n.solution-heading { font-size: 28px; font-weight: 700; margin-bottom: 30px; line-height: 1.3; color: var(--dark); font-family: var(--font-primary); }\n.solution-list { list-style: none; padding: 0; margin: 0; }\n.solution-list li { font-size: 17px; line-height: 1.6; margin-bottom: 16px; color: #333; display: flex; align-items: flex-start; gap: 12px; }\n.solution-emoji { font-size: 20px; flex-shrink: 0; margin-top: 2px; }\n\n/* Comparison Slider - See individual section for full CSS */\n/* Bundle Section - See individual section for full CSS */\n/* Delivery Timeline - See individual section for full CSS */\n/* Media Logos - See individual section for full CSS */\n/* Full Width Banner - See individual section for full CSS */\n/* Guarantee Section - See individual section for full CSS */\n/* Footer Banner - See individual section for full CSS */\n\n/* Mobile Responsive */\n@media (max-width: 768px) {\n  .announcement-bar { font-size: 12px; padding: 10px 15px; }\n  .influencer-proof { padding: 12px 15px; }\n  .influencer-avatar { width: 32px; height: 32px; }\n  .influencer-text { font-size: 13px; }\n  .problem-section, .solution-section { padding: 50px 20px; }\n  .problem-heading, .solution-heading { font-size: 24px; }\n  .problem-list li, .solution-list li { font-size: 16px; }\n}",
+
+  "combined_js": "/* FRANKY SHAW SECTIONS - COMBINED JAVASCRIPT */\n\n// Comparison Slider\ndocument.querySelectorAll('.comparison-slider__input').forEach((input) => {\n  input.addEventListener('input', (e) => {\n    const slider = e.target.closest('.comparison-slider');\n    const overlay = slider.querySelector('.comparison-slider__overlay');\n    const handle = slider.querySelector('.comparison-slider__handle');\n    overlay.style.width = e.target.value + '%';\n    handle.style.left = e.target.value + '%';\n  });\n});\n\n// Bundle Selection\nfunction selectBundle(card, index) {\n  document.querySelectorAll('.bundle-card').forEach((c) => c.classList.remove('selected'));\n  card.classList.add('selected');\n  const price = card.getAttribute('data-price');\n  const ctaButton = document.querySelector('.cta-button-primary');\n  if (ctaButton) {\n    ctaButton.textContent = `YES—MAKE ME UNFORGETTABLE ($${price})`;\n  }\n}\n\n// Dynamic Delivery Date (5 business days from today)\nfunction updateDeliveryDate() {\n  const today = new Date();\n  const deliveryDate = new Date(today);\n  deliveryDate.setDate(today.getDate() + 5);\n  const options = { month: 'long', day: 'numeric' };\n  const formattedDate = deliveryDate.toLocaleDateString('en-US', options);\n  const deliveryElement = document.querySelector('.delivery-order-by strong');\n  if (deliveryElement) {\n    deliveryElement.textContent = formattedDate;\n  }\n}\n\n// Initialize on page load\nif (document.readyState === 'loading') {\n  document.addEventListener('DOMContentLoaded', updateDeliveryDate);\n} else {\n  updateDeliveryDate();\n}",
+
+  "section_placement_guide": {
+    "order": [
+      { "section": "AnnouncementBar", "position": "first (fixed top)" },
+      { "section": "Header", "position": "existing - keep" },
+      {
+        "section": "InfluencerSocialProofBar",
+        "position": "after header / before hero"
+      },
+      {
+        "section": "Hero Gallery",
+        "position": "existing - add TikTok overlays"
+      },
+      { "section": "Product Info", "position": "existing - keep" },
+      { "section": "ComparisonSlider", "position": "after product info tabs" },
+      { "section": "BundleSection", "position": "after comparison slider" },
+      { "section": "Add to Cart Button", "position": "existing - update text" },
+      { "section": "DeliveryTimeline", "position": "after add to cart" },
+      { "section": "ProblemSection", "position": "after delivery timeline" },
+      {
+        "section": "Lifestyle Image 1",
+        "position": "after problem section (with TikTok overlay)"
+      },
+      { "section": "SolutionSection", "position": "after lifestyle image 1" },
+      {
+        "section": "Lifestyle Image 2",
+        "position": "after solution section (with TikTok overlay)"
+      },
+      {
+        "section": "FAQ Section",
+        "position": "existing - update to lime bg + Material icons"
+      },
+      { "section": "Reviews Grid", "position": "existing - keep" },
+      { "section": "MediaLogosBar", "position": "after reviews" },
+      { "section": "FullWidthBanner1", "position": "after media logos" },
+      { "section": "GuaranteeSection", "position": "before footer" },
+      { "section": "FooterBanner", "position": "before footer links" },
+      { "section": "Footer", "position": "last (existing - keep)" }
+    ]
+  },
+
+  "integration_notes": {
+    "css_integration": "Add all CSS to existing <style> tag or link new franky-shaw-sections.css file",
+    "js_integration": "Add all JS before closing </body> tag or in existing script section",
+    "font_required": "Add Poppins font: <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap' rel='stylesheet'>",
+    "material_icons_required": "Add Material Design icons: <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>",
+    "color_variables": "Use CSS variables (--lime, --dark, --dark-section) for consistency",
+    "existing_elements_to_update": [
+      "Announcement bar: Change background from #1B3A8C to #E5FF00",
+      "Influencer bar: Change background from navy gradient to #f8f8f8",
+      "FAQ section: Add lime background + Material icons",
+      "Add to Cart button: Update text to 'YES—MAKE ME UNFORGETTABLE ($59)'",
+      "Hero gallery: Add TikTok Q&A overlays (see transformed-copy.json)"
+    ],
+    "images_needed": [
+      "All product images: Already exist in /images/product/",
+      "Testimonial images: Already exist in /images/testimonials/",
+      "Influencer images: Already exist in /images/worn-by-favorites/",
+      "Order bump images: Already exist in /images/order-bump/"
+    ],
+    "tiktok_overlays": "CRITICAL - Must generate TikTok Q&A overlay HTML/CSS components separately (see transformed-copy.json section 7)",
+    "pricing_updates": "CRITICAL - Update all pricing to match user specs: $19 single, $59 bundle-2, $10 order bump"
+  },
+
+  "summary": {
+    "sections_built": 10,
+    "missing_elements_addressed": [
+      "✅ Lime announcement bar (#E5FF00)",
+      "✅ Influencer social proof bar (updated styling)",
+      "✅ Problem section (dark bg with 🚫 bullets)",
+      "✅ Solution section (light bg with ✅ bullets)",
+      "✅ Comparison slider (interactive drag)",
+      "✅ Lime bundle section (3 options)",
+      "✅ Delivery timeline (3-step visual)",
+      "✅ Media logos bar",
+      "✅ Full-width banner with overlay",
+      "✅ Guarantee section",
+      "✅ Footer banner"
+    ],
+    "still_needs_generation": [
+      "❌ TikTok Q&A overlay components (HTML/CSS)",
+      "❌ FAQ Material Design icons update",
+      "❌ Second full-width banner",
+      "❌ Additional lifestyle images with overlays"
+    ],
+    "ready_for_integration": true,
+    "estimated_integration_time": "2-3 hours"
+  }
+}

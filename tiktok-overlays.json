@@ -1,0 +1,232 @@
+{
+  "task": "tiktok-overlay-generator",
+  "status": "complete",
+  "product": "Navy Blue Rhinestone Bodycon Mini Dress",
+  "output": {
+    "overlays": [
+      {
+        "id": 1,
+        "image": "product-01.jpg",
+        "image_context": "Nightlife lifestyle shot - outdoor evening ambiance",
+        "objection_category": "comfort_wearability",
+        "question": {
+          "username": "MauvaP",
+          "verified": false,
+          "text": "does it actually stay in place when dancing? 👀"
+        },
+        "answer": {
+          "username": "Kileeey",
+          "verified": true,
+          "text": "girl YES 🔥 danced all night zero adjustments"
+        },
+        "placement": {
+          "question_position": "top-left",
+          "answer_position": "bottom-right"
+        },
+        "css": {
+          "question": {
+            "top": "20px",
+            "left": "20px"
+          },
+          "answer": {
+            "bottom": "20px",
+            "right": "20px"
+          }
+        },
+        "html": "<div class=\"tiktok-overlay question\" style=\"position: absolute; top: 20px; left: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">MauvaP</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">does it actually stay in place when dancing? 👀</p></div><div class=\"tiktok-overlay answer\" style=\"position: absolute; bottom: 20px; right: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">Kileeey</span><span style=\"color: #20d5ec; font-size: 14px;\">✓</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">girl YES 🔥 danced all night zero adjustments</p></div>"
+      },
+      {
+        "id": 2,
+        "image": "product-02.jpg",
+        "image_context": "Studio shot - 3/4 front closeup showing rhinestone detail",
+        "objection_category": "durability_quality",
+        "question": {
+          "username": "Ziveana",
+          "verified": false,
+          "text": "do the rhinestones look cheap in person?"
+        },
+        "answer": {
+          "username": "Muvaaxz",
+          "verified": true,
+          "text": "literally premium quality ✨ everyone thought it was designer"
+        },
+        "placement": {
+          "question_position": "top-right",
+          "answer_position": "bottom-left"
+        },
+        "css": {
+          "question": {
+            "top": "20px",
+            "right": "20px"
+          },
+          "answer": {
+            "bottom": "20px",
+            "left": "20px"
+          }
+        },
+        "html": "<div class=\"tiktok-overlay question\" style=\"position: absolute; top: 20px; right: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">Ziveana</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">do the rhinestones look cheap in person?</p></div><div class=\"tiktok-overlay answer\" style=\"position: absolute; bottom: 20px; left: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">Muvaaxz</span><span style=\"color: #20d5ec; font-size: 14px;\">✓</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">literally premium quality ✨ everyone thought it was designer</p></div>"
+      },
+      {
+        "id": 3,
+        "image": "testimonial_01.png",
+        "image_context": "Mirror selfie - hotel getting ready shot",
+        "objection_category": "fit_sizing",
+        "question": {
+          "username": "KaylaM",
+          "verified": false,
+          "text": "will this work for my body type?"
+        },
+        "answer": {
+          "username": "LaToyaJ",
+          "verified": true,
+          "text": "stretch fabric adjusts to YOU 💯 check the reviews"
+        },
+        "placement": {
+          "question_position": "top-right",
+          "answer_position": "bottom-left"
+        },
+        "css": {
+          "question": {
+            "top": "20px",
+            "right": "20px"
+          },
+          "answer": {
+            "bottom": "20px",
+            "left": "20px"
+          }
+        },
+        "html": "<div class=\"tiktok-overlay question\" style=\"position: absolute; top: 20px; right: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">KaylaM</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">will this work for my body type?</p></div><div class=\"tiktok-overlay answer\" style=\"position: absolute; bottom: 20px; left: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">LaToyaJ</span><span style=\"color: #20d5ec; font-size: 14px;\">✓</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">stretch fabric adjusts to YOU 💯 check the reviews</p></div>"
+      },
+      {
+        "id": 4,
+        "image": "testimonial_05.png",
+        "image_context": "Bookstore casual daytime setting",
+        "objection_category": "versatility",
+        "question": {
+          "username": "Gloo",
+          "verified": false,
+          "text": "can i dress this down for daytime?"
+        },
+        "answer": {
+          "username": "MuvaziiK",
+          "verified": true,
+          "text": "yesss add a jacket 👏 so versatile"
+        },
+        "placement": {
+          "question_position": "top-left",
+          "answer_position": "bottom-right"
+        },
+        "css": {
+          "question": {
+            "top": "20px",
+            "left": "20px"
+          },
+          "answer": {
+            "bottom": "20px",
+            "right": "20px"
+          }
+        },
+        "html": "<div class=\"tiktok-overlay question\" style=\"position: absolute; top: 20px; left: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">Gloo</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">can i dress this down for daytime?</p></div><div class=\"tiktok-overlay answer\" style=\"position: absolute; bottom: 20px; right: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">MuvaziiK</span><span style=\"color: #20d5ec; font-size: 14px;\">✓</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">yesss add a jacket 👏 so versatile</p></div>"
+      },
+      {
+        "id": 5,
+        "image": "testimonial_20.png",
+        "image_context": "Outdoor street night - confident back view",
+        "objection_category": "comfort_wearability",
+        "question": {
+          "username": "Stalii",
+          "verified": false,
+          "text": "is it comfy enough for all night?"
+        },
+        "answer": {
+          "username": "Verniiik",
+          "verified": true,
+          "text": "wore mine 8 hours straight 😍 no issues"
+        },
+        "placement": {
+          "question_position": "top-left",
+          "answer_position": "bottom-right"
+        },
+        "css": {
+          "question": {
+            "top": "20px",
+            "left": "20px"
+          },
+          "answer": {
+            "bottom": "20px",
+            "right": "20px"
+          }
+        },
+        "html": "<div class=\"tiktok-overlay question\" style=\"position: absolute; top: 20px; left: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">Stalii</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">is it comfy enough for all night?</p></div><div class=\"tiktok-overlay answer\" style=\"position: absolute; bottom: 20px; right: 20px; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 6px;\"><span style=\"font-weight: 600; font-size: 13px; color: #111;\">Verniiik</span><span style=\"color: #20d5ec; font-size: 14px;\">✓</span></div><p style=\"margin: 0; font-size: 14px; line-height: 1.4; color: #111;\">wore mine 8 hours straight 😍 no issues</p></div>"
+      }
+    ],
+    "standalone_statements": [
+      {
+        "username": "JamaiaW",
+        "verified": true,
+        "text": "Arina understood the assignment 💯",
+        "position": "bottom-right",
+        "best_image_type": "full body confident pose"
+      },
+      {
+        "username": "TaylorN",
+        "verified": true,
+        "text": "the only dress I don't wanna take off 😂",
+        "position": "center-right",
+        "best_image_type": "casual lifestyle shot"
+      },
+      {
+        "username": "AaliyahM",
+        "verified": true,
+        "text": "navy + gold is literally chef's kiss ✨",
+        "position": "bottom-right",
+        "best_image_type": "rhinestone detail close-up"
+      }
+    ],
+    "buyer_psychology_mapping": {
+      "overlay_1": {
+        "addresses_pain": "I've canceled plans before because I had nothing to wear that made me feel confident",
+        "addresses_fear": "Spending the whole night self-conscious about my outfit",
+        "language_pattern": "girl YES (Gen-Z authentic)",
+        "specific_proof": "zero adjustments (concrete outcome)"
+      },
+      "overlay_2": {
+        "addresses_pain": "I've ordered sparkly dresses that arrived with cheap plastic rhinestones",
+        "addresses_fear": "Looking cheap or basic",
+        "language_pattern": "literally (hyperbolic Gen-Z)",
+        "specific_proof": "everyone thought it was designer (social validation)"
+      },
+      "overlay_3": {
+        "addresses_pain": "Nothing ever fits me right - my body is the problem",
+        "addresses_fear": "The dress not fitting right on my body type",
+        "language_pattern": "adjusts to YOU (empowerment)",
+        "specific_proof": "check the reviews (external validation)"
+      },
+      "overlay_4": {
+        "addresses_pain": "Will I only wear this once?",
+        "addresses_fear": "It's a waste of money for one night",
+        "language_pattern": "yesss (enthusiastic Gen-Z)",
+        "specific_proof": "add a jacket (actionable styling tip)"
+      },
+      "overlay_5": {
+        "addresses_pain": "I spend the whole night self-conscious",
+        "addresses_fear": "Being uncomfortable and unable to have fun",
+        "language_pattern": "wore mine (personal experience)",
+        "specific_proof": "8 hours straight (specific timeframe)"
+      }
+    },
+    "usage_notes": {
+      "implementation": "Each overlay HTML can be injected directly into the image container as absolute-positioned elements",
+      "mobile_responsive": "Max-width of 220px ensures overlays don't overwhelm on mobile",
+      "face_avoidance": "All placements in corners to avoid covering model faces",
+      "demographic_usernames": "Names chosen to represent diverse Gen-Z demographic (Black, White, Asian, Mixed)",
+      "conversion_psychology": "Questions validate objections (builds trust), answers overcome with peer proof (social validation)"
+    },
+    "css_classes": {
+      "base_overlay": ".tiktok-overlay { position: absolute; background: #fff; border-radius: 16px; padding: 12px 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); max-width: 220px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }",
+      "question_position": ".tiktok-overlay.question { top: 20px; left: 20px; } .tiktok-overlay.question.top-right { top: 20px; left: auto; right: 20px; }",
+      "answer_position": ".tiktok-overlay.answer { bottom: 20px; right: 20px; } .tiktok-overlay.answer.bottom-left { bottom: 20px; right: auto; left: 20px; }",
+      "verified_checkmark": ".verified { color: #20d5ec; font-size: 14px; }"
+    }
+  }
+}

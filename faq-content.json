@@ -1,0 +1,43 @@
+{
+  "task": "faq-generator",
+  "status": "complete",
+  "product": "Navy Blue Rhinestone Bodycon Mini Dress",
+  "output": {
+    "faqs": [
+      {
+        "icon": "sports_gymnastics",
+        "number": 1,
+        "question": "What if it doesn't fit me like the model?",
+        "answer": "<strong>Girl, I get it — 'true to size' has burned us before.</strong> 😭 But this stretch fabric literally adjusts to <em>YOUR</em> body (not the other way around). Check the reviews — we've got curvy queens, petite babes, tall girls, <em>ALL</em> rocking this. The only 'wrong' body is the one not wearing this dress. 💯"
+      },
+      {
+        "icon": "face_4",
+        "number": 2,
+        "question": "Will this look cheap in person?",
+        "answer": "<strong>Nope — and we know why you're asking.</strong> You've been burned by plastic rhinestones from Shein that looked like a craft project. 💀 These are <em>premium</em> crystals with gold accents that catch the light like jewelry. Check testimonials: 'looks way more expensive than the price.' You're getting compliments, not side-eyes."
+      },
+      {
+        "icon": "elderly_woman",
+        "number": 3,
+        "question": "Can I wear this more than once or is it a one-event dress?",
+        "answer": "<strong>Absolutely.</strong> This isn't sitting in your closet gathering dust. 💎 Clubs, bachelorette parties, NYE, birthdays, Vegas, date nights, cocktail parties — customers literally say 'already planning my next event to wear it again.' $59 for one night feels wasteful. $59 for your <em>go-to confidence dress</em>? That's an investment."
+      },
+      {
+        "icon": "pregnant_woman",
+        "number": 4,
+        "question": "What do I wear under this? I'm worried about bra lines and panty lines.",
+        "answer": "<strong>Valid concern — bodycon shows EVERYTHING.</strong> The square neckline works with strapless bras OR grab our order bump (invisible bra cups + seamless thong for $10). Zero lines. Zero malfunctions. Just a smooth silhouette. The bundle was literally designed for this dress so you don't have to stress. 🙌"
+      },
+      {
+        "icon": "local_shipping",
+        "number": 5,
+        "question": "How long does shipping take? I need this for an event SOON.",
+        "answer": "<strong>We got you.</strong> 'Ships Today' option gets it out the door ASAP with free shipping — arrives in 3-5 days typically. 🔥 If you've got a specific date you're stressing about, email us. We're not gonna let you miss your moment. (P.S. Pre-order option ships in 2-3 weeks if you're planning ahead and want the $110 savings.)"
+      }
+    ],
+    "faq_image": "faq-lifestyle.png",
+    "section_background": "#CDFF00",
+    "section_text_color": "#111111",
+    "section_heading": "Your Questions, Answered 💬"
+  }
+}
