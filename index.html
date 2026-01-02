@@ -58,7 +58,37 @@
         font-size: 15px;
         line-height: 1.6;
         color: var(--text-primary);
-        background: var(--white);
+      }
+
+      /* CRITICAL: Prevent stretched/oversized images on mobile */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Mobile-specific image constraints */
+      @media (max-width: 768px) {
+        img {
+          max-height: 600px;
+          object-fit: contain;
+        }
+
+        .lifestyle-section img,
+        .tiktok-chat-section img,
+        .product-image,
+        .img-text-image img {
+          max-height: 500px;
+          width: 100%;
+          object-fit: contain;
+        }
+
+        .review-avatar {
+          max-height: 280px;
+        }
+
+        .main-img {
+          max-height: 550px;
+        }
       }
 
       h1 {
@@ -179,8 +209,8 @@
 
       .main-img {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
       }
 
       /* TikTok Q&A Overlays */
@@ -848,6 +878,7 @@
         height: auto;
         display: block;
         object-fit: contain;
+        max-height: 500px;
       }
 
       .img-text-content {
@@ -1245,6 +1276,7 @@
         height: auto;
         object-fit: contain;
         border-radius: 16px;
+        max-height: 300px;
       }
 
       .review-quote-icon {
@@ -2187,7 +2219,7 @@
         proceedToCheckout(selectedPrice, selectedBundle, false);
       }
 
-      // PROCEED TO CHECKOUT - Send to SimpleSwap
+      // PROCEED TO CHECKOUT - Send to SimpleSwap via Netlify function
       async function proceedToCheckout(
         finalPrice,
         bundleName,
@@ -2195,51 +2227,47 @@
       ) {
         const btn = document.querySelector(".add-to-cart-btn");
         const originalText = btn.textContent;
-        btn.textContent = "Processing...";
+        btn.textContent = "Creating your order...";
         btn.disabled = true;
 
         try {
-          // Call Netlify function to get SimpleSwap checkout URL
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 30000);
+
+          // Call Netlify function to get SimpleSwap exchange URL
           const response = await fetch("/.netlify/functions/buy-now", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               amountUSD: parseFloat(finalPrice),
-              product: "Arina Rhinestone Dress",
-              bundle: bundleName,
-              accessoryKit: hasAccessoryKit,
             }),
+            signal: controller.signal,
           });
 
-          if (!response.ok) {
-            throw new Error("Checkout failed");
-          }
-
+          clearTimeout(timeoutId);
           const data = await response.json();
 
-          // Redirect to SimpleSwap checkout
-          if (data.checkoutUrl) {
-            window.location.href = data.checkoutUrl;
+          // Redirect to SimpleSwap exchange - pool server returns exchangeUrl
+          if (data.success && data.exchangeUrl) {
+            window.location.href = data.exchangeUrl;
+          } else if (data.url) {
+            // Alternative response field
+            window.location.href = data.url;
           } else {
-            // Fallback: direct redirect to onRender pool server
-            const params = new URLSearchParams({
-              amount: finalPrice,
-              product: "Arina Rhinestone Dress",
-              bundle: bundleName,
-              accessory: hasAccessoryKit ? "yes" : "no",
-            });
-            window.location.href = `https://simpleswap-automation-1.onrender.com/checkout?${params}`;
+            // Show error and restore button
+            alert("Unable to create order. Please try again.");
+            btn.textContent = originalText;
+            btn.disabled = false;
           }
         } catch (error) {
           console.error("Checkout error:", error);
-          // Fallback: direct redirect to onRender pool server
-          const params = new URLSearchParams({
-            amount: finalPrice,
-            product: "Arina Rhinestone Dress",
-            bundle: bundleName,
-            accessory: hasAccessoryKit ? "yes" : "no",
-          });
-          window.location.href = `https://simpleswap-automation-1.onrender.com/checkout?${params}`;
+          if (error.name === "AbortError") {
+            alert("Request timeout. Please try again.");
+          } else {
+            alert("Payment error. Please try again.");
+          }
+          btn.textContent = originalText;
+          btn.disabled = false;
         }
       }
 
